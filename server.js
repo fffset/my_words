@@ -64,25 +64,23 @@ const server = http.createServer((req, res) => {
     const word = urlObj.searchParams.get('word');
     if (!word) { res.writeHead(400); res.end(JSON.stringify({ error: 'word gerekli' })); return; }
 
-    function saveIPA(ipa) {
-      if (!ipa) return;
+    function saveAndSend(ipa, audioURL, synonyms, definitions) {
       try {
         const words = JSON.parse(fs.readFileSync(DATA_FILE, 'utf8'));
         const found = words.find(w => w.text.toLowerCase() === word.toLowerCase());
-        if (found && !found.ipa) {
-          found.ipa = ipa;
+        if (found) {
+          if (ipa && !found.ipa)                   found.ipa         = ipa;
+          if (audioURL && !found.audioURL)         found.audioURL    = audioURL;
+          if (synonyms && synonyms.length && !found.synonyms)     found.synonyms    = synonyms;
+          if (definitions && definitions.length && !found.definitions) found.definitions = definitions;
           fs.writeFileSync(DATA_FILE, JSON.stringify(words, null, 2), 'utf8');
         }
       } catch(e) {}
-    }
-
-    function sendIPA(ipa) {
-      saveIPA(ipa);
       res.writeHead(200, { 'Content-Type': 'application/json' });
-      res.end(JSON.stringify({ ipa }));
+      res.end(JSON.stringify({ ipa, audioURL, synonyms: synonyms || [], definitions: definitions || [] }));
     }
 
-    function fetchFromWiktionary() {
+    function fetchFromWiktionary(audioURL, synonyms, definitions) {
       const wPath = `/w/api.php?action=parse&page=${encodeURIComponent(word)}&prop=wikitext&format=json`;
       https.get({
         hostname: 'en.wiktionary.org',
@@ -97,10 +95,10 @@ const server = http.createServer((req, res) => {
             const wikitext = wj?.parse?.wikitext?.['*'] || '';
             const match = wikitext.match(/IPA[^/]*\/([^/}|]+)\//);
             const ipa = match ? '/' + match[1] + '/' : null;
-            sendIPA(ipa);
-          } catch(e) { sendIPA(null); }
+            saveAndSend(ipa, audioURL, synonyms, definitions);
+          } catch(e) { saveAndSend(null, audioURL, synonyms, definitions); }
         });
-      }).on('error', () => sendIPA(null));
+      }).on('error', () => saveAndSend(null, audioURL, synonyms, definitions));
     }
 
     const apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${encodeURIComponent(word)}`;
@@ -110,22 +108,48 @@ const server = http.createServer((req, res) => {
       apiRes.on('end', () => {
         try {
           const data = JSON.parse(body);
-          let ipa = null;
+          let ipa = null, audioURL = null;
+          const synSet = new Set();
           for (const entry of data) {
-            for (const p of (entry.phonetics || [])) {
-              if (p.text && p.text.trim()) { ipa = p.text.trim(); break; }
+            if (!ipa && entry.phonetic && entry.phonetic.trim()) ipa = entry.phonetic.trim();
+            if (!ipa) {
+              for (const p of (entry.phonetics || [])) {
+                if (p.text && p.text.trim()) { ipa = p.text.trim(); break; }
+              }
             }
-            if (ipa) break;
-          }
-          if (!ipa) {
-            for (const entry of data) {
-              if (entry.phonetic && entry.phonetic.trim()) { ipa = entry.phonetic.trim(); break; }
+            if (!audioURL) {
+              const ph = entry.phonetics || [];
+              const us  = ph.find(p => p.audio && p.audio.trim() && p.audio.includes('-us.'));
+              const any = ph.find(p => p.audio && p.audio.trim());
+              audioURL = (us || any)?.audio || null;
+            }
+            for (const m of (entry.meanings || [])) {
+              for (const d of (m.definitions || [])) {
+                (d.synonyms || []).forEach(s => synSet.add(s));
+              }
+              (m.synonyms || []).forEach(s => synSet.add(s));
             }
           }
-          if (ipa) { sendIPA(ipa); } else { fetchFromWiktionary(); }
-        } catch(e) { fetchFromWiktionary(); }
+          const synonyms = [...synSet].slice(0, 8);
+
+          // definitions: her pos için ilk tanım + örnek cümle, max 3
+          const defMap = {};
+          const exMap  = {};
+          for (const entry of data) {
+            for (const m of (entry.meanings || [])) {
+              const pos = m.partOfSpeech;
+              for (const d of (m.definitions || [])) {
+                if (!defMap[pos]) defMap[pos] = d.definition;
+                if (!exMap[pos] && d.example) exMap[pos] = d.example;
+              }
+            }
+          }
+          const definitions = Object.entries(defMap).slice(0, 3).map(([pos, def]) => ({ pos, def, example: exMap[pos] || null }));
+
+          if (ipa) { saveAndSend(ipa, audioURL, synonyms, definitions); } else { fetchFromWiktionary(audioURL, synonyms, definitions); }
+        } catch(e) { fetchFromWiktionary(null, [], []); }
       });
-    }).on('error', () => fetchFromWiktionary());
+    }).on('error', () => fetchFromWiktionary(null, [], []));
     return;
   }
 

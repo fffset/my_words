@@ -190,6 +190,9 @@
         <div class="ipa-preview" id="ipa-preview"></div>
         <label>Türkçe çeviri(ler) * (virgülle ayır)</label>
         <textarea id="new-trans" placeholder="örn. elma, alma"></textarea>
+        <label>Eş anlamlılar (opsiyonel, virgülle ayır)</label>
+        <input type="text" id="new-synonyms" placeholder="örn. option, selection">
+        <div class="ipa-preview" id="synonyms-preview" style="color:var(--text3)"></div>
         <label>Ses URL (opsiyonel)</label>
         <input type="text" id="new-audio" placeholder="https://...">
         <div class="tip">
@@ -323,11 +326,21 @@ function showCard() {
           ${audioHTML}
           <div class="word">${w.text}</div>
           ${w.ipa ? `<div class="ipa">${w.ipa}</div>` : ''}
+          ${w.synonyms && w.synonyms.length ? `<div style="font-size:12px;color:var(--text3);margin-top:8px;text-align:center;">≈ ${w.synonyms.slice(0,4).join(', ')}</div>` : ''}
           <div class="flip-hint">çeviriyi görmek için tıkla</div>
         </div>
-        <div class="card-face card-back">
+        <div class="card-face card-back" style="justify-content:flex-start;padding-top:1.75rem;overflow-y:auto;">
           <div class="tr-label">çevirisi</div>
           <div class="translations" style="font-size:${w.translations.length > 6 ? '14px' : w.translations.length > 3 ? '17px' : '20px'}">${w.translations.join('<br>')}</div>
+          ${w.definitions && w.definitions.length ? `
+            <div style="width:100%;border-top:1px solid var(--border);margin-top:1rem;padding-top:0.75rem;">
+              ${w.definitions.slice(0,3).map(d => `
+                <div style="margin-bottom:0.75rem;">
+                  <span style="font-size:10px;font-weight:600;color:var(--text3);text-transform:uppercase;letter-spacing:0.05em;">${d.pos}</span>
+                  <div style="font-size:12px;color:var(--text2);line-height:1.5;margin-top:2px;">${d.def}</div>
+                  ${d.example ? `<div style="font-size:11px;color:var(--text3);font-style:italic;margin-top:3px;">"${d.example}"</div>` : ''}
+                </div>`).join('')}
+            </div>` : ''}
         </div>
       </div>
     </div>`;
@@ -436,25 +449,39 @@ function renderList() {
 
 let ipaTimer = null;
 let pendingIPA = null;
+let pendingAudio = null;
+let pendingSynonyms = [];
 
 function onWordInput(val) {
   const preview = document.getElementById('ipa-preview');
   pendingIPA = null;
+  pendingAudio = null;
+  pendingSynonyms = [];
+  document.getElementById('new-synonyms').value = '';
+  document.getElementById('synonyms-preview').textContent = '';
   preview.textContent = '';
   if (ipaTimer) clearTimeout(ipaTimer);
   const word = val.trim();
   if (word.length < 2) return;
-  preview.textContent = 'IPA aranıyor...';
+  preview.textContent = 'aranıyor...';
   ipaTimer = setTimeout(async () => {
     try {
       const res = await fetch('/ipa?word=' + encodeURIComponent(word));
       const data = await res.json();
       if (data.ipa) {
         pendingIPA = data.ipa;
-        preview.textContent = data.ipa;
+        preview.textContent = data.ipa + (data.audioURL ? ' 🔊' : '');
       } else {
-        preview.textContent = 'IPA bulunamadı';
+        preview.textContent = 'bulunamadı';
         preview.style.color = 'var(--text3)';
+      }
+      if (data.audioURL) pendingAudio = data.audioURL;
+      if (data.synonyms && data.synonyms.length) {
+        pendingSynonyms = data.synonyms;
+        const synField = document.getElementById('new-synonyms');
+        const synPreview = document.getElementById('synonyms-preview');
+        if (!synField.value.trim()) synField.value = data.synonyms.join(', ');
+        synPreview.textContent = 'API'den ' + data.synonyms.length + ' eş anlamlı bulundu';
       }
     } catch(e) {
       preview.textContent = '';
@@ -465,7 +492,9 @@ function onWordInput(val) {
 function addWord() {
   const word  = document.getElementById('new-word').value.trim();
   const trans = document.getElementById('new-trans').value.trim();
-  const audio = document.getElementById('new-audio').value.trim();
+  const audio    = document.getElementById('new-audio').value.trim() || pendingAudio || null;
+  const synRaw   = document.getElementById('new-synonyms').value.trim();
+  const synonyms = synRaw ? synRaw.split(',').map(s => s.trim()).filter(Boolean) : [];
   if (!word || !trans) { alert('Kelime ve çeviri zorunlu!'); return; }
 
   const newTrans = trans.split(',').map(t => t.trim()).filter(Boolean);
@@ -491,13 +520,17 @@ function addWord() {
     existing.lastSeen = null;
     if (audio) existing.audioURL = audio;
     if (pendingIPA) existing.ipa = pendingIPA;
+    if (synonyms.length) {
+      const existingSyns = (existing.synonyms || []).map(s => s.toLowerCase());
+      synonyms.forEach(s => { if (!existingSyns.includes(s.toLowerCase())) existing.synonyms.push(s); });
+    }
 
     saveWords(); updateStats(); buildQueue();
     s.textContent = added.length
       ? `"${word}" güncellendi, eklenen: ${added.join(', ')}`
       : `"${word}" zaten vardı, sayaçlar sıfırlandı ve new yapıldı`;
   } else {
-    words.push({ text: word, translations: newTrans, audioURL: audio||null, ipa: pendingIPA||null, isNew: true, correct: 0, wrong: 0, hard: 0, streak: 0, lastSeen: null });
+    words.push({ text: word, translations: newTrans, audioURL: audio||null, ipa: pendingIPA||null, synonyms: synonyms, isNew: true, correct: 0, wrong: 0, hard: 0, streak: 0, lastSeen: null });
     saveWords(); updateStats(); buildQueue();
     s.textContent = '"' + word + '" eklendi!';
   }
@@ -505,6 +538,10 @@ function addWord() {
   document.getElementById('new-word').value = '';
   document.getElementById('ipa-preview').textContent = '';
   pendingIPA = null;
+  pendingAudio = null;
+  pendingSynonyms = [];
+  document.getElementById('new-synonyms').value = '';
+  document.getElementById('synonyms-preview').textContent = '';
   document.getElementById('new-trans').value = '';
   document.getElementById('new-audio').value = '';
   setTimeout(() => s.textContent = '', 3000);
@@ -567,9 +604,18 @@ function showReviewCard() {
           </div>
           <div class="flip-hint">çeviriyi görmek için tıkla</div>
         </div>
-        <div class="card-face card-back">
+        <div class="card-face card-back" style="justify-content:flex-start;padding-top:1.75rem;overflow-y:auto;">
           <div class="tr-label">çevirisi</div>
           <div class="translations" style="font-size:${w.translations.length > 6 ? '14px' : w.translations.length > 3 ? '17px' : '20px'}">${w.translations.join('<br>')}</div>
+          ${w.definitions && w.definitions.length ? `
+            <div style="width:100%;border-top:1px solid var(--border);margin-top:1rem;padding-top:0.75rem;">
+              ${w.definitions.slice(0,3).map(d => `
+                <div style="margin-bottom:0.75rem;">
+                  <span style="font-size:10px;font-weight:600;color:var(--text3);text-transform:uppercase;letter-spacing:0.05em;">${d.pos}</span>
+                  <div style="font-size:12px;color:var(--text2);line-height:1.5;margin-top:2px;">${d.def}</div>
+                  ${d.example ? `<div style="font-size:11px;color:var(--text3);font-style:italic;margin-top:3px;">"${d.example}"</div>` : ''}
+                </div>`).join('')}
+            </div>` : ''}
         </div>
       </div>
     </div>`;

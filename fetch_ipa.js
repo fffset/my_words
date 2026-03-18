@@ -1,3 +1,7 @@
+// Kullanım:
+//   node fetch_ipa.js                        → kelimeler.json
+//   node fetch_ipa.js oxford_3000_new.json   → belirtilen dosya
+
 const fs    = require('fs');
 const https = require('https');
 const path  = require('path');
@@ -58,6 +62,7 @@ async function lookupWord(word) {
   const data = await fetchDictAPI(word);
   let ipa = null;
   let audioURL = null;
+  const synSet = new Set();
 
   if (Array.isArray(data)) {
     for (const entry of data) {
@@ -71,20 +76,41 @@ async function lookupWord(word) {
       }
       if (!audioURL) {
         const phonetics = entry.phonetics || [];
-        // bos string'leri atla, US > UK > herhangi biri
         const notEmpty = phonetics.filter(p => p.audio && p.audio.trim() !== '');
         const us  = notEmpty.find(p => p.audio.includes('-us.'));
         const uk  = notEmpty.find(p => p.audio.includes('-uk.'));
         const any = notEmpty[0];
         audioURL = (us || uk || any)?.audio || null;
       }
-      if (ipa && audioURL) break;
+      for (const m of (entry.meanings || [])) {
+        (m.synonyms || []).forEach(s => synSet.add(s));
+        for (const d of (m.definitions || [])) {
+          (d.synonyms || []).forEach(s => synSet.add(s));
+        }
+      }
     }
   }
 
   if (!ipa) ipa = await fetchWiktionary(word);
+  const synonyms = [...synSet].slice(0, 8);
 
-  return { ipa, audioURL };
+  // definitions: her pos için ilk tanım + örnek, max 3
+  const defMap = {};
+  const exMap  = {};
+  if (Array.isArray(data)) {
+    for (const entry of data) {
+      for (const m of (entry.meanings || [])) {
+        const pos = m.partOfSpeech;
+        for (const d of (m.definitions || [])) {
+          if (!defMap[pos]) defMap[pos] = d.definition;
+          if (!exMap[pos] && d.example) exMap[pos] = d.example;
+        }
+      }
+    }
+  }
+  const definitions = Object.entries(defMap).slice(0, 3).map(([pos, def]) => ({ pos, def, example: exMap[pos] || null }));
+
+  return { ipa, audioURL, synonyms, definitions };
 }
 
 async function main() {
@@ -105,9 +131,11 @@ async function main() {
 
   for (let i = 0; i < words.length; i++) {
     const w = words[i];
-    const hasIPA   = w.ipa && w.ipa !== '';
-    const hasAudio = w.audioURL && w.audioURL !== '';
-    if (hasIPA && hasAudio) continue;
+    const hasIPA        = w.ipa && w.ipa !== '';
+    const hasAudio      = w.audioURL && w.audioURL !== '';
+    const hasSynonyms   = w.synonyms && w.synonyms.length > 0;
+    const hasDefinitions = w.definitions && w.definitions.length > 0;
+    if (hasIPA && hasAudio && hasSynonyms && hasDefinitions) continue;
 
     process.stdout.write('[' + (i+1) + '/' + words.length + '] ' + w.text.padEnd(30) + ' ');
 
@@ -128,6 +156,18 @@ async function main() {
       else                 { line += '(ses yok)'; }
     } else {
       line += '[ses var]';
+    }
+
+    if (!hasSynonyms && result.synonyms && result.synonyms.length) {
+      w.synonyms = result.synonyms;
+      line += '  [' + result.synonyms.length + ' syn]';
+    }
+
+    if (!w.definitions || !w.definitions.length) {
+      if (result.definitions && result.definitions.length) {
+        w.definitions = result.definitions;
+        line += '  [' + result.definitions.length + ' def]';
+      }
     }
 
     console.log(line);
