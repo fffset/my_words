@@ -65,7 +65,7 @@
   .tr-label { font-size: 12px; color: var(--text3); margin-bottom: 0.75rem; }
   .translations { font-size: 20px; font-weight: 400; color: var(--text); text-align: center; line-height: 1.6; max-height: 260px; overflow-y: auto; width: 100%; }
 
-  .actions { display: flex; gap: 8px; justify-content: center; margin-bottom: 1.5rem; }
+  .actions { display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; margin-bottom: 1.5rem; }
   .btn { padding: 11px 28px; border-radius: var(--radius); border: 1px solid var(--border2); font-size: 14px; font-weight: 500; cursor: pointer; font-family: inherit; transition: all 0.15s; }
   .btn:active { transform: scale(0.96); }
   .btn-wrong { background: var(--red-bg); color: var(--red); border-color: var(--red); }
@@ -73,6 +73,8 @@
   @media (prefers-color-scheme: dark) { .btn-hard { background: #2a1f00; color: #f0b030; border-color: #c07010; } }
   .btn-correct { background: var(--green-bg); color: var(--green); border-color: var(--green); }
   .btn-skip { background: var(--bg2); color: var(--text2); }
+  .btn-easy { background: #e8f4ff; color: #1a5fa8; border-color: #1a5fa8; }
+  @media (prefers-color-scheme: dark) { .btn-easy { background: #0c1f3a; color: #64a8f5; border-color: #3a6fa8; } }
 
   input, textarea, select { background: var(--bg); color: var(--text); border: 1px solid var(--border2); border-radius: var(--radius); padding: 9px 12px; font-size: 14px; font-family: inherit; width: 100%; outline: none; transition: border-color 0.15s; }
   input:focus, textarea:focus, select:focus { border-color: var(--text2); }
@@ -138,13 +140,15 @@
         <div class="session-stat c">✓ <span id="s-correct">0</span></div>
         <div class="session-stat" style="background:var(--bg2);color:#b06000;">△ <span id="s-hard">0</span></div>
         <div class="session-stat w">✗ <span id="s-wrong">0</span></div>
+        <div class="session-stat" style="background:#e8f4ff;color:#1a5fa8;">★ <span id="s-easy">0</span></div>
       </div>
       <div id="study-content"></div>
       <div id="actions" style="display:none">
         <div class="actions">
-          <button class="btn btn-wrong" onclick="answer('wrong')">✗ yanlış</button>
-          <button class="btn btn-hard"  onclick="answer('hard')">△ zor</button>
+          <button class="btn btn-wrong"   onclick="answer('wrong')">✗ yanlış</button>
+          <button class="btn btn-hard"    onclick="answer('hard')">△ zor</button>
           <button class="btn btn-correct" onclick="answer('correct')">✓ doğru</button>
+          <button class="btn btn-easy"    onclick="answer('easy')">★ kolay</button>
         </div>
       </div>
     </div>
@@ -156,6 +160,7 @@
         <div class="session-stat c">✓ <span id="rs-correct">0</span></div>
         <div class="session-stat" style="background:var(--bg2);color:#b06000;">△ <span id="rs-hard">0</span></div>
         <div class="session-stat w">✗ <span id="rs-wrong">0</span></div>
+        <div class="session-stat" style="background:#e8f4ff;color:#1a5fa8;">★ <span id="rs-easy">0</span></div>
       </div>
       <div id="review-content"></div>
       <div id="review-actions" style="display:none">
@@ -163,6 +168,7 @@
           <button class="btn btn-wrong"   onclick="reviewAnswer('wrong')">✗ yanlış</button>
           <button class="btn btn-hard"    onclick="reviewAnswer('hard')">△ zor</button>
           <button class="btn btn-correct" onclick="reviewAnswer('correct')">✓ doğru</button>
+          <button class="btn btn-easy"    onclick="reviewAnswer('easy')">★ kolay</button>
         </div>
       </div>
     </div>
@@ -215,6 +221,7 @@ let isFlipped = false;
 let sessionCorrect = 0;
 let sessionWrong = 0;
 let sessionHard = 0;
+let sessionEasy = 0;
 let saveTimer = null;
 
 async function loadWords() {
@@ -282,13 +289,19 @@ function buildQueue() {
   const now = Date.now();
   const newW    = words.filter(w => w.isNew);
   const overdue = words.filter(w => !w.isNew && w.lastSeen && (now - new Date(w.lastSeen).getTime()) > TWO_WEEKS);
-  const rest    = words.filter(w => !w.isNew && !overdue.includes(w))
-    .sort((a, b) => wordScore(b) - wordScore(a));
+  const rest    = words.filter(w => {
+    if (w.isNew) return false;
+    if (overdue.includes(w)) return false;
+    // Kolay işaretliyse ve 1 ay geçmemişse atla
+    if (w.easy && w.easyDate && (now - new Date(w.easyDate).getTime()) < ONE_MONTH) return false;
+    return true;
+  }).sort((a, b) => wordScore(b) - wordScore(a));
   queue = [...shuffle(newW), ...overdue, ...rest];
   queueIdx = 0;
   const hardCount = rest.filter(w => (w.wrong||0) > 2 || (w.hard||0) > 1).length;
+  const easySkipped = words.filter(w => w.easy && w.easyDate && (now - new Date(w.easyDate).getTime()) < ONE_MONTH).length;
   document.getElementById('queue-info').textContent =
-    `${queue.length} kelime sırada — ${newW.length} yeni, ${overdue.length} süresi geçmiş`;
+    `${queue.length} kelime sırada — ${newW.length} yeni, ${overdue.length} süresi geçmiş${easySkipped ? ', ' + easySkipped + ' kolay' : ''}`;
 }
 
 function updateStats() {
@@ -399,6 +412,8 @@ function playAudio(e) {
   }
 }
 
+const ONE_MONTH = 30 * 24 * 60 * 60 * 1000;
+
 function applyAnswer(w, type) {
   if (type === 'correct') {
     w.correct = (w.correct||0)+1;
@@ -406,9 +421,15 @@ function applyAnswer(w, type) {
   } else if (type === 'hard') {
     w.hard   = (w.hard||0)+1;
     w.streak = 0;
+    w.easy   = false;
+  } else if (type === 'easy') {
+    w.easy      = true;
+    w.easyDate  = new Date().toISOString();
+    w.streak    = (w.streak||0)+1;
   } else {
     w.wrong  = (w.wrong||0)+1;
     w.streak = 0;
+    w.easy   = false;
   }
 }
 
@@ -417,6 +438,7 @@ function answer(type) {
   applyAnswer(w, type);
   if (type === 'correct') { sessionCorrect++; document.getElementById('s-correct').textContent = sessionCorrect; }
   else if (type === 'hard') { sessionHard++; document.getElementById('s-hard').textContent = sessionHard; }
+  else if (type === 'easy') { sessionEasy++; document.getElementById('s-easy').textContent = sessionEasy; }
   else { sessionWrong++; document.getElementById('s-wrong').textContent = sessionWrong; }
   saveWords();
   updateStats();
@@ -546,7 +568,7 @@ function addWord() {
       ? `"${word}" güncellendi, eklenen: ${added.join(', ')}`
       : `"${word}" zaten vardı, sayaçlar sıfırlandı ve new yapıldı`;
   } else {
-    words.push({ text: word, translations: newTrans, audioURL: audio||null, ipa: pendingIPA||null, synonyms: synonyms, isNew: true, correct: 0, wrong: 0, hard: 0, streak: 0, lastSeen: null });
+    words.push({ text: word, translations: newTrans, audioURL: audio||null, ipa: pendingIPA||null, synonyms: synonyms, isNew: true, correct: 0, wrong: 0, hard: 0, streak: 0, easy: false, easyDate: null, lastSeen: null });
     saveWords(); updateStats(); buildQueue();
     s.textContent = '"' + word + '" eklendi!';
   }
@@ -693,6 +715,7 @@ function reviewAnswer(type) {
   applyAnswer(w, type);
   if (type === 'correct') { rsc++; document.getElementById('rs-correct').textContent = rsc; }
   else if (type === 'hard') { rsh++; document.getElementById('rs-hard').textContent = rsh; }
+  else if (type === 'easy') { sessionEasy++; document.getElementById('rs-easy') && (document.getElementById('rs-easy').textContent = sessionEasy); }
   else { rsw++; document.getElementById('rs-wrong').textContent = rsw; }
 
   // streak 3'e ulaştıysa listeden çıkar
