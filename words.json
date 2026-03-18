@@ -329,10 +329,11 @@
     ],
     "audioURL": "https://d1vq87e9lcf771.cloudfront.net/beaen/722cb642fa1aa989df646328049a2af2",
     "isNew": false,
-    "correct": 0,
+    "correct": 1,
     "wrong": 1,
-    "lastSeen": "2026-03-18T06:23:32.947Z",
-    "ipa": "/ɹɪˈtɜːn/"
+    "lastSeen": "2026-03-18T08:38:03.905Z",
+    "ipa": "/ɹɪˈtɜːn/",
+    "streak": 1
   },
   {
     "text": "paper",
@@ -379,9 +380,10 @@
     ],
     "audioURL": "https://d1vq87e9lcf771.cloudfront.net/beaen/26d86993f66c2c25584946d021fc60bf",
     "isNew": false,
-    "correct": 0,
+    "correct": 1,
     "wrong": 1,
-    "lastSeen": "2026-03-18T06:23:50.933Z"
+    "lastSeen": "2026-03-18T08:38:42.104Z",
+    "streak": 1
   },
   {
     "text": "sentence",
@@ -392,8 +394,10 @@
     "isNew": false,
     "correct": 0,
     "wrong": 1,
-    "lastSeen": "2026-03-18T06:23:57.798Z",
-    "ipa": "[ˈsɛntn̩t͡s]"
+    "lastSeen": "2026-03-18T08:38:48.971Z",
+    "ipa": "[ˈsɛntn̩t͡s]",
+    "hard": 1,
+    "streak": 0
   },
   {
     "text": "board",
@@ -404,8 +408,10 @@
     "isNew": false,
     "correct": 0,
     "wrong": 1,
-    "lastSeen": "2026-03-18T06:24:03.416Z",
-    "ipa": "/bɔːd/"
+    "lastSeen": "2026-03-18T08:38:54.970Z",
+    "ipa": "/bɔːd/",
+    "hard": 1,
+    "streak": 0
   },
   {
     "text": "talk about",
@@ -416,8 +422,9 @@
     "audioURL": "https://d1vq87e9lcf771.cloudfront.net/beaen/d8bb92427cc1a58476641ace78f4e82f",
     "isNew": false,
     "correct": 0,
-    "wrong": 1,
-    "lastSeen": "2026-03-18T06:24:08.580Z"
+    "wrong": 2,
+    "lastSeen": "2026-03-18T08:38:59.318Z",
+    "streak": 0
   },
   {
     "text": "take notes",
@@ -437,10 +444,11 @@
     ],
     "audioURL": "https://d1vq87e9lcf771.cloudfront.net/beaen/14610dc5134bc46228e629fa38e5335a",
     "isNew": false,
-    "correct": 0,
+    "correct": 1,
     "wrong": 1,
-    "lastSeen": "2026-03-18T06:51:12.843Z",
-    "ipa": "/ˈlɛk.t͡ʃə/"
+    "lastSeen": "2026-03-18T08:39:03.421Z",
+    "ipa": "/ˈlɛk.t͡ʃə/",
+    "streak": 1
   },
   {
     "text": "listen to",
@@ -616,10 +624,11 @@
     ],
     "audioURL": "https://d1vq87e9lcf771.cloudfront.net/beaen/b517ffc5a47bad394860ca850c44195e",
     "isNew": false,
-    "correct": 0,
+    "correct": 1,
     "wrong": 1,
-    "lastSeen": "2026-03-18T08:25:02.520Z",
-    "ipa": "/bəˈhaɪnd/"
+    "lastSeen": "2026-03-18T08:39:07.220Z",
+    "ipa": "/bəˈhaɪnd/",
+    "streak": 1
   },
   {
     "text": "shower",
@@ -808,11 +817,12 @@
       "berbat"
     ],
     "audioURL": "https://d1vq87e9lcf771.cloudfront.net/beaen/673bf2845bcba67bcfffa6ced45823c9",
-    "isNew": true,
+    "isNew": false,
     "correct": 0,
-    "wrong": 0,
-    "lastSeen": null,
-    "ipa": "/ˈtɛ.ɹə.bl̩/"
+    "wrong": 1,
+    "lastSeen": "2026-03-18T08:42:13.654Z",
+    "ipa": "/ˈtɛ.ɹə.bl̩/",
+    "streak": 0
   },
   {
     "text": "angry",
@@ -855,10 +865,10 @@
       "pozisyon"
     ],
     "audioURL": "https://d1vq87e9lcf771.cloudfront.net/beaen/e568cfa2aa242fecef32754d4d5036b2",
-    "isNew": true,
-    "correct": 0,
+    "isNew": false,
+    "correct": 1,
     "wrong": 0,
-    "lastSeen": null,
+    "lastSeen": "2026-03-18T08:32:44.387Z",
     "ipa": "/pəˈzɪʃ(ə)n/"
   },
   {
@@ -867,10 +877,10 @@
       "ana"
     ],
     "audioURL": "https://d1vq87e9lcf771.cloudfront.net/beaen/e81ed63f0380c6c664f015d5f0f5c661",
-    "isNew": true,
-    "correct": 0,
+    "isNew": false,
+    "correct": 1,
     "wrong": 0,
-    "lastSeen": null,
+    "lastSeen": "2026-03-18T08:32:22.520Z",
     "ipa": "/meɪn/"
   },
   {
@@ -1148,11 +1158,12 @@
       "gelen kutusu"
     ],
     "audioURL": "https://d1vq87e9lcf771.cloudfront.net/beaen/9ac9ec44e0f43b957121129a8758d472",
-    "isNew": true,
-    "correct": 0,
+    "isNew": false,
+    "correct": 1,
     "wrong": 0,
-    "lastSeen": null,
-    "ipa": "/ˈɪmbɒks/"
+    "lastSeen": "2026-03-18T08:47:44.660Z",
+    "ipa": "/ˈɪmbɒks/",
+    "streak": 1
   },
   {
     "text": "how's",
@@ -2008,11 +2019,12 @@
       "toplantı"
     ],
     "audioURL": "https://d1vq87e9lcf771.cloudfront.net/beaen/0f8c786da933b6a914ac49e5652b52bc",
-    "isNew": true,
-    "correct": 0,
+    "isNew": false,
+    "correct": 1,
     "wrong": 0,
-    "lastSeen": null,
-    "ipa": "/ˈmiːtɪŋ/"
+    "lastSeen": "2026-03-18T08:41:40.387Z",
+    "ipa": "/ˈmiːtɪŋ/",
+    "streak": 1
   },
   {
     "text": "them",
@@ -4493,11 +4505,12 @@
       "korkutucu"
     ],
     "audioURL": "https://d1vq87e9lcf771.cloudfront.net/beaen/401b21954596f8687555d51252f88a0d",
-    "isNew": true,
+    "isNew": false,
     "correct": 0,
-    "wrong": 0,
-    "lastSeen": null,
-    "ipa": "/ˈskɛə.ɹi/"
+    "wrong": 1,
+    "lastSeen": "2026-03-18T08:48:59.859Z",
+    "ipa": "/ˈskɛə.ɹi/",
+    "streak": 0
   },
   {
     "text": "snack",
@@ -5121,10 +5134,10 @@
       "masa oyunu"
     ],
     "audioURL": "https://d1vq87e9lcf771.cloudfront.net/beaen/99373fdf9ebc504e8f15a091dbcc7eb0",
-    "isNew": true,
-    "correct": 0,
+    "isNew": false,
+    "correct": 1,
     "wrong": 0,
-    "lastSeen": null
+    "lastSeen": "2026-03-18T08:32:25.536Z"
   },
   {
     "text": "closet",
@@ -5167,11 +5180,12 @@
       "kural"
     ],
     "audioURL": "https://d1vq87e9lcf771.cloudfront.net/beaen/143796f2dd30f409bacc202ae8d7b73f",
-    "isNew": true,
+    "isNew": false,
     "correct": 0,
-    "wrong": 0,
-    "lastSeen": null,
-    "ipa": "/ɹuːl/"
+    "wrong": 1,
+    "lastSeen": "2026-03-18T08:42:21.437Z",
+    "ipa": "/ɹuːl/",
+    "streak": 0
   },
   {
     "text": "video game",
@@ -5214,10 +5228,10 @@
       "kolay"
     ],
     "audioURL": "https://d1vq87e9lcf771.cloudfront.net/beaen/3b35e5e0cf40a71204fccb7802ce5439",
-    "isNew": true,
-    "correct": 0,
+    "isNew": false,
+    "correct": 1,
     "wrong": 0,
-    "lastSeen": null,
+    "lastSeen": "2026-03-18T08:33:10.470Z",
     "ipa": "/ˈiːzi/"
   },
   {
@@ -5712,11 +5726,12 @@
       "kiraz"
     ],
     "audioURL": "https://d1vq87e9lcf771.cloudfront.net/beaen/35726835fc24eca5db75ee966b4cbd7c",
-    "isNew": true,
-    "correct": 0,
+    "isNew": false,
+    "correct": 1,
     "wrong": 0,
-    "lastSeen": null,
-    "ipa": "/ˈt͡ʃɛɹi/"
+    "lastSeen": "2026-03-18T08:41:03.937Z",
+    "ipa": "/ˈt͡ʃɛɹi/",
+    "streak": 1
   },
   {
     "text": "lemon",
@@ -5959,11 +5974,12 @@
       "görmek"
     ],
     "audioURL": "https://d1vq87e9lcf771.cloudfront.net/beaen/e0e679b344b5979e24e91f90cd64f3e7",
-    "isNew": true,
-    "correct": 0,
+    "isNew": false,
+    "correct": 1,
     "wrong": 0,
-    "lastSeen": null,
-    "ipa": "/siː/"
+    "lastSeen": "2026-03-18T08:42:38.469Z",
+    "ipa": "/siː/",
+    "streak": 1
   },
   {
     "text": "orange",
@@ -9596,10 +9612,10 @@
       "sınıf"
     ],
     "audioURL": "https://d1vq87e9lcf771.cloudfront.net/beaen/9f3a82447f6937c76ec62a57946744b7",
-    "isNew": true,
-    "correct": 0,
+    "isNew": false,
+    "correct": 1,
     "wrong": 0,
-    "lastSeen": null,
+    "lastSeen": "2026-03-18T08:33:01.085Z",
     "ipa": "/klas/"
   },
   {
@@ -9798,10 +9814,10 @@
       "buzdolabı"
     ],
     "audioURL": "https://d1vq87e9lcf771.cloudfront.net/beaen/bd2d13500b2872918401b2ada4219e77",
-    "isNew": true,
-    "correct": 0,
+    "isNew": false,
+    "correct": 1,
     "wrong": 0,
-    "lastSeen": null,
+    "lastSeen": "2026-03-18T08:31:50.253Z",
     "ipa": "/fɹɪd͡ʒ/"
   },
   {
@@ -10032,10 +10048,10 @@
       "olduğundan"
     ],
     "audioURL": "https://d1vq87e9lcf771.cloudfront.net/beaen/3b282d52ec6da04241dda3212766d3e3",
-    "isNew": true,
+    "isNew": false,
     "correct": 0,
     "wrong": 0,
-    "lastSeen": null,
+    "lastSeen": "2026-03-18T08:51:31.244Z",
     "ipa": "/ðət/"
   },
   {
@@ -10578,10 +10594,11 @@
       "biraz"
     ],
     "audioURL": "https://d1vq87e9lcf771.cloudfront.net/beaen/183495798235dd80c54109eb32f21066",
-    "isNew": true,
-    "correct": 0,
-    "wrong": 0,
-    "lastSeen": null
+    "isNew": false,
+    "correct": 1,
+    "wrong": 1,
+    "lastSeen": "2026-03-18T08:40:20.753Z",
+    "streak": 1
   },
   {
     "text": "French",
@@ -11884,11 +11901,12 @@
       "eşlik etmek"
     ],
     "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/accompany-us.mp3",
-    "isNew": true,
+    "isNew": false,
     "correct": 0,
-    "wrong": 0,
-    "lastSeen": null,
-    "ipa": "/ə.ˈkʌm.pə.ni/"
+    "wrong": 2,
+    "lastSeen": "2026-03-18T08:39:17.719Z",
+    "ipa": "/ə.ˈkʌm.pə.ni/",
+    "streak": 0
   },
   {
     "text": "according to",
@@ -14510,11 +14528,12 @@
       "yarar"
     ],
     "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/benefit-us.mp3",
-    "isNew": true,
+    "isNew": false,
     "correct": 0,
-    "wrong": 0,
-    "lastSeen": null,
-    "ipa": "/ˈbɛn.ɪ.fɪt/"
+    "wrong": 1,
+    "lastSeen": "2026-03-18T08:47:40.843Z",
+    "ipa": "/ˈbɛn.ɪ.fɪt/",
+    "streak": 0
   },
   {
     "text": "bent",
@@ -15324,11 +15343,12 @@
       "-ebilmek"
     ],
     "audioURL": "",
-    "isNew": true,
-    "correct": 0,
+    "isNew": false,
+    "correct": 1,
     "wrong": 0,
-    "lastSeen": null,
-    "ipa": ""
+    "lastSeen": "2026-03-18T08:41:27.636Z",
+    "ipa": "",
+    "streak": 1
   },
   {
     "text": "can2",
@@ -15385,11 +15405,12 @@
       "-ememek"
     ],
     "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/cannot-us.mp3",
-    "isNew": true,
+    "isNew": false,
     "correct": 0,
-    "wrong": 0,
-    "lastSeen": null,
-    "ipa": "/kəˈnɑt/"
+    "wrong": 1,
+    "lastSeen": "2026-03-18T08:41:22.038Z",
+    "ipa": "/kəˈnɑt/",
+    "streak": 0
   },
   {
     "text": "cap",
@@ -15736,11 +15757,12 @@
       "seremoni"
     ],
     "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/ceremony-us.mp3",
-    "isNew": true,
-    "correct": 0,
+    "isNew": false,
+    "correct": 1,
     "wrong": 0,
-    "lastSeen": null,
-    "ipa": "/ˈsɛɹ.ɪ.mə.ni/"
+    "lastSeen": "2026-03-18T08:41:52.436Z",
+    "ipa": "/ˈsɛɹ.ɪ.mə.ni/",
+    "streak": 1
   },
   {
     "text": "certain",
@@ -18666,11 +18688,12 @@
       "derece"
     ],
     "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/degree-us.mp3",
-    "isNew": true,
-    "correct": 0,
+    "isNew": false,
+    "correct": 1,
     "wrong": 0,
-    "lastSeen": null,
-    "ipa": "/dɪˈɡɹiː/"
+    "lastSeen": "2026-03-18T08:42:10.136Z",
+    "ipa": "/dɪˈɡɹiː/",
+    "streak": 1
   },
   {
     "text": "delay",
@@ -19117,11 +19140,12 @@
       "konuşma"
     ],
     "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/dialogue-us.mp3",
-    "isNew": true,
-    "correct": 0,
+    "isNew": false,
+    "correct": 1,
     "wrong": 0,
-    "lastSeen": null,
-    "ipa": "/ˈdaɪəlɑɡ/"
+    "lastSeen": "2026-03-18T08:42:34.138Z",
+    "ipa": "/ˈdaɪəlɑɡ/",
+    "streak": 1
   },
   {
     "text": "diamond",
@@ -20452,11 +20476,12 @@
       "ortaya çıkmak"
     ],
     "audioURL": "",
-    "isNew": true,
+    "isNew": false,
     "correct": 0,
-    "wrong": 0,
-    "lastSeen": null,
-    "ipa": "/iˈmɜːd͡ʒ/"
+    "wrong": 1,
+    "lastSeen": "2026-03-18T08:42:04.187Z",
+    "ipa": "/iˈmɜːd͡ʒ/",
+    "streak": 0
   },
   {
     "text": "emergency",
@@ -20860,11 +20885,12 @@
       "çevre"
     ],
     "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/environment-us.mp3",
-    "isNew": true,
+    "isNew": false,
     "correct": 0,
-    "wrong": 0,
-    "lastSeen": null,
-    "ipa": "/-mɪnt/"
+    "wrong": 1,
+    "lastSeen": "2026-03-18T08:47:28.793Z",
+    "ipa": "/-mɪnt/",
+    "streak": 0
   },
   {
     "text": "environmental",
@@ -21033,11 +21059,12 @@
       "avro"
     ],
     "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/euro-uk.mp3",
-    "isNew": true,
-    "correct": 0,
+    "isNew": false,
+    "correct": 1,
     "wrong": 0,
-    "lastSeen": null,
-    "ipa": "/ˈjʊəɹəʊ/"
+    "lastSeen": "2026-03-18T08:44:04.386Z",
+    "ipa": "/ˈjʊəɹəʊ/",
+    "streak": 1
   },
   {
     "text": "evaluate",
@@ -21532,11 +21559,12 @@
       "açıklama"
     ],
     "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/explanation-us.mp3",
-    "isNew": true,
+    "isNew": false,
     "correct": 0,
-    "wrong": 0,
-    "lastSeen": null,
-    "ipa": "/ˌɛkspləˈneɪʃən/"
+    "wrong": 2,
+    "lastSeen": "2026-03-18T08:40:05.218Z",
+    "ipa": "/ˌɛkspləˈneɪʃən/",
+    "streak": 0
   },
   {
     "text": "explode",
@@ -21873,10 +21901,10 @@
       "aşina"
     ],
     "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/familiar-us.mp3",
-    "isNew": true,
-    "correct": 0,
+    "isNew": false,
+    "correct": 1,
     "wrong": 0,
-    "lastSeen": null,
+    "lastSeen": "2026-03-18T08:32:54.119Z",
     "ipa": "/fəˈmɪl.i.ə/"
   },
   {
@@ -21923,11 +21951,12 @@
       "çiftçi"
     ],
     "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/farmer-us.mp3",
-    "isNew": true,
-    "correct": 0,
+    "isNew": false,
+    "correct": 1,
     "wrong": 0,
-    "lastSeen": null,
-    "ipa": "/fɑːmə/"
+    "lastSeen": "2026-03-18T08:47:36.060Z",
+    "ipa": "/fɑːmə/",
+    "streak": 1
   },
   {
     "text": "farming",
@@ -22074,11 +22103,12 @@
       "Şubat"
     ],
     "audioURL": "",
-    "isNew": true,
-    "correct": 0,
-    "wrong": 0,
-    "lastSeen": null,
-    "ipa": "/ˈfɛb.ɹʊ.ə.ɹi/"
+    "isNew": false,
+    "correct": 1,
+    "wrong": 1,
+    "lastSeen": "2026-03-18T08:40:11.836Z",
+    "ipa": "/ˈfɛb.ɹʊ.ə.ɹi/",
+    "streak": 1
   },
   {
     "text": "federal",
@@ -24147,11 +24177,12 @@
       "onunki"
     ],
     "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/hers-us.mp3",
-    "isNew": true,
+    "isNew": false,
     "correct": 0,
-    "wrong": 0,
-    "lastSeen": null,
-    "ipa": "/əz/"
+    "wrong": 1,
+    "lastSeen": "2026-03-18T08:41:16.003Z",
+    "ipa": "/əz/",
+    "streak": 0
   },
   {
     "text": "herself",
@@ -26007,11 +26038,12 @@
       "sıkışmak"
     ],
     "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/jam-us.mp3",
-    "isNew": true,
-    "correct": 0,
-    "wrong": 0,
-    "lastSeen": null,
-    "ipa": "/ˈdʒæːm/"
+    "isNew": false,
+    "correct": 1,
+    "wrong": 1,
+    "lastSeen": "2026-03-18T08:40:16.504Z",
+    "ipa": "/ˈdʒæːm/",
+    "streak": 1
   },
   {
     "text": "January",
@@ -26182,11 +26214,12 @@
       "az önce"
     ],
     "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/just-us.mp3",
-    "isNew": true,
-    "correct": 0,
+    "isNew": false,
+    "correct": 1,
     "wrong": 0,
-    "lastSeen": null,
-    "ipa": "/d͡ʒʌst/"
+    "lastSeen": "2026-03-18T08:49:25.310Z",
+    "ipa": "/d͡ʒʌst/",
+    "streak": 1
   },
   {
     "text": "justice",
@@ -26831,11 +26864,12 @@
       "daha az"
     ],
     "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/less-us.mp3",
-    "isNew": true,
+    "isNew": false,
     "correct": 0,
-    "wrong": 0,
-    "lastSeen": null,
-    "ipa": "/lɛs/"
+    "wrong": 1,
+    "lastSeen": "2026-03-18T08:42:26.671Z",
+    "ipa": "/lɛs/",
+    "streak": 0
   },
   {
     "text": "let",
@@ -27141,11 +27175,12 @@
       "hareketli"
     ],
     "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/lively-us.mp3",
-    "isNew": true,
-    "correct": 0,
+    "isNew": false,
+    "correct": 1,
     "wrong": 0,
-    "lastSeen": null,
-    "ipa": "/ˈlaɪvli/"
+    "lastSeen": "2026-03-18T08:49:14.475Z",
+    "ipa": "/ˈlaɪvli/",
+    "streak": 1
   },
   {
     "text": "living",
@@ -30486,11 +30521,12 @@
       "belki"
     ],
     "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/perhaps-us.mp3",
-    "isNew": true,
+    "isNew": false,
     "correct": 0,
-    "wrong": 0,
-    "lastSeen": null,
-    "ipa": "/pəˈhæps/"
+    "wrong": 1,
+    "lastSeen": "2026-03-18T08:51:35.774Z",
+    "ipa": "/pəˈhæps/",
+    "streak": 0
   },
   {
     "text": "period",
@@ -31245,10 +31281,10 @@
       "pozitif"
     ],
     "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/positive-us.mp3",
-    "isNew": true,
-    "correct": 0,
+    "isNew": false,
+    "correct": 1,
     "wrong": 0,
-    "lastSeen": null,
+    "lastSeen": "2026-03-18T08:32:57.853Z",
     "ipa": "/ˈpɒzɪ̈tɪv/"
   },
   {
@@ -31409,11 +31445,12 @@
       "güçlü"
     ],
     "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/powerful-us.mp3",
-    "isNew": true,
+    "isNew": false,
     "correct": 0,
-    "wrong": 0,
-    "lastSeen": null,
-    "ipa": "/ˈpaʊəfl/"
+    "wrong": 1,
+    "lastSeen": "2026-03-18T08:41:33.035Z",
+    "ipa": "/ˈpaʊəfl/",
+    "streak": 0
   },
   {
     "text": "practical",
@@ -33471,11 +33508,12 @@
       "söz"
     ],
     "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/remark-1-us.mp3",
-    "isNew": true,
+    "isNew": false,
     "correct": 0,
-    "wrong": 0,
-    "lastSeen": null,
-    "ipa": "/ɹɪˈmɑːk/"
+    "wrong": 1,
+    "lastSeen": "2026-03-18T08:49:05.144Z",
+    "ipa": "/ɹɪˈmɑːk/",
+    "streak": 0
   },
   {
     "text": "remind",
@@ -33882,10 +33920,10 @@
       "korumak"
     ],
     "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/retain-us.mp3",
-    "isNew": true,
+    "isNew": false,
     "correct": 0,
     "wrong": 0,
-    "lastSeen": null,
+    "lastSeen": "2026-03-18T08:42:43.486Z",
     "ipa": "/ɹɪˈteɪn/"
   },
   {
@@ -34357,11 +34395,12 @@
       "güvenlik"
     ],
     "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/safety-us.mp3",
-    "isNew": true,
+    "isNew": false,
     "correct": 0,
-    "wrong": 0,
-    "lastSeen": null,
-    "ipa": "/ˈseɪfti/"
+    "wrong": 2,
+    "lastSeen": "2026-03-18T08:39:22.619Z",
+    "ipa": "/ˈseɪfti/",
+    "streak": 0
   },
   {
     "text": "sail",
@@ -34432,11 +34471,12 @@
       "numune"
     ],
     "audioURL": "",
-    "isNew": true,
+    "isNew": false,
     "correct": 0,
-    "wrong": 0,
-    "lastSeen": null,
-    "ipa": "/sæːm.pəl/"
+    "wrong": 1,
+    "lastSeen": "2026-03-18T08:47:56.011Z",
+    "ipa": "/sæːm.pəl/",
+    "streak": 0
   },
   {
     "text": "sand",
@@ -35536,11 +35576,12 @@
       "utangaç"
     ],
     "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/shy-us.mp3",
-    "isNew": true,
+    "isNew": false,
     "correct": 0,
-    "wrong": 0,
-    "lastSeen": null,
-    "ipa": "/ʃaɪ/"
+    "wrong": 1,
+    "lastSeen": "2026-03-18T08:48:52.641Z",
+    "ipa": "/ʃaɪ/",
+    "streak": 0
   },
   {
     "text": "sight",
@@ -36175,11 +36216,12 @@
       "güneş enerjisi"
     ],
     "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/solar-us.mp3",
-    "isNew": true,
-    "correct": 0,
+    "isNew": false,
+    "correct": 1,
     "wrong": 0,
-    "lastSeen": null,
-    "ipa": "/ˈsəʊlə/"
+    "lastSeen": "2026-03-18T08:47:49.009Z",
+    "ipa": "/ˈsəʊlə/",
+    "streak": 1
   },
   {
     "text": "soldier",
@@ -36550,11 +36592,12 @@
       "ayrılmak"
     ],
     "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/split-us.mp3",
-    "isNew": true,
+    "isNew": false,
     "correct": 0,
-    "wrong": 0,
-    "lastSeen": null,
-    "ipa": "/splɪt/"
+    "wrong": 1,
+    "lastSeen": "2026-03-18T08:48:02.443Z",
+    "ipa": "/splɪt/",
+    "streak": 0
   },
   {
     "text": "spoken",
@@ -37439,11 +37482,12 @@
       "arz"
     ],
     "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/supply-1-us.mp3",
-    "isNew": true,
+    "isNew": false,
     "correct": 0,
-    "wrong": 0,
-    "lastSeen": null,
-    "ipa": "/səˈplaɪ/"
+    "wrong": 2,
+    "lastSeen": "2026-03-18T08:40:24.321Z",
+    "ipa": "/səˈplaɪ/",
+    "streak": 0
   },
   {
     "text": "support",
@@ -39291,11 +39335,12 @@
       "sendika"
     ],
     "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/union-us.mp3",
-    "isNew": true,
+    "isNew": false,
     "correct": 0,
-    "wrong": 0,
-    "lastSeen": null,
-    "ipa": "/ˈjuːnjən/"
+    "wrong": 1,
+    "lastSeen": "2026-03-18T08:41:58.470Z",
+    "ipa": "/ˈjuːnjən/",
+    "streak": 0
   },
   {
     "text": "unique",
@@ -39390,11 +39435,12 @@
       "zayıf ihtimal"
     ],
     "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/unlikely-us.mp3",
-    "isNew": true,
+    "isNew": false,
     "correct": 0,
-    "wrong": 0,
-    "lastSeen": null,
-    "ipa": "/ʌnˈlaɪkli/"
+    "wrong": 1,
+    "lastSeen": "2026-03-18T08:49:19.943Z",
+    "ipa": "/ʌnˈlaɪkli/",
+    "streak": 0
   },
   {
     "text": "unnecessary",
