@@ -33092,7 +33092,7 @@
     "isNew": false,
     "correct": 0,
     "wrong": 1,
-    "lastSeen": "2026-03-18T11:28:48.325Z",
+    "lastSeen": "2026-03-18T13:47:53.536Z",
     "ipa": "/kæp/",
     "streak": 0,
     "definitions": [
@@ -53952,7 +53952,7 @@
     "isNew": false,
     "correct": 0,
     "wrong": 1,
-    "lastSeen": "2026-03-18T09:10:03.761Z",
+    "lastSeen": "2026-03-18T13:51:49.455Z",
     "ipa": "/ˈɪmɪɡɹənt/",
     "streak": 0,
     "definitions": [
@@ -81379,7 +81379,7 @@
     "isNew": false,
     "correct": 0,
     "wrong": 1,
-    "lastSeen": "2026-03-18T11:29:48.810Z",
+    "lastSeen": "2026-03-18T13:51:38.056Z",
     "ipa": "/ˈsɜːfɪs/",
     "streak": 0,
     "definitions": [
@@ -88990,7 +88990,7 @@
       "ayakta",
       "ayakta durmak"
     ],
-    "audioURL": null,
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/standing-us.mp3",
     "ipa": "/ˈstændɪŋ/",
     "isNew": true,
     "correct": 0,
@@ -89048,7 +89048,7 @@
     "translations": [
       "zamir"
     ],
-    "audioURL": null,
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/pronoun-us.mp3",
     "ipa": "/ˈpɹəʊnaʊn/",
     "isNew": true,
     "correct": 0,
@@ -89132,7 +89132,7 @@
     "translations": [
       "çoğul"
     ],
-    "audioURL": null,
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/plural-us.mp3",
     "ipa": "/ˈplɔː.ɹəl/",
     "isNew": true,
     "correct": 0,
@@ -89179,7 +89179,7 @@
       "kulplu bardak",
       "kupa"
     ],
-    "audioURL": null,
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/mug-us.mp3",
     "ipa": "/mʌɡ/",
     "isNew": true,
     "correct": 0,
@@ -89231,7 +89231,7 @@
     "translations": [
       "ergonomi"
     ],
-    "audioURL": null,
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/ergonomics-au.mp3",
     "ipa": "/əːɡəˈnɒmɪks/",
     "isNew": true,
     "correct": 0,

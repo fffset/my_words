@@ -52,11 +52,8 @@
   .session-stat.c { background: var(--green-bg); color: var(--green); }
   .session-stat.w { background: var(--red-bg); color: var(--red); }
 
-  .card-wrap { perspective: 1200px; margin-bottom: 1rem; cursor: pointer; user-select: none; min-height: 280px; }
-  .card { width: 100%; min-height: 280px; position: relative; transform-style: preserve-3d; transition: transform 0.42s cubic-bezier(0.4,0,0.2,1); border-radius: var(--radius-lg); height: 320px; }
-  .card.flipped { transform: rotateY(180deg); }
-  .card-face { position: absolute; width: 100%; min-height: 280px; max-height: 420px; backface-visibility: hidden; -webkit-backface-visibility: hidden; border-radius: var(--radius-lg); border: 1px solid var(--border); background: var(--bg); display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 1.5rem; overflow-y: auto; }
-  .card-back { transform: rotateY(180deg); }
+  .card-wrap { margin-bottom: 1rem; cursor: pointer; user-select: none; }
+  .card-face { width: 100%; min-height: 280px; border-radius: var(--radius-lg); border: 1px solid var(--border); background: var(--bg); display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 1.75rem 1.5rem; box-sizing: border-box; transition: opacity 0.15s; }
 
   .badge-new { font-size: 11px; font-weight: 600; padding: 3px 10px; background: var(--blue-bg); color: var(--blue); border-radius: 99px; margin-bottom: 1rem; }
   .audio-btn { width: 46px; height: 46px; border-radius: 50%; border: 1px solid var(--border2); background: var(--bg2); cursor: pointer; display: flex; align-items: center; justify-content: center; margin-bottom: 1rem; transition: background 0.15s; }
@@ -320,44 +317,63 @@ function showCard() {
 
   container.innerHTML = `
     <div class="card-wrap" id="card-wrap" onclick="flipCard()">
-      <div class="card" id="card">
-        <div class="card-face" id="card-front">
-          ${w.isNew ? '<div class="badge-new">yeni</div>' : ''}
-          ${audioHTML}
-          <div class="word">${w.text}</div>
-          ${w.ipa ? `<div class="ipa">${w.ipa}</div>` : ''}
-          ${w.synonyms && w.synonyms.length ? `<div style="font-size:12px;color:var(--text3);margin-top:8px;text-align:center;">≈ ${w.synonyms.slice(0,4).join(', ')}</div>` : ''}
-          <div class="flip-hint">çeviriyi görmek için tıkla</div>
-        </div>
-        <div class="card-face card-back" style="justify-content:flex-start;padding-top:1.75rem;overflow-y:auto;">
-          <div class="tr-label">çevirisi</div>
-          <div class="translations" style="font-size:${w.translations.length > 6 ? '14px' : w.translations.length > 3 ? '17px' : '20px'}">${w.translations.join('<br>')}</div>
-          ${w.definitions && w.definitions.length ? `
-            <div style="width:100%;border-top:1px solid var(--border);margin-top:1rem;padding-top:0.75rem;">
-              ${w.definitions.slice(0,3).map(d => `
-                <div style="margin-bottom:0.75rem;">
-                  <span style="font-size:10px;font-weight:600;color:var(--text3);text-transform:uppercase;letter-spacing:0.05em;">${d.pos}</span>
-                  <div style="font-size:12px;color:var(--text2);line-height:1.5;margin-top:2px;">${d.def}</div>
-                  ${d.example ? `<div style="font-size:11px;color:var(--text3);font-style:italic;margin-top:3px;">"${d.example}"</div>` : ''}
-                </div>`).join('')}
-            </div>` : ''}
-        </div>
+      <div class="card-face" id="card-face">
+        ${w.isNew ? '<div class="badge-new">yeni</div>' : ''}
+        ${audioHTML}
+        <div class="word">${w.text}</div>
+        ${w.ipa ? `<div class="ipa">${w.ipa}</div>` : ''}
+        ${w.synonyms && w.synonyms.length ? `<div style="font-size:12px;color:var(--text3);margin-top:8px;text-align:center;">≈ ${w.synonyms.slice(0,4).join(', ')}</div>` : ''}
+        <div class="flip-hint">çeviriyi görmek için tıkla</div>
       </div>
     </div>`;
 }
 
 function flipCard() {
-  const card = document.getElementById('card');
+  const face = document.getElementById('card-face');
+  const w = queue[queueIdx % queue.length];
   if (!isFlipped) {
     isFlipped = true;
-    card.classList.add('flipped');
+    face.style.opacity = '0';
+    setTimeout(() => {
+      const transFontSize = w.translations.length > 6 ? '14px' : w.translations.length > 3 ? '17px' : '20px';
+      const defsHTML = w.definitions && w.definitions.length ? `
+        <div style="width:100%;border-top:1px solid var(--border);margin-top:1rem;padding-top:0.75rem;text-align:left;">
+          ${w.definitions.slice(0,3).map(d => `
+            <div style="margin-bottom:0.75rem;">
+              <span style="font-size:10px;font-weight:600;color:var(--text3);text-transform:uppercase;letter-spacing:0.05em;">${d.pos}</span>
+              <div style="font-size:12px;color:var(--text2);line-height:1.5;margin-top:2px;">${d.def}</div>
+              ${d.example ? `<div style="font-size:11px;color:var(--text3);font-style:italic;margin-top:3px;">"${d.example}"</div>` : ''}
+            </div>`).join('')}
+        </div>` : '';
+      face.innerHTML = `
+        <div class="tr-label">çevirisi</div>
+        <div class="translations" style="font-size:${transFontSize}">${w.translations.join('<br>')}</div>
+        ${defsHTML}`;
+      face.style.justifyContent = 'flex-start';
+      face.style.paddingTop = '1.75rem';
+      face.style.opacity = '1';
+    }, 150);
     document.getElementById('actions').style.display = 'block';
-    const w = queue[queueIdx % queue.length];
     w.isNew = false;
     w.lastSeen = new Date().toISOString();
     saveWords();
   } else {
-    card.classList.remove('flipped');
+    face.style.opacity = '0';
+    setTimeout(() => {
+      const audioHTML = w.audioURL
+        ? `<button class="audio-btn" id="audio-btn" onclick="playAudio(event)"><svg viewBox="0 0 24 24"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02z"/></svg></button>`
+        : `<div class="no-audio">ses yok</div>`;
+      face.innerHTML = `
+        ${w.isNew ? '<div class="badge-new">yeni</div>' : ''}
+        ${audioHTML}
+        <div class="word">${w.text}</div>
+        ${w.ipa ? `<div class="ipa">${w.ipa}</div>` : ''}
+        ${w.synonyms && w.synonyms.length ? `<div style="font-size:12px;color:var(--text3);margin-top:8px;text-align:center;">≈ ${w.synonyms.slice(0,4).join(', ')}</div>` : ''}
+        <div class="flip-hint">çeviriyi görmek için tıkla</div>`;
+      face.style.justifyContent = 'center';
+      face.style.paddingTop = '1.75rem';
+      face.style.opacity = '1';
+    }, 150);
     isFlipped = false;
     document.getElementById('actions').style.display = 'none';
   }
@@ -481,7 +497,7 @@ function onWordInput(val) {
         const synField = document.getElementById('new-synonyms');
         const synPreview = document.getElementById('synonyms-preview');
         if (!synField.value.trim()) synField.value = data.synonyms.join(', ');
-        synPreview.textContent = 'API'den ' + data.synonyms.length + ' eş anlamlı bulundu';
+        synPreview.textContent = "API'den " + data.synonyms.length + " eş anlamlı bulundu";
       }
     } catch(e) {
       preview.textContent = '';
@@ -558,8 +574,7 @@ function isHard(w) {
 }
 
 function initReview() {
-  revQueue = words.filter(isHard);
-  revQueue.sort((a,b) => wordScore(b) - wordScore(a));
+  revQueue = shuffle(words.filter(isHard));
   revIdx = 0; rsc = 0; rsh = 0; rsw = 0;
   document.getElementById('rs-correct').textContent = 0;
   document.getElementById('rs-hard').textContent    = 0;
@@ -591,47 +606,69 @@ function showReviewCard() {
     ? `<button class="audio-btn" id="rev-audio-btn" onclick="revPlayAudio(event)"><svg viewBox="0 0 24 24"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02z"/></svg></button>`
     : `<div class="no-audio">ses yok</div>`;
 
+  const revBackContent = '';
+
   container.innerHTML = `
     <div class="card-wrap" onclick="flipReviewCard()">
-      <div class="card" id="rev-card">
-        <div class="card-face">
-          ${streakBar}
-          ${audioHTML}
-          <div class="word">${w.text}</div>
-          ${w.ipa ? `<div class="ipa">${w.ipa}</div>` : ''}
-          <div style="font-size:11px;color:var(--text3);margin-top:0.5rem">
-            ✗${w.wrong||0} △${w.hard||0} ✓${w.correct||0}
-          </div>
-          <div class="flip-hint">çeviriyi görmek için tıkla</div>
+      <div class="card-face" id="rev-card-face">
+        ${streakBar}
+        ${audioHTML}
+        <div class="word">${w.text}</div>
+        ${w.ipa ? `<div class="ipa">${w.ipa}</div>` : ''}
+        <div style="font-size:11px;color:var(--text3);margin-top:0.5rem">
+          ✗${w.wrong||0} △${w.hard||0} ✓${w.correct||0}
         </div>
-        <div class="card-face card-back" style="justify-content:flex-start;padding-top:1.75rem;overflow-y:auto;">
-          <div class="tr-label">çevirisi</div>
-          <div class="translations" style="font-size:${w.translations.length > 6 ? '14px' : w.translations.length > 3 ? '17px' : '20px'}">${w.translations.join('<br>')}</div>
-          ${w.definitions && w.definitions.length ? `
-            <div style="width:100%;border-top:1px solid var(--border);margin-top:1rem;padding-top:0.75rem;">
-              ${w.definitions.slice(0,3).map(d => `
-                <div style="margin-bottom:0.75rem;">
-                  <span style="font-size:10px;font-weight:600;color:var(--text3);text-transform:uppercase;letter-spacing:0.05em;">${d.pos}</span>
-                  <div style="font-size:12px;color:var(--text2);line-height:1.5;margin-top:2px;">${d.def}</div>
-                  ${d.example ? `<div style="font-size:11px;color:var(--text3);font-style:italic;margin-top:3px;">"${d.example}"</div>` : ''}
-                </div>`).join('')}
-            </div>` : ''}
-        </div>
+        <div class="flip-hint">çeviriyi görmek için tıkla</div>
       </div>
     </div>`;
 }
 
 function flipReviewCard() {
-  const card = document.getElementById('rev-card');
+  const face = document.getElementById('rev-card-face');
+  const w = revQueue[revIdx % revQueue.length];
   if (!revFlipped) {
     revFlipped = true;
-    card.classList.add('flipped');
+    face.style.opacity = '0';
+    setTimeout(() => {
+      const transFontSize = w.translations.length > 6 ? '14px' : w.translations.length > 3 ? '17px' : '20px';
+      const defsHTML = w.definitions && w.definitions.length ? `
+        <div style="width:100%;border-top:1px solid var(--border);margin-top:1rem;padding-top:0.75rem;text-align:left;">
+          ${w.definitions.slice(0,3).map(d => `
+            <div style="margin-bottom:0.75rem;">
+              <span style="font-size:10px;font-weight:600;color:var(--text3);text-transform:uppercase;letter-spacing:0.05em;">${d.pos}</span>
+              <div style="font-size:12px;color:var(--text2);line-height:1.5;margin-top:2px;">${d.def}</div>
+              ${d.example ? `<div style="font-size:11px;color:var(--text3);font-style:italic;margin-top:3px;">"${d.example}"</div>` : ''}
+            </div>`).join('')}
+        </div>` : '';
+      face.innerHTML = `
+        <div class="tr-label">çevirisi</div>
+        <div class="translations" style="font-size:${transFontSize}">${w.translations.join('<br>')}</div>
+        ${defsHTML}`;
+      face.style.justifyContent = 'flex-start';
+      face.style.paddingTop = '1.75rem';
+      face.style.opacity = '1';
+    }, 150);
     document.getElementById('review-actions').style.display = 'block';
-    const w = revQueue[revIdx % revQueue.length];
     w.lastSeen = new Date().toISOString();
     saveWords();
   } else {
-    card.classList.remove('flipped');
+    face.style.opacity = '0';
+    setTimeout(() => {
+      const streakBar = `<div style="font-size:11px;color:var(--text3);margin-bottom:0.75rem;">streak ${String.fromCharCode(9679).repeat(w.streak||0)}${String.fromCharCode(9675).repeat(Math.max(0,3-(w.streak||0)))}</div>`;
+      const audioHTML = w.audioURL
+        ? `<button class="audio-btn" id="rev-audio-btn" onclick="revPlayAudio(event)"><svg viewBox="0 0 24 24"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02z"/></svg></button>`
+        : `<div class="no-audio">ses yok</div>`;
+      face.innerHTML = `
+        ${streakBar}
+        ${audioHTML}
+        <div class="word">${w.text}</div>
+        ${w.ipa ? `<div class="ipa">${w.ipa}</div>` : ''}
+        <div style="font-size:11px;color:var(--text3);margin-top:0.5rem">✗${w.wrong||0} △${w.hard||0} ✓${w.correct||0}</div>
+        <div class="flip-hint">çeviriyi görmek için tıkla</div>`;
+      face.style.justifyContent = 'center';
+      face.style.paddingTop = '1.75rem';
+      face.style.opacity = '1';
+    }, 150);
     revFlipped = false;
     document.getElementById('review-actions').style.display = 'none';
   }
