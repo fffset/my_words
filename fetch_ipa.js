@@ -1,7 +1,3 @@
-// Kullanım:
-//   node fetch_ipa.js                        → words.json
-//   node fetch_ipa.js oxford_3000_new.json   → belirtilen dosya
-
 const fs    = require('fs');
 const https = require('https');
 const path  = require('path');

@@ -72,6 +72,8 @@
   .btn { padding: 11px 28px; border-radius: var(--radius); border: 1px solid var(--border2); font-size: 14px; font-weight: 500; cursor: pointer; font-family: inherit; transition: all 0.15s; }
   .btn:active { transform: scale(0.96); }
   .btn-wrong { background: var(--red-bg); color: var(--red); border-color: var(--red); }
+  .btn-hard { background: #fff8e6; color: #b06000; border-color: #e0a020; }
+  @media (prefers-color-scheme: dark) { .btn-hard { background: #2a1f00; color: #f0b030; border-color: #c07010; } }
   .btn-correct { background: var(--green-bg); color: var(--green); border-color: var(--green); }
   .btn-skip { background: var(--bg2); color: var(--text2); }
 
@@ -113,7 +115,7 @@
 </head>
 <body>
 <div id="app">
-  <div id="loading" class="loading">words yükleniyor...</div>
+  <div id="loading" class="loading">kelimeler yükleniyor...</div>
   <div id="main" style="display:none">
     <div class="header">
       <h1>kelime kartları</h1>
@@ -127,7 +129,7 @@
 
     <div class="tabs">
       <button class="tab active" onclick="switchTab('study')">çalış</button>
-      <button class="tab" onclick="switchTab('list')">words</button>
+      <button class="tab" onclick="switchTab('list')">kelimeler</button>
       <button class="tab" onclick="switchTab('add')">ekle</button>
     </div>
 
@@ -135,15 +137,16 @@
       <div class="progress-bar"><div class="progress-fill" id="prog"></div></div>
       <div class="queue-info" id="queue-info"></div>
       <div class="session-bar">
-        <div class="session-stat c">bu oturum ✓ <span id="s-correct">0</span></div>
+        <div class="session-stat c">✓ <span id="s-correct">0</span></div>
+        <div class="session-stat" style="background:var(--bg2);color:#b06000;">△ <span id="s-hard">0</span></div>
         <div class="session-stat w">✗ <span id="s-wrong">0</span></div>
       </div>
       <div id="study-content"></div>
       <div id="actions" style="display:none">
         <div class="actions">
-          <button class="btn btn-wrong" onclick="answer(false)">✗ yanlış</button>
-          <button class="btn btn-skip" onclick="nextCard()">atla</button>
-          <button class="btn btn-correct" onclick="answer(true)">✓ doğru</button>
+          <button class="btn btn-wrong" onclick="answer('wrong')">✗ yanlış</button>
+          <button class="btn btn-hard"  onclick="answer('hard')">△ zor</button>
+          <button class="btn btn-correct" onclick="answer('correct')">✓ doğru</button>
         </div>
       </div>
     </div>
@@ -192,6 +195,7 @@ let queueIdx = 0;
 let isFlipped = false;
 let sessionCorrect = 0;
 let sessionWrong = 0;
+let sessionHard = 0;
 let saveTimer = null;
 
 async function loadWords() {
@@ -240,17 +244,32 @@ function setIndicator(cls, msg) {
   el.textContent = msg;
 }
 
+function shuffle(arr) {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+function wordScore(w) {
+  const now = Date.now();
+  const daysSince = w.lastSeen ? (now - new Date(w.lastSeen).getTime()) / 86400000 : 999;
+  return (w.wrong||0)*3 + (w.hard||0)*2 - (w.correct||0) + daysSince * 0.5;
+}
+
 function buildQueue() {
   const now = Date.now();
   const newW    = words.filter(w => w.isNew);
   const overdue = words.filter(w => !w.isNew && w.lastSeen && (now - new Date(w.lastSeen).getTime()) > TWO_WEEKS);
-  const hard    = words.filter(w => !w.isNew && (w.wrong||0) > 2 && !overdue.includes(w));
-  const rest    = words.filter(w => !w.isNew && (w.wrong||0) <= 2 && !overdue.includes(w))
-    .sort((a,b) => (a.lastSeen ? new Date(a.lastSeen).getTime() : 0) - (b.lastSeen ? new Date(b.lastSeen).getTime() : 0));
-  queue = [...newW, ...overdue, ...hard, ...rest];
+  const rest    = words.filter(w => !w.isNew && !overdue.includes(w))
+    .sort((a, b) => wordScore(b) - wordScore(a));
+  queue = [...shuffle(newW), ...overdue, ...rest];
   queueIdx = 0;
+  const hardCount = rest.filter(w => (w.wrong||0) > 2 || (w.hard||0) > 1).length;
   document.getElementById('queue-info').textContent =
-    `${queue.length} kelime sırada — ${newW.length} yeni, ${overdue.length} süresi geçmiş, ${hard.length} zor`;
+    `${queue.length} kelime sırada — ${newW.length} yeni, ${overdue.length} süresi geçmiş`;
 }
 
 function updateStats() {
@@ -265,7 +284,7 @@ function showCard() {
   isFlipped = false;
 
   if (queue.length === 0) {
-    container.innerHTML = '<div class="congrats"><div class="big">🎉</div><h2>Tebrikler!</h2><p>Tüm words tamamlandı.</p></div>';
+    container.innerHTML = '<div class="congrats"><div class="big">🎉</div><h2>Tebrikler!</h2><p>Tüm kelimeler tamamlandı.</p></div>';
     return;
   }
 
@@ -326,10 +345,21 @@ function playAudio(e) {
   }
 }
 
-function answer(correct) {
+function answer(type) {
   const w = queue[queueIdx % queue.length];
-  if (correct) { w.correct = (w.correct||0)+1; sessionCorrect++; document.getElementById('s-correct').textContent = sessionCorrect; }
-  else         { w.wrong   = (w.wrong||0)+1;   sessionWrong++;   document.getElementById('s-wrong').textContent   = sessionWrong; }
+  if (type === 'correct') {
+    w.correct = (w.correct||0)+1;
+    sessionCorrect++;
+    document.getElementById('s-correct').textContent = sessionCorrect;
+  } else if (type === 'hard') {
+    w.hard = (w.hard||0)+1;
+    sessionHard++;
+    document.getElementById('s-hard').textContent = sessionHard;
+  } else {
+    w.wrong = (w.wrong||0)+1;
+    sessionWrong++;
+    document.getElementById('s-wrong').textContent = sessionWrong;
+  }
   saveWords();
   updateStats();
   nextCard();
@@ -367,6 +397,7 @@ function renderList() {
       </div>
       <div class="wr-stats">
         <div style="color:var(--green)">✓ ${w.correct||0}</div>
+        ${(w.hard||0)>0 ? `<div style="color:#b06000">△ ${w.hard}</div>` : ''}
         <div style="color:var(--red)">✗ ${w.wrong||0}</div>
         <div class="wr-seen">${w.lastSeen ? new Date(w.lastSeen).toLocaleDateString('tr-TR') : 'görülmedi'}</div>
       </div>
@@ -407,7 +438,7 @@ function addWord() {
   const audio = document.getElementById('new-audio').value.trim();
   if (!word || !trans) { alert('Kelime ve çeviri zorunlu!'); return; }
   if (words.find(w => w.text.toLowerCase()===word.toLowerCase())) { alert('Bu kelime zaten var!'); return; }
-  words.push({ text: word, translations: trans.split(',').map(t=>t.trim()).filter(Boolean), audioURL: audio||null, ipa: pendingIPA||null, isNew: true, correct: 0, wrong: 0, lastSeen: null });
+  words.push({ text: word, translations: trans.split(',').map(t=>t.trim()).filter(Boolean), audioURL: audio||null, ipa: pendingIPA||null, isNew: true, correct: 0, wrong: 0, hard: 0, lastSeen: null });
   saveWords(); updateStats(); buildQueue();
   document.getElementById('new-word').value = '';
   document.getElementById('ipa-preview').textContent = '';

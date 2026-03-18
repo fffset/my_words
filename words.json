@@ -577,10 +577,10 @@
       "Kanada"
     ],
     "audioURL": "https://d1vq87e9lcf771.cloudfront.net/beaen/bae4153a49167eab743ea1e5d3f14fc7",
-    "isNew": true,
-    "correct": 0,
+    "isNew": false,
+    "correct": 1,
     "wrong": 0,
-    "lastSeen": null,
+    "lastSeen": "2026-03-18T08:24:43.691Z",
     "ipa": "/ˈkænədə/"
   },
   {
@@ -589,10 +589,10 @@
       "üniversite"
     ],
     "audioURL": "https://d1vq87e9lcf771.cloudfront.net/beaen/229c917a6d8dceed6ea5abc86f6e76b2",
-    "isNew": true,
-    "correct": 0,
+    "isNew": false,
+    "correct": 1,
     "wrong": 0,
-    "lastSeen": null,
+    "lastSeen": "2026-03-18T08:24:49.586Z",
     "ipa": "/ˈkɒlɪd͡ʒ/"
   },
   {
@@ -604,10 +604,10 @@
       "gider"
     ],
     "audioURL": "https://d1vq87e9lcf771.cloudfront.net/beaen/ef45c4c321137aaea1c380cacf707647",
-    "isNew": true,
-    "correct": 0,
+    "isNew": false,
+    "correct": 1,
     "wrong": 0,
-    "lastSeen": null
+    "lastSeen": "2026-03-18T08:24:54.220Z"
   },
   {
     "text": "behind",
@@ -615,10 +615,10 @@
       "arkasında"
     ],
     "audioURL": "https://d1vq87e9lcf771.cloudfront.net/beaen/b517ffc5a47bad394860ca850c44195e",
-    "isNew": true,
+    "isNew": false,
     "correct": 0,
-    "wrong": 0,
-    "lastSeen": null,
+    "wrong": 1,
+    "lastSeen": "2026-03-18T08:25:02.520Z",
     "ipa": "/bəˈhaɪnd/"
   },
   {
@@ -627,10 +627,10 @@
       "duş"
     ],
     "audioURL": "https://d1vq87e9lcf771.cloudfront.net/beaen/f6cc5665f40f26e5fbfb2c75b7c6f937",
-    "isNew": true,
-    "correct": 0,
+    "isNew": false,
+    "correct": 1,
     "wrong": 0,
-    "lastSeen": null,
+    "lastSeen": "2026-03-18T08:25:12.869Z",
     "ipa": "/ˈʃaʊ.ə(ɹ)/"
   },
   {
@@ -639,10 +639,10 @@
       "kanepe"
     ],
     "audioURL": "https://d1vq87e9lcf771.cloudfront.net/beaen/bac37a64794ce8d5754237c5082777f7",
-    "isNew": true,
-    "correct": 0,
+    "isNew": false,
+    "correct": 1,
     "wrong": 0,
-    "lastSeen": null,
+    "lastSeen": "2026-03-18T08:25:17.255Z",
     "ipa": "/ˈsəʊfə/"
   },
   {
@@ -651,10 +651,10 @@
       "bahçe"
     ],
     "audioURL": "https://d1vq87e9lcf771.cloudfront.net/beaen/9e469c31518be22d8beba35a34aac0ca",
-    "isNew": true,
-    "correct": 0,
+    "isNew": false,
+    "correct": 1,
     "wrong": 0,
-    "lastSeen": null,
+    "lastSeen": "2026-03-18T08:25:20.702Z",
     "ipa": "/ˈɡɑːdn̩/"
   },
   {
