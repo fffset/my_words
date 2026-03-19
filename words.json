@@ -425,13 +425,15 @@
   {
     "text": "jewelry",
     "translations": [
-      "takı"
+      "takı",
+      "mücevherat",
+      "mücevher"
     ],
     "audioURL": "https://d1vq87e9lcf771.cloudfront.net/beaen/687e9faf5bb9681df3f3d4051f1e09d7",
-    "isNew": false,
-    "correct": 1,
+    "isNew": true,
+    "correct": 0,
     "wrong": 0,
-    "lastSeen": "2026-03-18T06:23:03.798Z",
+    "lastSeen": null,
     "synonyms": [
       "tom",
       "tomfoolery"
@@ -442,7 +444,9 @@
         "def": "Collectively, personal ornamentation such as rings, necklaces, brooches and bracelets, made of precious metals and sometimes set with gemstones.",
         "example": "She had more jewellery ornamented about her than any three ladies needed."
       }
-    ]
+    ],
+    "hard": 0,
+    "streak": 0
   },
   {
     "text": "furniture",
@@ -717,13 +721,17 @@
   {
     "text": "partner",
     "translations": [
-      "partner"
+      "partner",
+      "eş",
+      "ortak",
+      "iş birlikçi",
+      "arkadaş"
     ],
-    "audioURL": "https://d1vq87e9lcf771.cloudfront.net/beaen/f8de1f1102473a54d9d6b2c13b0c019e",
-    "isNew": false,
-    "correct": 1,
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/partner-us.mp3",
+    "isNew": true,
+    "correct": 0,
     "wrong": 0,
-    "lastSeen": "2026-03-18T06:23:46.799Z",
+    "lastSeen": null,
     "ipa": "/ˈpɐːtnə/",
     "definitions": [
       {
@@ -734,7 +742,9 @@
         "pos": "verb",
         "def": "To join as a partner."
       }
-    ]
+    ],
+    "hard": 0,
+    "streak": 0
   },
   {
     "text": "look at",
@@ -3223,9 +3233,10 @@
   {
     "text": "people",
     "translations": [
-      "kişi"
+      "kişi",
+      "insanlar"
     ],
-    "audioURL": "https://d1vq87e9lcf771.cloudfront.net/beaen/d4ba26a12635122d465e7421ea034929",
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/people-us.mp3",
     "isNew": true,
     "correct": 0,
     "wrong": 0,
@@ -3239,7 +3250,10 @@
       "community",
       "congregation",
       "folk",
-      "fans"
+      "fans",
+      "lede",
+      "leod",
+      "peeps"
     ],
     "definitions": [
       {
@@ -3251,7 +3265,9 @@
         "pos": "verb",
         "def": "To stock with people or inhabitants; to fill as with people; to populate."
       }
-    ]
+    ],
+    "hard": 0,
+    "streak": 0
   },
   {
     "text": "is there",
@@ -6315,9 +6331,10 @@
   {
     "text": "fish",
     "translations": [
-      "balık"
+      "balık",
+      "balıklar"
     ],
-    "audioURL": "https://d1vq87e9lcf771.cloudfront.net/beaen/ea80f640992d90dda0b7d663da528b7e",
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/fish-us.mp3",
     "isNew": true,
     "correct": 0,
     "wrong": 0,
@@ -6344,7 +6361,9 @@
         "def": "To hunt fish or other aquatic animals.",
         "example": "She went to the river to fish for trout."
       }
-    ]
+    ],
+    "hard": 0,
+    "streak": 0
   },
   {
     "text": "feed",
@@ -7721,13 +7740,14 @@
   {
     "text": "drive",
     "translations": [
-      "araba sürmek"
+      "araba sürmek",
+      "sürmek"
     ],
-    "audioURL": "https://d1vq87e9lcf771.cloudfront.net/beaen/543935e74eb3570e41cdee1c406f9af7",
-    "isNew": false,
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/drive-us.mp3",
+    "isNew": true,
     "correct": 0,
     "wrong": 0,
-    "lastSeen": "2026-03-18T14:39:53.570Z",
+    "lastSeen": null,
     "ipa": "/dɹaɪv/",
     "synonyms": [
       "line drive",
@@ -7753,7 +7773,8 @@
     ],
     "easy": true,
     "easyDate": "2026-03-18T14:39:54.786Z",
-    "streak": 1
+    "streak": 0,
+    "hard": 0
   },
   {
     "text": "sound",
@@ -9542,13 +9563,14 @@
   {
     "text": "write",
     "translations": [
-      "yazmak"
+      "yazmak",
+      "yazı yazmak"
     ],
-    "audioURL": "https://d1vq87e9lcf771.cloudfront.net/beaen/a66bc77a71b1881e60d47edd2ec7c751",
-    "isNew": false,
-    "correct": 1,
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/write-us.mp3",
+    "isNew": true,
+    "correct": 0,
     "wrong": 0,
-    "lastSeen": "2026-03-18T14:18:45.512Z",
+    "lastSeen": null,
     "ipa": "/ɹaɪt/",
     "synonyms": [
       "author",
@@ -9572,7 +9594,8 @@
         "example": "The pupil wrote his name on the paper."
       }
     ],
-    "streak": 1
+    "streak": 0,
+    "hard": 0
   },
   {
     "text": "outside",
@@ -9691,15 +9714,16 @@
   {
     "text": "sleep",
     "translations": [
-      "uyumak"
+      "uyumak",
+      "uyku"
     ],
-    "audioURL": "https://d1vq87e9lcf771.cloudfront.net/beaen/ebe8b251c5c2be2ca077dc93abb0b920",
-    "isNew": false,
-    "correct": 1,
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/sleep-us.mp3",
+    "isNew": true,
+    "correct": 0,
     "wrong": 0,
-    "lastSeen": "2026-03-18T12:04:54.435Z",
+    "lastSeen": null,
     "ipa": "/sliːp/",
-    "streak": 1,
+    "streak": 0,
     "synonyms": [
       "bed booger",
       "eye bogey",
@@ -9708,7 +9732,14 @@
       "eye crust",
       "eye goop",
       "eye gunk",
-      "eye sand"
+      "eye sand",
+      "crusty",
+      "gound",
+      "sleeper",
+      "sleepy",
+      "sleepy dust",
+      "nyctinasty",
+      "nyctitropism"
     ],
     "definitions": [
       {
@@ -9721,7 +9752,8 @@
         "def": "The state of reduced consciousness during which a human or animal rests in a daily rhythm.",
         "example": "I really need some sleep."
       }
-    ]
+    ],
+    "hard": 0
   },
   {
     "text": "right now",
@@ -10672,9 +10704,11 @@
   {
     "text": "child",
     "translations": [
-      "çocuk"
+      "çocuk",
+      "evlat",
+      "yavru"
     ],
-    "audioURL": "https://d1vq87e9lcf771.cloudfront.net/beaen/7b55ac97c249e508cd5e23ca5e826c61",
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/child-us.mp3",
     "isNew": true,
     "correct": 0,
     "wrong": 0,
@@ -10690,7 +10724,9 @@
         "pos": "verb",
         "def": "To give birth; to beget or procreate."
       }
-    ]
+    ],
+    "hard": 0,
+    "streak": 0
   },
   {
     "text": "the flu",
@@ -11624,13 +11660,14 @@
       "yapın",
       "edeceğini",
       "ettiğimi",
-      "yapmamız"
+      "yapmamız",
+      "etmek"
     ],
-    "audioURL": "https://d1vq87e9lcf771.cloudfront.net/beaen/11f25ece35720fd9d66be6aa80c700ae",
-    "isNew": false,
-    "correct": 1,
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/do-1-us.mp3",
+    "isNew": true,
+    "correct": 0,
     "wrong": 0,
-    "lastSeen": "2026-03-18T14:20:19.079Z",
+    "lastSeen": null,
     "ipa": "/dʉː/",
     "synonyms": [
       "get-together",
@@ -11640,7 +11677,9 @@
       "functionate",
       "attend",
       "serve",
-      "wait on"
+      "wait on",
+      "imitate",
+      "personate"
     ],
     "definitions": [
       {
@@ -11659,7 +11698,8 @@
         "example": null
       }
     ],
-    "streak": 1
+    "streak": 0,
+    "hard": 0
   },
   {
     "text": "map",
@@ -12485,9 +12525,10 @@
   {
     "text": "brush",
     "translations": [
-      "fırça"
+      "fırça",
+      "fırçalamak"
     ],
-    "audioURL": "https://d1vq87e9lcf771.cloudfront.net/beaen/2476932bb889e14eff973115e082b353",
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/brush-us.mp3",
     "isNew": true,
     "correct": 0,
     "wrong": 0,
@@ -12507,7 +12548,9 @@
         "def": "To clean with a brush.",
         "example": "Brush your teeth."
       }
-    ]
+    ],
+    "hard": 0,
+    "streak": 0
   },
   {
     "text": "medium",
@@ -12581,7 +12624,8 @@
   {
     "text": "orange",
     "translations": [
-      "turuncu"
+      "turuncu",
+      "portakal"
     ],
     "audioURL": "https://d1vq87e9lcf771.cloudfront.net/beaen/0eba90b27553645de0aff4be346d2efc",
     "isNew": true,
@@ -12608,7 +12652,9 @@
         "def": "Having the colour of the fruit of an orange tree; yellowred; reddish-yellow.",
         "example": null
       }
-    ]
+    ],
+    "hard": 0,
+    "streak": 0
   },
   {
     "text": "boot",
@@ -12861,15 +12907,17 @@
   {
     "text": "black",
     "translations": [
-      "siyah"
+      "siyah",
+      "siyahi",
+      "kara"
     ],
-    "audioURL": "https://d1vq87e9lcf771.cloudfront.net/beaen/71791337993ca0e61e84a1d0ecbc83a0",
-    "isNew": false,
-    "correct": 1,
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/black-uk.mp3",
+    "isNew": true,
+    "correct": 0,
     "wrong": 0,
-    "lastSeen": "2026-03-18T09:10:40.427Z",
+    "lastSeen": null,
     "ipa": "/blak/",
-    "streak": 1,
+    "streak": 0,
     "synonyms": [
       "blackball",
       "blacklist",
@@ -12896,7 +12944,8 @@
         "def": "(of an object) Absorbing all light and reflecting none; dark and hueless.",
         "example": "black drinking fountain; black hospital"
       }
-    ]
+    ],
+    "hard": 0
   },
   {
     "text": "thank you for",
@@ -12915,9 +12964,11 @@
       "onun",
       "ona",
       "onu",
-      "onunla"
+      "onunla",
+      "(kadın)",
+      "(dişi)"
     ],
-    "audioURL": "https://d1vq87e9lcf771.cloudfront.net/beaen/c0c6d260ff53120096e1f6317046e768",
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/her-us.mp3",
     "isNew": true,
     "correct": 0,
     "wrong": 0,
@@ -12937,7 +12988,9 @@
         "def": "The form of she used after a preposition or as the object of a verb; that woman, that ship, etc.",
         "example": null
       }
-    ]
+    ],
+    "hard": 0,
+    "streak": 0
   },
   {
     "text": "gift",
@@ -13001,9 +13054,10 @@
     "text": "his",
     "translations": [
       "onun",
-      "onunki"
+      "onunki",
+      "(erkek)"
     ],
-    "audioURL": "https://d1vq87e9lcf771.cloudfront.net/beaen/4cec594e130adbd1b3b3d1da5b26c961",
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/his-1-us.mp3",
     "isNew": true,
     "correct": 0,
     "wrong": 0,
@@ -13024,14 +13078,18 @@
         "def": "The word \"hi\" used as a greeting.",
         "example": "I didn't even get a hi."
       }
-    ]
+    ],
+    "hard": 0,
+    "streak": 0
   },
   {
     "text": "bowl",
     "translations": [
-      "kâse"
+      "kâse",
+      "çanak",
+      "kase"
     ],
-    "audioURL": "https://d1vq87e9lcf771.cloudfront.net/beaen/335680c8984091a07dd41bc89a8774e8",
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/bowl-us.mp3",
     "isNew": true,
     "correct": 0,
     "wrong": 0,
@@ -13057,18 +13115,22 @@
         "def": "To roll or throw (a ball) in the correct manner in cricket and similar games and sports.",
         "example": "We were bowled rapidly along the road."
       }
-    ]
+    ],
+    "hard": 0,
+    "streak": 0
   },
   {
     "text": "plate",
     "translations": [
-      "tabak"
+      "tabak",
+      "plaka",
+      "levha"
     ],
-    "audioURL": "https://d1vq87e9lcf771.cloudfront.net/beaen/8515ebdb37204a3110ea35024c149591",
-    "isNew": false,
-    "correct": 1,
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/plate-us.mp3",
+    "isNew": true,
+    "correct": 0,
     "wrong": 0,
-    "lastSeen": "2026-03-18T14:19:46.896Z",
+    "lastSeen": null,
     "ipa": "/pleɪt/",
     "definitions": [
       {
@@ -13082,7 +13144,8 @@
         "example": "This ring is plated with a thin layer of gold."
       }
     ],
-    "streak": 1
+    "streak": 0,
+    "hard": 0
   },
   {
     "text": "dirty",
@@ -13858,9 +13921,11 @@
   {
     "text": "blond",
     "translations": [
-      "sarı"
+      "sarı",
+      "sarışın",
+      "sarı(saç)"
     ],
-    "audioURL": "https://d1vq87e9lcf771.cloudfront.net/beaen/f2b27c9bb3e971c3fd696c622f024a4a",
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/blond-uk.mp3",
     "isNew": true,
     "correct": 0,
     "wrong": 0,
@@ -13882,7 +13947,9 @@
         "def": "Of a bleached or pale golden (light yellowish) colour.",
         "example": "blond ale"
       }
-    ]
+    ],
+    "hard": 0,
+    "streak": 0
   },
   {
     "text": "their",
@@ -14114,21 +14181,24 @@
   {
     "text": "children",
     "translations": [
-      "çocuk"
+      "çocuk",
+      "çocuklar"
     ],
-    "audioURL": "https://d1vq87e9lcf771.cloudfront.net/beaen/a365c8fbce447dd387fd63a6abc33911",
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/children-us.mp3",
     "isNew": true,
     "correct": 0,
     "wrong": 0,
     "lastSeen": null,
-    "ipa": "/ˈt͡ʃɪldɹən/",
+    "ipa": "[ˈt͡ʃʊld̠ɹ̠ ̝ʷən]",
     "definitions": [
       {
         "pos": "noun",
         "def": "A person who has not yet reached adulthood, whether natural (puberty), cultural (initiation), or legal (majority)",
         "example": "Go easy on him: he is but a child."
       }
-    ]
+    ],
+    "hard": 0,
+    "streak": 0
   },
   {
     "text": "has",
@@ -15110,9 +15180,11 @@
   {
     "text": "have",
     "translations": [
-      "var"
+      "var",
+      "sahip olmak",
+      "zorunda olmak"
     ],
-    "audioURL": "https://d1vq87e9lcf771.cloudfront.net/beaen/228cc120fa239a8d41d15df67a0a94b9",
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/have-us.mp3",
     "isNew": true,
     "correct": 0,
     "wrong": 0,
@@ -15134,7 +15206,9 @@
         "def": "To possess, own.",
         "example": "I have a house and a car."
       }
-    ]
+    ],
+    "hard": 0,
+    "streak": 0
   },
   {
     "text": "reservation",
@@ -15454,13 +15528,16 @@
   {
     "text": "walk",
     "translations": [
-      "yürümek"
+      "yürümek",
+      "yürüme",
+      "yürüyüş",
+      "hangi"
     ],
-    "audioURL": "https://d1vq87e9lcf771.cloudfront.net/beaen/aee9ee3718a7e78be0db654deb939dab",
-    "isNew": false,
-    "correct": 1,
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/walk-us.mp3",
+    "isNew": true,
+    "correct": 0,
     "wrong": 0,
-    "lastSeen": "2026-03-18T14:40:47.971Z",
+    "lastSeen": null,
     "ipa": "/wɔːk/",
     "synonyms": [
       "nicked",
@@ -15484,7 +15561,8 @@
         "example": "I take a walk every morning"
       }
     ],
-    "streak": 1
+    "streak": 0,
+    "hard": 0
   },
   {
     "text": "after work",
@@ -15845,9 +15923,7 @@
   {
     "text": "eat breakfast",
     "translations": [
-      "yapacaklar",
-      "yapacak",
-      "yapacağım"
+      "kahvaltı etmek"
     ],
     "audioURL": "https://d1vq87e9lcf771.cloudfront.net/beaen/56e35ded2527af40b8de1d7fb4dd5118",
     "isNew": true,
@@ -16022,9 +16098,12 @@
   {
     "text": "wash",
     "translations": [
-      "yıkamak"
+      "yıkamak",
+      "yıkanma",
+      "yıkama",
+      "yıkanmak"
     ],
-    "audioURL": "https://d1vq87e9lcf771.cloudfront.net/beaen/1210d83a6453e9eb549ccd60242d2b6a",
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/wash-us.mp3",
     "isNew": true,
     "correct": 0,
     "wrong": 0,
@@ -16044,7 +16123,9 @@
         "def": "To clean with water.",
         "example": "Dishwashers wash dishes much more efficiently than most humans."
       }
-    ]
+    ],
+    "hard": 0,
+    "streak": 0
   },
   {
     "text": "floor",
@@ -16727,14 +16808,15 @@
   {
     "text": "fifteen",
     "translations": [
-      "çeyrek"
+      "çeyrek",
+      "on beş"
     ],
-    "audioURL": "https://d1vq87e9lcf771.cloudfront.net/beaen/4f2db19cc89ba55e695ee3ba59545ba9",
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/fifteen-us.mp3",
     "isNew": true,
     "correct": 0,
     "wrong": 0,
     "lastSeen": null,
-    "ipa": "/ˈfɪf.tiːn/",
+    "ipa": "/fɪfˈtiːn/",
     "synonyms": [
       "15",
       "XV"
@@ -16745,7 +16827,9 @@
         "def": "The cardinal number occurring after fourteen (14) and before sixteen (16).",
         "example": null
       }
-    ]
+    ],
+    "hard": 0,
+    "streak": 0
   },
   {
     "text": "eight",
@@ -17206,9 +17290,10 @@
   {
     "text": "one",
     "translations": [
-      "bir"
+      "bir",
+      "tek"
     ],
-    "audioURL": "https://d1vq87e9lcf771.cloudfront.net/beaen/f39fb8ad3dea60369b6fd6ef20125f09",
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/one-us.mp3",
     "isNew": true,
     "correct": 0,
     "wrong": 0,
@@ -17238,7 +17323,9 @@
         "def": "Of a period of time, being particular.",
         "example": "One day the prince set forth to kill the dragon that had brought terror to his father’s kingdom for centuries."
       }
-    ]
+    ],
+    "hard": 0,
+    "streak": 0
   },
   {
     "text": "o'clock",
@@ -17262,9 +17349,13 @@
   {
     "text": "another",
     "translations": [
-      "başka bir"
+      "başka bir",
+      "öbür",
+      "başka",
+      "farklı",
+      "ayrı"
     ],
-    "audioURL": "https://d1vq87e9lcf771.cloudfront.net/beaen/37df664c3673d0dd29987bc5da5835a7",
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/another-us.mp3",
     "isNew": true,
     "correct": 0,
     "wrong": 0,
@@ -17276,7 +17367,9 @@
         "def": "An additional one of the same kind.",
         "example": "There is one sterling and here is another"
       }
-    ]
+    ],
+    "hard": 0,
+    "streak": 0
   },
   {
     "text": "sock",
@@ -17374,9 +17467,11 @@
   {
     "text": "person",
     "translations": [
-      "kişi"
+      "kişi",
+      "şahıs",
+      "birey"
     ],
-    "audioURL": "https://d1vq87e9lcf771.cloudfront.net/beaen/a9c4763b45a3596f481eec0dbf24508d",
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/person-us.mp3",
     "isNew": true,
     "correct": 0,
     "wrong": 0,
@@ -17393,7 +17488,9 @@
         "def": "To represent as a person; to personify; to impersonate.",
         "example": null
       }
-    ]
+    ],
+    "hard": 0,
+    "streak": 0
   },
   {
     "text": "who",
@@ -17911,9 +18008,13 @@
   {
     "text": "bad",
     "translations": [
-      "kötü"
+      "kötü",
+      "fena",
+      "bozuk",
+      "berbat",
+      "hoş olmayan"
     ],
-    "audioURL": "https://d1vq87e9lcf771.cloudfront.net/beaen/4b69015b5aa6aa9d44a70a3d14cc0488",
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/bad-us.mp3",
     "isNew": true,
     "correct": 0,
     "wrong": 0,
@@ -17945,7 +18046,9 @@
         "def": "Badly.",
         "example": "I didn't do too bad in the last exam."
       }
-    ]
+    ],
+    "hard": 0,
+    "streak": 0
   },
   {
     "text": "grade",
@@ -18405,9 +18508,10 @@
   {
     "text": "parents",
     "translations": [
-      "ebeveyn"
+      "ebeveyn",
+      "ebeveynler"
     ],
-    "audioURL": "https://d1vq87e9lcf771.cloudfront.net/beaen/edbb8ed51c6ee602043f497b3ab6bac7",
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/parents-us.mp3",
     "isNew": true,
     "correct": 0,
     "wrong": 0,
@@ -18430,7 +18534,9 @@
         "def": "To act as parent, to raise or rear.",
         "example": null
       }
-    ]
+    ],
+    "hard": 0,
+    "streak": 0
   },
   {
     "text": "good to see you",
@@ -18528,9 +18634,11 @@
   {
     "text": "daughter",
     "translations": [
-      "kız"
+      "kız",
+      "kız çocuk",
+      "kız evlat"
     ],
-    "audioURL": "https://d1vq87e9lcf771.cloudfront.net/beaen/deab06d6a10bc7aa7de8d06726bde176",
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/daughter-us.mp3",
     "isNew": true,
     "correct": 0,
     "wrong": 0,
@@ -18542,7 +18650,9 @@
         "def": "One’s female offspring.",
         "example": "I already have a son, so I would like to have a daughter."
       }
-    ]
+    ],
+    "hard": 0,
+    "streak": 0
   },
   {
     "text": "baby",
@@ -18820,13 +18930,14 @@
   {
     "text": "no",
     "translations": [
-      "hayır"
+      "hayır",
+      "hayor"
     ],
-    "audioURL": "https://d1vq87e9lcf771.cloudfront.net/beaen/c6ccf83e7e51f2f5b661c7e92628b316",
-    "isNew": false,
-    "correct": 1,
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/no-us.mp3",
+    "isNew": true,
+    "correct": 0,
     "wrong": 0,
-    "lastSeen": "2026-03-18T14:20:36.445Z",
+    "lastSeen": null,
     "ipa": "/nəʊ/",
     "synonyms": [
       "nay",
@@ -18852,7 +18963,8 @@
         "example": null
       }
     ],
-    "streak": 1
+    "streak": 0,
+    "hard": 0
   },
   {
     "text": "interesting",
@@ -19092,7 +19204,8 @@
   {
     "text": "Ms.",
     "translations": [
-      "Bayan"
+      "Bayan",
+      "evli olmayan kadın"
     ],
     "audioURL": "https://d1vq87e9lcf771.cloudfront.net/beaen/dc462d93c8d4e27e52a8feb078209618",
     "isNew": true,
@@ -19115,7 +19228,9 @@
         "def": "Abbreviation of million.",
         "example": "a labouring coal-meter"
       }
-    ]
+    ],
+    "hard": 0,
+    "streak": 0
   },
   {
     "text": "important",
@@ -19284,15 +19399,17 @@
   {
     "text": "pen",
     "translations": [
-      "tükenmez kalem"
+      "tükenmez kalem",
+      "kalem",
+      "dolma kalem"
     ],
-    "audioURL": "https://d1vq87e9lcf771.cloudfront.net/beaen/c3835944aea3cdfdbb83ba1804d3e18c",
-    "isNew": false,
-    "correct": 1,
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/pen.mp3",
+    "isNew": true,
+    "correct": 0,
     "wrong": 0,
-    "lastSeen": "2026-03-18T11:26:54.742Z",
-    "ipa": "/ˈpɛn/",
-    "streak": 1,
+    "lastSeen": null,
+    "ipa": "/pɛn/",
+    "streak": 0,
     "definitions": [
       {
         "pos": "noun",
@@ -19304,7 +19421,8 @@
         "def": "To enclose in a pen.",
         "example": null
       }
-    ]
+    ],
+    "hard": 0
   },
   {
     "text": "do you need",
@@ -19493,9 +19611,10 @@
   {
     "text": "drink",
     "translations": [
-      "içecek"
+      "içecek",
+      "içmek"
     ],
-    "audioURL": "https://d1vq87e9lcf771.cloudfront.net/beaen/54180d6a07357de684ee04c851f3cc27",
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/drink-us.mp3",
     "isNew": true,
     "correct": 0,
     "wrong": 0,
@@ -19522,7 +19641,9 @@
         "def": "A beverage.",
         "example": "I’d like another drink please."
       }
-    ]
+    ],
+    "hard": 0,
+    "streak": 0
   },
   {
     "text": "spicy",
@@ -20162,9 +20283,10 @@
   {
     "text": "he",
     "translations": [
-      "o"
+      "o",
+      "erkek"
     ],
-    "audioURL": "https://d1vq87e9lcf771.cloudfront.net/beaen/0241eeb881dc022f180d130296b625b0",
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/he-1-us.mp3",
     "isNew": true,
     "correct": 0,
     "wrong": 0,
@@ -20178,7 +20300,9 @@
       "s/he",
       "these other third-person pronouns (see \"Combined forms\", \"Invented pronouns\")",
       "they",
-      "you"
+      "you",
+      "these other third-person pronouns (see \"Combined forms\"",
+      "\"Invented pronouns\")"
     ],
     "definitions": [
       {
@@ -20196,7 +20320,9 @@
         "def": "(usually reduplicated) An expression of laughter.",
         "example": null
       }
-    ]
+    ],
+    "hard": 0,
+    "streak": 0
   },
   {
     "text": "neighbor",
@@ -20272,9 +20398,10 @@
   {
     "text": "she",
     "translations": [
-      "o"
+      "o",
+      "kız"
     ],
-    "audioURL": "https://d1vq87e9lcf771.cloudfront.net/beaen/f328b1cfce4073288df3eede19ff7280",
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/she-us.mp3",
     "isNew": true,
     "correct": 0,
     "wrong": 0,
@@ -20291,7 +20418,9 @@
         "def": "(personal) The female person or animal previously mentioned or implied.",
         "example": "After the cat killed a mouse, she left it on our doorstep."
       }
-    ]
+    ],
+    "hard": 0,
+    "streak": 0
   },
   {
     "text": "you're",
@@ -20635,9 +20764,11 @@
   {
     "text": "good",
     "translations": [
-      "iyi"
+      "iyi",
+      "hayırlı",
+      "güzel"
     ],
-    "audioURL": "https://d1vq87e9lcf771.cloudfront.net/beaen/84906634a96b7d0f4af5a3868cfcac30",
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/good-us.mp3",
     "isNew": true,
     "correct": 0,
     "wrong": 0,
@@ -20667,7 +20798,9 @@
         "def": "Well; satisfactorily or thoroughly.",
         "example": "The boy done good. (did well)"
       }
-    ]
+    ],
+    "hard": 0,
+    "streak": 0
   },
   {
     "text": "who is",
@@ -20900,9 +21033,11 @@
   {
     "text": "car",
     "translations": [
-      "araba"
+      "araba",
+      "otomobil",
+      "araç"
     ],
-    "audioURL": "https://d1vq87e9lcf771.cloudfront.net/beaen/32dcbe68bef379f9860cd7c5a29700da",
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/car-us.mp3",
     "isNew": true,
     "correct": 0,
     "wrong": 0,
@@ -20916,7 +21051,9 @@
       "motorcar",
       "vehicle",
       "basket",
-      "gondola"
+      "gondola",
+      "railcar",
+      "wagon"
     ],
     "definitions": [
       {
@@ -20924,7 +21061,9 @@
         "def": "A wheeled vehicle that moves independently, with at least three wheels, powered mechanically, steered by a driver and mostly for personal transportation.",
         "example": "She drove her car to the mall."
       }
-    ]
+    ],
+    "hard": 0,
+    "streak": 0
   },
   {
     "text": "have a seat",
@@ -21023,11 +21162,11 @@
       "günü'nde",
       "cadde'de"
     ],
-    "audioURL": "https://d1vq87e9lcf771.cloudfront.net/beaen/b447fbbdd83afe46a76af43bf0b20835",
-    "isNew": false,
-    "correct": 1,
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/on-us.mp3",
+    "isNew": true,
+    "correct": 0,
     "wrong": 0,
-    "lastSeen": "2026-03-18T14:35:51.836Z",
+    "lastSeen": null,
     "ipa": "/ɒn/",
     "synonyms": [
       "turn on",
@@ -21056,7 +21195,8 @@
         "example": "turn the television on"
       }
     ],
-    "streak": 1
+    "streak": 0,
+    "hard": 0
   },
   {
     "text": "couch",
@@ -21080,9 +21220,10 @@
   {
     "text": "clean",
     "translations": [
-      "temiz"
+      "temiz",
+      "temizlemek"
     ],
-    "audioURL": "https://d1vq87e9lcf771.cloudfront.net/beaen/b11cc0119edfddc32b287cf02a9f40d1",
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/clean-us.mp3",
     "isNew": true,
     "correct": 0,
     "wrong": 0,
@@ -21107,7 +21248,9 @@
         "def": "(heading, physical) Free of dirt or impurities or protruberances.",
         "example": "I’ll need a sharper knife to make clean cuts.  a clean leap over a fence"
       }
-    ]
+    ],
+    "hard": 0,
+    "streak": 0
   },
   {
     "text": "table",
@@ -21305,9 +21448,10 @@
   {
     "text": "apartment",
     "translations": [
-      "daire"
+      "daire",
+      "apartman dairesi"
     ],
-    "audioURL": "https://d1vq87e9lcf771.cloudfront.net/beaen/afd45c30711bdaab2c25aee53cb402a9",
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/apartment-us.mp3",
     "isNew": true,
     "correct": 0,
     "wrong": 0,
@@ -21324,7 +21468,9 @@
         "def": "A complete domicile occupying only part of a building, especially one for rent; a flat.",
         "example": null
       }
-    ]
+    ],
+    "hard": 0,
+    "streak": 0
   },
   {
     "text": "how much is",
@@ -22406,12 +22552,12 @@
       "içeride",
       "halinde"
     ],
-    "audioURL": "https://d1vq87e9lcf771.cloudfront.net/beaen/7d03eb93202a811ae7e3e0273f2a2e87",
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/in-au-stressed.mp3",
     "isNew": true,
     "correct": 0,
     "wrong": 0,
     "lastSeen": null,
-    "ipa": "/ən/",
+    "ipa": "/ɪn/",
     "definitions": [
       {
         "pos": "noun",
@@ -22428,7 +22574,9 @@
         "def": "Located indoors, especially at home or at one's office or place of work.",
         "example": "Is Mr. Smith in?"
       }
-    ]
+    ],
+    "hard": 0,
+    "streak": 0
   },
   {
     "text": "it's hot",
@@ -23599,9 +23747,10 @@
   {
     "text": "park",
     "translations": [
-      "park"
+      "park",
+      "park etmek"
     ],
-    "audioURL": "https://d1vq87e9lcf771.cloudfront.net/beaen/150c2c620ac418dcff5f7fec8f4ce177",
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/park-us.mp3",
     "isNew": true,
     "correct": 0,
     "wrong": 0,
@@ -23623,7 +23772,9 @@
         "def": "To bring (something such as a vehicle) to a halt or store in a specified place.",
         "example": "I parked the drive heads of my hard disk before travelling with my laptop."
       }
-    ]
+    ],
+    "hard": 0,
+    "streak": 0
   },
   {
     "text": "restaurant",
@@ -24787,14 +24938,15 @@
   {
     "text": "water",
     "translations": [
-      "su"
+      "su",
+      "sulamak"
     ],
-    "audioURL": "https://d1vq87e9lcf771.cloudfront.net/beaen/2e8300f236f93736563d843ba01e0c99",
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/water-us.mp3",
     "isNew": true,
     "correct": 0,
     "wrong": 0,
     "lastSeen": null,
-    "ipa": "/ˈwɔ.təɹ/",
+    "ipa": "/ˈwoːtə/",
     "synonyms": [
       "water down"
     ],
@@ -24809,7 +24961,9 @@
         "def": "To pour water into the soil surrounding (plants).",
         "example": "I need to go water the cattle."
       }
-    ]
+    ],
+    "hard": 0,
+    "streak": 0
   },
   {
     "text": "hello",
@@ -33028,7 +33182,8 @@
     "text": "dry",
     "translations": [
       "kuru",
-      "kurutmak"
+      "kurutmak",
+      "kurulamak"
     ],
     "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/dry-us.mp3",
     "isNew": true,
@@ -33052,7 +33207,9 @@
         "def": "Free from or lacking moisture.",
         "example": "This towel's dry. Could you wet it and cover the chicken so it doesn't go dry as it cooks?"
       }
-    ]
+    ],
+    "hard": 0,
+    "streak": 0
   },
   {
     "text": "DVD",
@@ -35319,7 +35476,8 @@
   {
     "text": "finger",
     "translations": [
-      "parmak"
+      "parmak",
+      "parmakla dokunmak"
     ],
     "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/finger-us.mp3",
     "isNew": true,
@@ -35348,7 +35506,9 @@
       "digit",
       "tendril",
       "fingering"
-    ]
+    ],
+    "hard": 0,
+    "streak": 0
   },
   {
     "text": "fishing",
@@ -40891,7 +41051,9 @@
     "text": "miss",
     "translations": [
       "özlemek",
-      "kaçırmak"
+      "kaçırmak",
+      "evli olmayan kadın",
+      "ıska geçmek"
     ],
     "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/miss-us.mp3",
     "isNew": true,
@@ -40910,7 +41072,9 @@
         "def": "To fail to hit.",
         "example": "I missed the target."
       }
-    ]
+    ],
+    "hard": 0,
+    "streak": 0
   },
   {
     "text": "missing",
@@ -41817,10 +41981,10 @@
       "gazete"
     ],
     "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/newspaper-us.mp3",
-    "isNew": false,
+    "isNew": true,
     "correct": 0,
     "wrong": 0,
-    "lastSeen": "2026-03-18T14:33:33.817Z",
+    "lastSeen": null,
     "ipa": "/ˈnjuːsˌpeɪpə/",
     "definitions": [
       {
@@ -41842,7 +42006,8 @@
     ],
     "easy": true,
     "easyDate": "2026-03-18T14:33:35.533Z",
-    "streak": 1
+    "streak": 0,
+    "hard": 0
   },
   {
     "text": "no one",
@@ -52420,7 +52585,9 @@
   {
     "text": "wet",
     "translations": [
-      "ıslak"
+      "ıslak",
+      "ıslatmak",
+      "yaş"
     ],
     "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/wet-us.mp3",
     "isNew": true,
@@ -52454,7 +52621,9 @@
       "rainy",
       "green",
       "wet behind the ears"
-    ]
+    ],
+    "hard": 0,
+    "streak": 0
   },
   {
     "text": "wheel",
@@ -53455,6 +53624,1335 @@
     "wrong": 0,
     "hard": 0,
     "streak": 0,
+    "lastSeen": null
+  },
+  {
+    "text": "men",
+    "translations": [
+      "erkekler",
+      "adamlar"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/men-us.mp3",
+    "ipa": "/mɛn/",
+    "synonyms": [
+      "male",
+      "omi",
+      "human",
+      "person"
+    ],
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null
+  },
+  {
+    "text": "drinking",
+    "translations": [
+      "içki içmek",
+      "içki",
+      "içme"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/drinking-us.mp3",
+    "ipa": "/ˈdɹɪŋkɪŋ/",
+    "synonyms": [
+      "gulp",
+      "imbibe",
+      "quaff",
+      "sip",
+      "alcohol",
+      "hit the sauce",
+      "potation"
+    ],
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null
+  },
+  {
+    "text": "bicycle",
+    "translations": [
+      "bisiklet",
+      "bisiklet sürmek"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/bicycle-us.mp3",
+    "ipa": "/ˈbaɪsɪkl̩/",
+    "synonyms": [
+      "bike",
+      "pushbike",
+      "velocipede"
+    ],
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null
+  },
+  {
+    "text": "shoes",
+    "translations": [
+      "ayakkabılar"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/shoes-us.mp3",
+    "ipa": "/ʃuːz/",
+    "synonyms": [],
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null
+  },
+  {
+    "text": "how old",
+    "translations": [
+      "kaç yaşında"
+    ],
+    "audioURL": null,
+    "ipa": null,
+    "synonyms": [],
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null
+  },
+  {
+    "text": "desktop",
+    "translations": [
+      "masaüstü arayüz",
+      "masaüstü"
+    ],
+    "audioURL": null,
+    "ipa": "[ˈdɛsk.ˌtɔp]",
+    "synonyms": [],
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null
+  },
+  {
+    "text": "sink",
+    "translations": [
+      "lavabo"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/sink-us.mp3",
+    "ipa": "/sɪŋk/",
+    "synonyms": [
+      "basin",
+      "washbasin",
+      "descend",
+      "go down",
+      "dip",
+      "dunk",
+      "submerge"
+    ],
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null
+  },
+  {
+    "text": "hug",
+    "translations": [
+      "kuçaklamak",
+      "sarılmak"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/hug-us.mp3",
+    "ipa": "/hʌɡ/",
+    "synonyms": [
+      "cleave",
+      "stick",
+      "hunker",
+      "squat",
+      "stoop",
+      "accoll",
+      "coll",
+      "embrace"
+    ],
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null
+  },
+  {
+    "text": "kiss",
+    "translations": [
+      "öpmek",
+      "öpücük",
+      "öpüşmek"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/kiss-us.mp3",
+    "ipa": "/kɪs/",
+    "synonyms": [],
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null
+  },
+  {
+    "text": "watching",
+    "translations": [
+      "seyretme",
+      "izleme"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/watching-us.mp3",
+    "ipa": "/ˈwɒtʃɪŋ/",
+    "synonyms": [],
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null
+  },
+  {
+    "text": "Beijing",
+    "translations": [
+      "pekin(Çin)"
+    ],
+    "audioURL": null,
+    "ipa": "/beɪˈd͡ʒɪŋ/",
+    "synonyms": [],
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null
+  },
+  {
+    "text": "China",
+    "translations": [
+      "Çin"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/china-us.mp3",
+    "ipa": "/tʃʌɪnə/",
+    "synonyms": [
+      "china",
+      "China rose",
+      "money cowrie",
+      "wampum",
+      "buddy",
+      "buster",
+      "mate",
+      "pal"
+    ],
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null
+  },
+  {
+    "text": "Egypt",
+    "translations": [
+      "mısır(ülke)"
+    ],
+    "audioURL": null,
+    "ipa": "/ˈiː.d͡ʒɪpt/",
+    "synonyms": [],
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null
+  },
+  {
+    "text": "France",
+    "translations": [
+      "Fransa"
+    ],
+    "audioURL": null,
+    "ipa": "/fɹɑːns/",
+    "synonyms": [],
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null
+  },
+  {
+    "text": "Italy",
+    "translations": [
+      "İtalya"
+    ],
+    "audioURL": null,
+    "ipa": "/ˈɪtəli/",
+    "synonyms": [],
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null
+  },
+  {
+    "text": "Japan",
+    "translations": [
+      "Japonya"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/japan-us.mp3",
+    "ipa": "/dʒəˈpæn/",
+    "synonyms": [],
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null
+  },
+  {
+    "text": "Moscow",
+    "translations": [
+      "Moskova"
+    ],
+    "audioURL": null,
+    "ipa": "/ˈmɒskəʊ/",
+    "synonyms": [],
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null
+  },
+  {
+    "text": "New York",
+    "translations": [
+      "New York"
+    ],
+    "audioURL": null,
+    "ipa": "/ˌnjuː ˈjɔːk/",
+    "synonyms": [],
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null
+  },
+  {
+    "text": "Paris",
+    "translations": [
+      "Paris(Şehir)"
+    ],
+    "audioURL": null,
+    "ipa": "/ˈpæɹ.ɪs/",
+    "synonyms": [],
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null
+  },
+  {
+    "text": "Russia",
+    "translations": [
+      "Rusya"
+    ],
+    "audioURL": null,
+    "ipa": "/ˈɹʌʃə/",
+    "synonyms": [],
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null
+  },
+  {
+    "text": "United States",
+    "translations": [
+      "birleşik devletler",
+      "amerika birleşik devletleri",
+      "abd"
+    ],
+    "audioURL": null,
+    "ipa": "/juːˌnaɪtɨd ˈsteɪts/",
+    "synonyms": [],
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null
+  },
+  {
+    "text": "Mrs.",
+    "translations": [
+      "bayan",
+      "evli kadın"
+    ],
+    "audioURL": null,
+    "ipa": null,
+    "synonyms": [],
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null
+  },
+  {
+    "text": "summarize",
+    "translations": [
+      "özetlemek",
+      "özet çıkarmak",
+      "kısaltmak"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/summarize-us.mp3",
+    "ipa": "/ˈsʌməˌɹaɪz/",
+    "synonyms": [],
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null
+  },
+  {
+    "text": "grandpa",
+    "translations": [
+      "dede",
+      "büyük baba"
+    ],
+    "audioURL": null,
+    "ipa": "/ˈɡɹæmpɑː/",
+    "synonyms": [],
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null
+  },
+  {
+    "text": "good evening",
+    "translations": [
+      "iyi akşamlar"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/good%20evening-us.mp3",
+    "ipa": null,
+    "synonyms": [
+      "good-den"
+    ],
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null
+  },
+  {
+    "text": "thirteen",
+    "translations": [
+      "on üç"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/thirteen-us-stressed.mp3",
+    "ipa": "/ˌθɜːˈtiːn/",
+    "synonyms": [
+      "baker’s dozen",
+      "long dozen",
+      "throtteen"
+    ],
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null
+  },
+  {
+    "text": "fourteen",
+    "translations": [
+      "on dört"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/fourteen-us.mp3",
+    "ipa": "/ˈfɔː.tiːn/",
+    "synonyms": [],
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null
+  },
+  {
+    "text": "sixteen",
+    "translations": [
+      "on altı"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/sixteen-us.mp3",
+    "ipa": "/ˈsɪks.tiːn/",
+    "synonyms": [],
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null
+  },
+  {
+    "text": "seventeen",
+    "translations": [
+      "on yedi"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/seventeen-us.mp3",
+    "ipa": "/ˈsɛv.ən.tiːn/",
+    "synonyms": [],
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null
+  },
+  {
+    "text": "eighteen",
+    "translations": [
+      "on sekiz"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/eighteen-us.mp3",
+    "ipa": "/ˈeɪ.tiːn/",
+    "synonyms": [],
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null
+  },
+  {
+    "text": "nineteen",
+    "translations": [
+      "on dokuz"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/nineteen-us-stressed.mp3",
+    "ipa": "/naɪnˈtiːn/",
+    "synonyms": [],
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null
+  },
+  {
+    "text": "day of the week",
+    "translations": [
+      "haftanın günü"
+    ],
+    "audioURL": null,
+    "ipa": null,
+    "synonyms": [],
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null
+  },
+  {
+    "text": "toe",
+    "translations": [
+      "ayak parmağı"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/toe-us.mp3",
+    "ipa": "/təʊ/",
+    "synonyms": [
+      "hoof"
+    ],
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null
+  },
+  {
+    "text": "sixty",
+    "translations": [
+      "altmış"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/sixty-us.mp3",
+    "ipa": "/ˈsɪkstɪ/",
+    "synonyms": [
+      "60",
+      "LX"
+    ],
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null
+  },
+  {
+    "text": "toothpaste",
+    "translations": [
+      "dış macunu"
+    ],
+    "audioURL": null,
+    "ipa": "/ˈtuːθpeɪst/",
+    "synonyms": [],
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null
+  },
+  {
+    "text": "wake up",
+    "translations": [
+      "uyanmak",
+      "uyandırmak"
+    ],
+    "audioURL": null,
+    "ipa": "/ˌweɪk ˈʌp/",
+    "synonyms": [],
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null
+  },
+  {
+    "text": "blanket",
+    "translations": [
+      "battaniye",
+      "kaplamak",
+      "örtü"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/blanket-us.mp3",
+    "ipa": "/ˈblæŋkɪt/",
+    "synonyms": [
+      "all-encompassing",
+      "exhaustive"
+    ],
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null
+  },
+  {
+    "text": "teeth",
+    "translations": [
+      "dişler"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/teeth-us.mp3",
+    "ipa": "/tiːθ/",
+    "synonyms": [
+      "enforceability",
+      "Hampstead Heath",
+      "chompers",
+      "pearly whites",
+      "breed",
+      "cut new teeth",
+      "dentize",
+      "appetite"
+    ],
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null
+  },
+  {
+    "text": "clothe",
+    "translations": [
+      "giydirmek",
+      "giyinmek"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/clothe-us.mp3",
+    "ipa": "/ˈkləʊð/",
+    "synonyms": [
+      "dight",
+      "don",
+      "put on"
+    ],
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null
+  },
+  {
+    "text": "hardware",
+    "translations": [
+      "donanım",
+      "hırdavat"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/hardware-us.mp3",
+    "ipa": "/ˈhɑːdˌwɛə/",
+    "synonyms": [],
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null
+  },
+  {
+    "text": "ladder",
+    "translations": [
+      "merdiven"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/ladder-us.mp3",
+    "ipa": "/ˈladə/",
+    "synonyms": [
+      "stepladder",
+      "run"
+    ],
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null
+  },
+  {
+    "text": "sunglasses",
+    "translations": [
+      "günel gözlüğü"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/sunglasses-us.mp3",
+    "ipa": null,
+    "synonyms": [
+      "cooling glasses",
+      "glasses",
+      "smoked",
+      "spectacles",
+      "shades",
+      "sunnies"
+    ],
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null
+  },
+  {
+    "text": "umbrella",
+    "translations": [
+      "şemsiye"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/umbrella-us.mp3",
+    "ipa": "/ʌmˈbɹɛlə/",
+    "synonyms": [
+      "brolly",
+      "gamp",
+      "parasol",
+      "rainshade"
+    ],
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null
+  },
+  {
+    "text": "bakery",
+    "translations": [
+      "ekmek fırını",
+      "fırın",
+      "pastane"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/bakery-us.mp3",
+    "ipa": "/ˈbeɪ.kə.ɹi/",
+    "synonyms": [
+      "bakehouse"
+    ],
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null
+  },
+  {
+    "text": "bookstore",
+    "translations": [
+      "kitapçı"
+    ],
+    "audioURL": null,
+    "ipa": "/ˈbʊkstɔː/",
+    "synonyms": [
+      "bookshop"
+    ],
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null
+  },
+  {
+    "text": "currency",
+    "translations": [
+      "döviz",
+      "para birimi"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/currency-us.mp3",
+    "ipa": "/ˈkʌɹ.ən.si/",
+    "synonyms": [],
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null
+  },
+  {
+    "text": "coin",
+    "translations": [
+      "madeni para"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/coin-us.mp3",
+    "ipa": "/kɔɪn/",
+    "synonyms": [
+      "chip",
+      "money",
+      "quoin",
+      "wedge",
+      "manufacture",
+      "mint",
+      "invent",
+      "originate"
+    ],
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null
+  },
+  {
+    "text": "inexpensive",
+    "translations": [
+      "ucuz",
+      "pahalı olmayan"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/inexpensive-us.mp3",
+    "ipa": "/ˌɪnɪkˈspɛnsɪv/",
+    "synonyms": [
+      "cheap",
+      "economical"
+    ],
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null
+  },
+  {
+    "text": "made",
+    "translations": [
+      "yapılmış",
+      "edilmiş",
+      "üretilmiş"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/made-us.mp3",
+    "ipa": "/meɪd/",
+    "synonyms": [
+      "render",
+      "fabricate",
+      "notice",
+      "twig",
+      "coitize",
+      "go to bed with",
+      "sleep with"
+    ],
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null
+  },
+  {
+    "text": "bigger",
+    "translations": [
+      "daha büyük",
+      "büyük"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/bigger-us.mp3",
+    "ipa": "/ˈbɪɡə/",
+    "synonyms": [
+      "ample",
+      "huge",
+      "jumbo",
+      "large",
+      "massive",
+      "sizeable",
+      "stoor",
+      "all the rage"
+    ],
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null
+  },
+  {
+    "text": "biggest",
+    "translations": [
+      "en büyük"
+    ],
+    "audioURL": null,
+    "ipa": "/ˈbɪɡəst/",
+    "synonyms": [
+      "ample",
+      "huge",
+      "jumbo",
+      "large",
+      "massive",
+      "sizeable",
+      "stoor",
+      "all the rage"
+    ],
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null
+  },
+  {
+    "text": "faster",
+    "translations": [
+      "daha hızlı"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/faster-us.mp3",
+    "ipa": "/ˈfɑːstə/",
+    "synonyms": [
+      "firm",
+      "immobile",
+      "secure",
+      "stable",
+      "stuck",
+      "tight",
+      "fortified",
+      "impenetrable"
+    ],
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null
+  },
+  {
+    "text": "heavier",
+    "translations": [
+      "daha ağır",
+      "ağır"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/heavier-us.mp3",
+    "ipa": "/ˈhɛvɪə/",
+    "synonyms": [
+      "swear",
+      "sweer"
+    ],
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null
+  },
+  {
+    "text": "light",
+    "translations": [
+      "hafif",
+      "aydınlık",
+      "ışık"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/light-us.mp3",
+    "ipa": "/lʌɪt/",
+    "synonyms": [
+      "visible light",
+      "set",
+      "conflagrate",
+      "ignite",
+      "kindle",
+      "illuminate",
+      "light up",
+      "catch fire"
+    ],
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null
+  },
+  {
+    "text": "lighter",
+    "translations": [
+      "daha hafif"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/lighter-us.mp3",
+    "ipa": "/ˈlaɪtə/",
+    "synonyms": [
+      "bright",
+      "lightful",
+      "pale",
+      "cream",
+      "milk",
+      "white",
+      "delicate",
+      "gentle"
+    ],
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null
+  },
+  {
+    "text": "lightest",
+    "translations": [
+      "en açık",
+      "en hafif"
+    ],
+    "audioURL": null,
+    "ipa": null,
+    "synonyms": [
+      "set",
+      "conflagrate",
+      "ignite",
+      "kindle",
+      "illuminate",
+      "light up",
+      "catch fire",
+      "bright"
+    ],
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null
+  },
+  {
+    "text": "slower",
+    "translations": [
+      "daha yavaş"
+    ],
+    "audioURL": null,
+    "ipa": "/ˈsləʊə/",
+    "synonyms": [
+      "careful",
+      "deliberate",
+      "prudent",
+      "boring",
+      "dilatory",
+      "dull",
+      "inactive",
+      "slothful"
+    ],
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null
+  },
+  {
+    "text": "smaller",
+    "translations": [
+      "daha küçük"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/smaller-us.mp3",
+    "ipa": "/ˈsmɑlɚ/",
+    "synonyms": [
+      "little",
+      "microscopic",
+      "minuscule",
+      "minute",
+      "tiny",
+      "lowercase",
+      "wee",
+      "young"
+    ],
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null
+  },
+  {
+    "text": "smallest",
+    "translations": [
+      "çok küçük",
+      "en küçük"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/smallest-us.mp3",
+    "ipa": "/ˈsmɔːlɪst/",
+    "synonyms": [
+      "little",
+      "microscopic",
+      "minuscule",
+      "minute",
+      "tiny",
+      "lowercase",
+      "wee",
+      "young"
+    ],
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null
+  },
+  {
+    "text": "older",
+    "translations": [
+      "daha eski",
+      "eski"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/older-us.mp3",
+    "ipa": "/ˈəʊldə/",
+    "synonyms": [
+      "erstwhile",
+      "ex-",
+      "former",
+      "one-time",
+      "past",
+      "ancient",
+      "long in the tooth",
+      "aged"
+    ],
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null
+  },
+  {
+    "text": "oldest",
+    "translations": [
+      "en eski"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/oldest-us.mp3",
+    "ipa": "/ˈəʊldəst/",
+    "synonyms": [
+      "erstwhile",
+      "ex-",
+      "former",
+      "one-time",
+      "past",
+      "ancient",
+      "long in the tooth",
+      "aged"
+    ],
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null
+  },
+  {
+    "text": "younger",
+    "translations": [
+      "daha genç"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/younger-us.mp3",
+    "ipa": "/ˈjʌŋɡə/",
+    "synonyms": [
+      "junior",
+      "youthful",
+      "juvenile",
+      "immature",
+      "underdeveloped",
+      "undeveloped"
+    ],
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null
+  },
+  {
+    "text": "youngest",
+    "translations": [
+      "en genç"
+    ],
+    "audioURL": null,
+    "ipa": "/ˈjʌŋɡəst/",
+    "synonyms": [
+      "junior",
+      "youthful",
+      "juvenile",
+      "immature",
+      "underdeveloped",
+      "undeveloped"
+    ],
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
     "lastSeen": null
   }
 ]

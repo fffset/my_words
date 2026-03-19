@@ -102,6 +102,8 @@
 
   .empty { text-align: center; padding: 3rem 1rem; color: var(--text3); font-size: 14px; }
   .ipa { font-size: 17px; color: var(--text3); margin-top: 6px; letter-spacing: 0.02em; font-style: italic; }
+  .pos-tags { display: flex; gap: 5px; flex-wrap: wrap; justify-content: center; margin-top: 7px; }
+  .pos-tag { font-size: 10px; font-weight: 600; padding: 2px 8px; border-radius: 99px; border: 1px solid var(--border2); color: var(--text3); background: var(--bg2); letter-spacing: 0.03em; }
   .ipa-preview { font-size: 13px; color: var(--blue); margin-top: 5px; min-height: 18px; font-style: italic; letter-spacing: 0.02em; }
   .congrats { text-align: center; padding: 3rem 1rem; }
   .congrats .big { font-size: 48px; margin-bottom: 0.5rem; }
@@ -279,6 +281,20 @@ function shuffle(arr) {
   return a;
 }
 
+const POS_TR = {
+  noun: 'isim', verb: 'fiil', adjective: 'sıfat', adverb: 'zarf',
+  pronoun: 'zamir', preposition: 'edat', conjunction: 'bağlaç',
+  interjection: 'ünlem', numeral: 'sayı', article: 'artikel',
+  exclamation: 'ünlem', abbreviation: 'kısaltma'
+};
+
+function posTagsHTML(w) {
+  if (!w.definitions || !w.definitions.length) return '';
+  const poses = [...new Set(w.definitions.map(d => d.pos).filter(Boolean))];
+  if (!poses.length) return '';
+  return `<div class="pos-tags">${poses.map(p => `<span class="pos-tag">${POS_TR[p] || p}</span>`).join('')}</div>`;
+}
+
 function wordScore(w) {
   const now = Date.now();
   const daysSince = w.lastSeen ? (now - new Date(w.lastSeen).getTime()) / 86400000 : 999;
@@ -335,6 +351,7 @@ function showCard() {
         ${audioHTML}
         <div class="word">${w.text}</div>
         ${w.ipa ? `<div class="ipa">${w.ipa}</div>` : ''}
+        ${posTagsHTML(w)}
         ${w.synonyms && w.synonyms.length ? `<div style="font-size:12px;color:var(--text3);margin-top:8px;text-align:center;">≈ ${w.synonyms.slice(0,4).join(', ')}</div>` : ''}
         <div class="flip-hint">çeviriyi görmek için tıkla</div>
       </div>
@@ -381,6 +398,7 @@ function flipCard() {
         ${audioHTML}
         <div class="word">${w.text}</div>
         ${w.ipa ? `<div class="ipa">${w.ipa}</div>` : ''}
+        ${posTagsHTML(w)}
         ${w.synonyms && w.synonyms.length ? `<div style="font-size:12px;color:var(--text3);margin-top:8px;text-align:center;">≈ ${w.synonyms.slice(0,4).join(', ')}</div>` : ''}
         <div class="flip-hint">çeviriyi görmek için tıkla</div>`;
       face.style.justifyContent = 'center';
@@ -474,6 +492,7 @@ function renderList() {
       <div style="flex:1;min-width:0">
         <div class="wr-word">${w.text}${w.isNew?'<span class="wr-new">yeni</span>':''}</div>
         ${w.ipa ? `<div style="font-size:11px;color:var(--text3);font-style:italic;margin-top:1px">${w.ipa}</div>` : ''}
+        ${w.definitions && w.definitions.length ? `<div style="display:flex;gap:4px;flex-wrap:wrap;margin-top:3px;">${[...new Set(w.definitions.map(d=>d.pos).filter(Boolean))].map(p=>`<span style="font-size:9px;padding:1px 6px;border-radius:99px;border:1px solid var(--border2);color:var(--text3);background:var(--bg2);">${POS_TR[p]||p}</span>`).join('')}</div>` : ''}
         <div class="wr-tr">${w.translations.join(', ')}</div>
       </div>
       <div class="wr-stats">
@@ -637,6 +656,7 @@ function showReviewCard() {
         ${audioHTML}
         <div class="word">${w.text}</div>
         ${w.ipa ? `<div class="ipa">${w.ipa}</div>` : ''}
+        ${posTagsHTML(w)}
         <div style="font-size:11px;color:var(--text3);margin-top:0.5rem">
           ✗${w.wrong||0} △${w.hard||0} ✓${w.correct||0}
         </div>
@@ -685,6 +705,7 @@ function flipReviewCard() {
         ${audioHTML}
         <div class="word">${w.text}</div>
         ${w.ipa ? `<div class="ipa">${w.ipa}</div>` : ''}
+        ${posTagsHTML(w)}
         <div style="font-size:11px;color:var(--text3);margin-top:0.5rem">✗${w.wrong||0} △${w.hard||0} ✓${w.correct||0}</div>
         <div class="flip-hint">çeviriyi görmek için tıkla</div>`;
       face.style.justifyContent = 'center';
