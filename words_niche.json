@@ -1,0 +1,1764 @@
+[
+  {
+    "text": "advertise",
+    "translations": [
+      "reklam yapmak"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "lastSeen": null,
+    "ipa": "/ˈædvə(ɹ)taɪz/",
+    "synonyms": [
+      "promote",
+      "publicise",
+      "sell",
+      "announce",
+      "proclaim",
+      "promulgate",
+      "publish",
+      "alert"
+    ],
+    "definitions": [
+      {
+        "pos": "verb",
+        "def": "To give (especially public) notice of (something); to announce publicly.",
+        "example": "For personal needs, advertise on the internet or in a local newspaper."
+      }
+    ]
+  },
+  {
+    "text": "advertisement",
+    "translations": [
+      "reklam",
+      "ilan"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/advertisement-us.mp3",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "lastSeen": null,
+    "ipa": "/ədˈvɜːtɪsmənt/",
+    "synonyms": [
+      "ad",
+      "advert"
+    ],
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "A commercial solicitation designed to sell some commodity, service or similar.",
+        "example": "Companies try to sell their products using advertisements in form of placards, television spots and print publications."
+      }
+    ]
+  },
+  {
+    "text": "analyze",
+    "translations": [
+      "analiz etmek",
+      "incelemek"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/analyze-us.mp3",
+    "isNew": false,
+    "correct": 1,
+    "wrong": 0,
+    "lastSeen": "2026-03-18T14:23:51.257Z",
+    "ipa": "/ˈæn.ə.laɪz/",
+    "definitions": [
+      {
+        "pos": "verb",
+        "def": "To subject to analysis.",
+        "example": null
+      }
+    ],
+    "streak": 1
+  },
+  {
+    "text": "ankle",
+    "translations": [
+      "ayak bileği"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/ankle-us.mp3",
+    "isNew": false,
+    "correct": 0,
+    "wrong": 1,
+    "lastSeen": "2026-03-18T14:25:03.816Z",
+    "ipa": "/ˈæŋ.k(ə)l/",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "The skeletal joint which connects the foot with the leg; the uppermost portion of the foot and lowermost portion of the leg, which contain this skeletal joint.",
+        "example": null
+      },
+      {
+        "pos": "verb",
+        "def": "To walk.",
+        "example": null
+      }
+    ],
+    "streak": 0
+  },
+  {
+    "text": "bicycle",
+    "translations": [
+      "bisiklet"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/bicycle-us.mp3",
+    "isNew": false,
+    "correct": 1,
+    "wrong": 0,
+    "lastSeen": "2026-03-18T14:13:27.731Z",
+    "ipa": "/ˈbaɪsɪk(ə)l/",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "A vehicle that has two wheels, one behind the other, a steering handle, and a saddle seat or seats and is usually propelled by the action of a rider’s feet upon pedals.",
+        "example": null
+      },
+      {
+        "pos": "verb",
+        "def": "To travel or exercise using a bicycle.",
+        "example": null
+      }
+    ],
+    "synonyms": [
+      "bike",
+      "pushbike",
+      "velocipede"
+    ],
+    "streak": 1
+  },
+  {
+    "text": "boil",
+    "translations": [
+      "kaynatmak",
+      "kaynamak"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/boil-uk.mp3",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "lastSeen": null,
+    "ipa": "/bɔɪl/",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "A localized accumulation of pus in the skin, resulting from infection.",
+        "example": "Add the noodles when the water comes to the boil."
+      },
+      {
+        "pos": "verb",
+        "def": "(of liquids) To heat to the point where it begins to turn into a gas.",
+        "example": "Boil some water in a pan."
+      }
+    ],
+    "synonyms": [
+      "abscess",
+      "carbuncle",
+      "cyst",
+      "furuncle",
+      "pimple",
+      "pustule",
+      "plaw",
+      "seethe"
+    ]
+  },
+  {
+    "text": "businessman",
+    "translations": [
+      "iş adamı"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/businessman-us.mp3",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "lastSeen": null,
+    "ipa": "/ˈbɪznəsmən/",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "A man in business, one who works at a commercial institution.",
+        "example": null
+      }
+    ],
+    "synonyms": [
+      "businessperson"
+    ]
+  },
+  {
+    "text": "can1",
+    "translations": [
+      "-ebilmek"
+    ],
+    "audioURL": "",
+    "isNew": false,
+    "correct": 1,
+    "wrong": 0,
+    "lastSeen": "2026-03-18T08:41:27.636Z",
+    "ipa": "",
+    "streak": 1
+  },
+  {
+    "text": "can2",
+    "translations": [
+      "teneke kutu",
+      "konserve"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "lastSeen": null,
+    "ipa": ""
+  },
+  {
+    "text": "close1",
+    "translations": [
+      "kapatmak"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "lastSeen": null,
+    "ipa": ""
+  },
+  {
+    "text": "close2",
+    "translations": [
+      "yakın"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "lastSeen": null,
+    "ipa": ""
+  },
+  {
+    "text": "colleague",
+    "translations": [
+      "iş arkadaşı",
+      "meslektaş"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/colleague-us.mp3",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "lastSeen": null,
+    "ipa": "/ˈkɒliːɡ/",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "A fellow member of a profession, staff, academic faculty or other organization; an associate.",
+        "example": null
+      },
+      {
+        "pos": "verb",
+        "def": "To unite or associate with another or with others.",
+        "example": "Young Fortinbras,/ Holding a weak supposal of our worth/...Colleagued with the dream of his advantage,/...hath not failed to pester us with message/ Importing the surrender of those lands/Lost by his father. - Hamlet (Act I, Scene 2)"
+      }
+    ],
+    "synonyms": [
+      "coworker",
+      "workmate"
+    ]
+  },
+  {
+    "text": "curly",
+    "translations": [
+      "kıvırcık"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/curly-uk.mp3",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "lastSeen": null,
+    "ipa": "/ˈkɝli/",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "A person or animal with curly hair.",
+        "example": null
+      },
+      {
+        "pos": "adjective",
+        "def": "Having curls.",
+        "example": null
+      }
+    ]
+  },
+  {
+    "text": "dancer",
+    "translations": [
+      "dansçı"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/dancer-us.mp3",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "lastSeen": null,
+    "ipa": "/ˈdɑːnsə(ɹ)/",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "A person who dances, usually as a job or profession.",
+        "example": null
+      }
+    ],
+    "synonyms": [
+      "stepper",
+      "exotic dancer"
+    ]
+  },
+  {
+    "text": "dentist",
+    "translations": [
+      "dişçi"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/dentist-us.mp3",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "lastSeen": null,
+    "ipa": "/ˈdɛntɪst/",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "A medical doctor who specializes in dentistry.",
+        "example": null
+      }
+    ]
+  },
+  {
+    "text": "do1",
+    "translations": [
+      "yapmak"
+    ],
+    "audioURL": "",
+    "isNew": false,
+    "correct": 1,
+    "wrong": 0,
+    "lastSeen": "2026-03-18T14:36:37.385Z",
+    "ipa": "/dɔː˥/",
+    "streak": 1
+  },
+  {
+    "text": "eighteen",
+    "translations": [
+      "on sekiz"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/eighteen-us.mp3",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "lastSeen": null,
+    "ipa": "/ˈeɪ.tiːn/",
+    "definitions": [
+      {
+        "pos": "numeral",
+        "def": "The cardinal number occurring after seventeen and before nineteen, represented in Roman numerals as XVIII and in Arabic numerals as 18.",
+        "example": null
+      }
+    ]
+  },
+  {
+    "text": "eighty",
+    "translations": [
+      "seksen"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/eighty-us.mp3",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "lastSeen": null,
+    "ipa": "[ˈ(ʔ)eɪ̯ɾi]",
+    "definitions": [
+      {
+        "pos": "numeral",
+        "def": "The cardinal number occurring after seventy-nine and before eighty-one, represented in Roman numerals as LXXX and in Arabic numerals as 80.",
+        "example": null
+      }
+    ]
+  },
+  {
+    "text": "elevator",
+    "translations": [
+      "asansör"
+    ],
+    "audioURL": "",
+    "isNew": false,
+    "correct": 0,
+    "wrong": 1,
+    "lastSeen": "2026-03-18T14:22:04.149Z",
+    "ipa": "/ˈɛl.ə.veɪ.tɚ/",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "Anything that raises or uplifts.",
+        "example": null
+      }
+    ],
+    "synonyms": [
+      "lift"
+    ],
+    "streak": 0
+  },
+  {
+    "text": "employ",
+    "translations": [
+      "işe almak"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/employ-us.mp3",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "lastSeen": null,
+    "ipa": "/ɛmˈplɔɪ/",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "The state of being an employee; employment.",
+        "example": "The school district has six thousand teachers in its employ."
+      },
+      {
+        "pos": "verb",
+        "def": "To hire (somebody for work or a job).",
+        "example": "Yesterday our local garage employed a new mechanic."
+      }
+    ],
+    "synonyms": [
+      "hire",
+      "apply",
+      "use",
+      "utilize"
+    ]
+  },
+  {
+    "text": "flu",
+    "translations": [
+      "grip"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/flu-us.mp3",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "lastSeen": null,
+    "ipa": "/flʉː/",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "Influenza.",
+        "example": null
+      }
+    ],
+    "synonyms": [
+      "grip",
+      "grippe"
+    ]
+  },
+  {
+    "text": "fortunately",
+    "translations": [
+      "neyse ki"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/fortunately-us.mp3",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "lastSeen": null,
+    "ipa": "/ˈfɔːt͡ʃənɪtli/",
+    "definitions": [
+      {
+        "pos": "adverb",
+        "def": "In a fortunate manner.",
+        "example": "Fortunately, Sam's pet hamster was not dead."
+      }
+    ],
+    "synonyms": [
+      "auspiciously",
+      "luckily",
+      "happily",
+      "mercifully",
+      "thankfully"
+    ]
+  },
+  {
+    "text": "fourteen",
+    "translations": [
+      "on dört"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/fourteen-us.mp3",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "lastSeen": null,
+    "ipa": "/ˈfɔː.tiːn/",
+    "definitions": [
+      {
+        "pos": "numeral",
+        "def": "The cardinal number occurring after thirteen and before fifteen, represented in Roman numerals as XIV and in Arabic numerals as 14.",
+        "example": null
+      }
+    ]
+  },
+  {
+    "text": "frog",
+    "translations": [
+      "kurbağa"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/frog-us.mp3",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "lastSeen": null,
+    "ipa": "/fɹɒɡ/",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "A small tailless amphibian of the order Anura that typically hops.",
+        "example": null
+      },
+      {
+        "pos": "verb",
+        "def": "To hunt or trap frogs.",
+        "example": null
+      }
+    ],
+    "synonyms": [
+      "frosh",
+      "frosk",
+      "pad",
+      "paddock",
+      "common crossing",
+      "baguette"
+    ]
+  },
+  {
+    "text": "geography",
+    "translations": [
+      "coğrafya"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/geography-us.mp3",
+    "isNew": false,
+    "correct": 1,
+    "wrong": 0,
+    "lastSeen": "2026-03-18T11:30:07.042Z",
+    "ipa": "/dʒɪˈɒɡɹəfi/",
+    "streak": 1,
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "A description of the earth: a treatise or textbook on geography; an atlas or gazetteer.",
+        "example": null
+      }
+    ],
+    "synonyms": [
+      "loo"
+    ]
+  },
+  {
+    "text": "grandparent",
+    "translations": [
+      "büyükanne/baba"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "lastSeen": null,
+    "ipa": "/ˈɡɹæn(d)pæɹənt/",
+    "definitions": [
+      {
+        "pos": "verb",
+        "def": "To be, or act as, a grandfather to.",
+        "example": null
+      },
+      {
+        "pos": "noun",
+        "def": "The parent of someone's parent",
+        "example": null
+      }
+    ]
+  },
+  {
+    "text": "greet",
+    "translations": [
+      "selamlamak",
+      "karşılamak"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/greet-us.mp3",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "lastSeen": null,
+    "ipa": "/ɡɹiːt/",
+    "definitions": [
+      {
+        "pos": "verb",
+        "def": "To welcome in a friendly manner, either in person or through another means e.g. writing or over the phone/internet",
+        "example": "A brilliant dawn greeted her eyes as she looked out of the window."
+      },
+      {
+        "pos": "adjective",
+        "def": "(obsolete outside Scotland) Great.",
+        "example": null
+      },
+      {
+        "pos": "noun",
+        "def": "Mourning, weeping, lamentation.",
+        "example": null
+      }
+    ]
+  },
+  {
+    "text": "headache",
+    "translations": [
+      "baş ağrısı"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/headache-us.mp3",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "lastSeen": null,
+    "ipa": "/ˈhɛdeɪk/",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "A pain or ache in the head.",
+        "example": "The clumsy filing system has been a huge headache."
+      }
+    ],
+    "synonyms": [
+      "bother",
+      "pain in the neck",
+      "cephalalgia"
+    ]
+  },
+  {
+    "text": "hers",
+    "translations": [
+      "onunki"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/hers-us.mp3",
+    "isNew": false,
+    "correct": 3,
+    "wrong": 1,
+    "lastSeen": "2026-03-18T14:08:30.678Z",
+    "ipa": "/əz/",
+    "streak": 3,
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "A female person or animal.",
+        "example": "I think this bird is a him, but it may be a her."
+      },
+      {
+        "pos": "pronoun",
+        "def": "That which belongs to her; the possessive case of she, used without a following noun.",
+        "example": null
+      }
+    ],
+    "synonyms": [
+      "she"
+    ]
+  },
+  {
+    "text": "hobby",
+    "translations": [
+      "hobi"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/hobby-uk.mp3",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "lastSeen": null,
+    "ipa": "/ˈhɒ.bi/",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "An activity that one enjoys doing in one's spare time.",
+        "example": "I like to collect stamps from different countries as a hobby."
+      }
+    ],
+    "synonyms": [
+      "avocation",
+      "pastime"
+    ]
+  },
+  {
+    "text": "informal",
+    "translations": [
+      "gayri resmi"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/informal-us.mp3",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "lastSeen": null,
+    "ipa": "/ɪnˈfɔːm(ə)l/",
+    "definitions": [
+      {
+        "pos": "adjective",
+        "def": "Not formal or ceremonious.",
+        "example": "an informal get-together"
+      }
+    ],
+    "synonyms": [
+      "colloquial",
+      "casual",
+      "unofficial"
+    ]
+  },
+  {
+    "text": "insect",
+    "translations": [
+      "böcek"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/insect-us.mp3",
+    "isNew": false,
+    "correct": 0,
+    "wrong": 1,
+    "lastSeen": "2026-03-18T14:24:23.815Z",
+    "ipa": "/ˈɪnsɛkt/",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "An arthropod in the class Insecta, characterized by six legs, up to four wings, and a chitinous exoskeleton.",
+        "example": "Our shed has several insect infestions, including ants, yellowjackets, and wasps."
+      }
+    ],
+    "synonyms": [
+      "bug"
+    ],
+    "streak": 0
+  },
+  {
+    "text": "invent",
+    "translations": [
+      "icat etmek"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/invent-us.mp3",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "lastSeen": null,
+    "ipa": "/ɪnˈvɛnt/",
+    "definitions": [
+      {
+        "pos": "verb",
+        "def": "To design a new process or mechanism.",
+        "example": "After weeks of hard work, I invented a new way to alphabetize matchbooks."
+      }
+    ],
+    "synonyms": [
+      "make up",
+      "fangle"
+    ]
+  },
+  {
+    "text": "kilometer",
+    "translations": [
+      "kilometre"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/kilometer-us.mp3",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "lastSeen": null,
+    "ipa": "/kɪˈlɒmɪtə/",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "(official BIPM spelling, Australian, New Zealand, Irish, Indian and South African spelling) An SI unit of length equal to 103 metres. Symbol: km",
+        "example": null
+      }
+    ],
+    "synonyms": [
+      "SI",
+      "km",
+      "klick"
+    ]
+  },
+  {
+    "text": "last1 (final)",
+    "translations": [
+      "son"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "lastSeen": null,
+    "ipa": ""
+  },
+  {
+    "text": "last1 (taking time)",
+    "translations": [
+      "sürmek"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "lastSeen": null,
+    "ipa": ""
+  },
+  {
+    "text": "lead1",
+    "translations": [
+      "öncülük etmek",
+      "kurşun"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "lastSeen": null,
+    "ipa": ""
+  },
+  {
+    "text": "lend",
+    "translations": [
+      "ödünç vermek"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/lend-us.mp3",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "lastSeen": null,
+    "ipa": "/lɛnd/",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "The lumbar region; loin.",
+        "example": null
+      },
+      {
+        "pos": "verb",
+        "def": "To allow to be used by someone temporarily, on condition that it or its equivalent will be returned.",
+        "example": "I lent her 10 euros to pay for the train tickets, and she paid me back the next day."
+      }
+    ],
+    "synonyms": [
+      "borrow"
+    ]
+  },
+  {
+    "text": "lie1",
+    "translations": [
+      "yatmak",
+      "uzanmak"
+    ],
+    "audioURL": "",
+    "isNew": false,
+    "correct": 0,
+    "wrong": 3,
+    "lastSeen": "2026-03-18T14:15:10.212Z",
+    "ipa": "",
+    "streak": 0
+  },
+  {
+    "text": "listener",
+    "translations": [
+      "dinleyici"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/listener-us.mp3",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "lastSeen": null,
+    "ipa": "/ˈlɪs(ə)nə/",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "Someone who listens, especially to a speech or a broadcast.",
+        "example": null
+      }
+    ]
+  },
+  {
+    "text": "live1",
+    "translations": [
+      "yaşamak"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "lastSeen": null,
+    "ipa": ""
+  },
+  {
+    "text": "long1",
+    "translations": [
+      "uzun"
+    ],
+    "audioURL": "",
+    "isNew": false,
+    "correct": 1,
+    "wrong": 0,
+    "lastSeen": "2026-03-18T14:19:13.047Z",
+    "ipa": "/lɔːŋ˥/",
+    "streak": 1
+  },
+  {
+    "text": "loudly",
+    "translations": [
+      "yüksek sesle"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/loudly-us.mp3",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "lastSeen": null,
+    "ipa": "/ˈlaʊdli/",
+    "definitions": [
+      {
+        "pos": "adverb",
+        "def": "In a loud manner; at a high volume.",
+        "example": "He spoke loudly so that his brother could hear him from across the street."
+      }
+    ],
+    "synonyms": [
+      "loud"
+    ]
+  },
+  {
+    "text": "minute1",
+    "translations": [
+      "dakika"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "lastSeen": null,
+    "ipa": ""
+  },
+  {
+    "text": "nineteen",
+    "translations": [
+      "on dokuz"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/nineteen-us-stressed.mp3",
+    "isNew": false,
+    "correct": 1,
+    "wrong": 0,
+    "lastSeen": "2026-03-18T14:19:23.363Z",
+    "ipa": "/naɪnˈtiːn/",
+    "definitions": [
+      {
+        "pos": "numeral",
+        "def": "The cardinal number occurring after eighteen and before twenty, represented in Roman numerals as XIX and in Arabic numerals as 19. It is the last/largest of the \"teens\".",
+        "example": null
+      }
+    ],
+    "streak": 1
+  },
+  {
+    "text": "noisy",
+    "translations": [
+      "gürültülü"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/noisy-us.mp3",
+    "isNew": false,
+    "correct": 0,
+    "wrong": 1,
+    "lastSeen": "2026-03-18T14:28:19.884Z",
+    "ipa": "/ˈnɔːɪzɪ/",
+    "definitions": [
+      {
+        "pos": "adjective",
+        "def": "Making a noise, especially a loud unpleasant sound",
+        "example": "the noisy crowd."
+      }
+    ],
+    "synonyms": [
+      "boisterous",
+      "clamorous",
+      "turbulent",
+      "vociferous"
+    ],
+    "streak": 0
+  },
+  {
+    "text": "organize",
+    "translations": [
+      "düzenlemek"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "lastSeen": null,
+    "ipa": "/ˈɔːɡənaɪz/",
+    "definitions": [
+      {
+        "pos": "verb",
+        "def": "To arrange in working order.",
+        "example": "an organized being"
+      }
+    ]
+  },
+  {
+    "text": "painter",
+    "translations": [
+      "ressam",
+      "boyacı"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/painter-us.mp3",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "lastSeen": null,
+    "ipa": "/ˈpeɪntə/",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "An artist who paints pictures.",
+        "example": null
+      }
+    ]
+  },
+  {
+    "text": "policeman",
+    "translations": [
+      "polis"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/policeman-us.mp3",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "lastSeen": null,
+    "ipa": "/pəˈliːsmən/",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "One who enforces.",
+        "example": null
+      }
+    ],
+    "synonyms": [
+      "policeman",
+      "rubber policeman",
+      "police officer"
+    ]
+  },
+  {
+    "text": "pronounce",
+    "translations": [
+      "telaffuz etmek"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/pronounce-us.mp3",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "lastSeen": null,
+    "ipa": "/pɹəˈnaʊns/",
+    "definitions": [
+      {
+        "pos": "verb",
+        "def": "To declare formally, officially or ceremoniously.",
+        "example": "I hereby pronounce you man and wife."
+      }
+    ]
+  },
+  {
+    "text": "recycle",
+    "translations": [
+      "geri dönüştürmek"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "lastSeen": null,
+    "ipa": "/ɹiˈsaɪkəl/",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "An act of recycling.",
+        "example": null
+      },
+      {
+        "pos": "verb",
+        "def": "To break down and reuse component materials.",
+        "example": "Both paper and plastic can be recycled."
+      }
+    ]
+  },
+  {
+    "text": "refrigerator",
+    "translations": [
+      "buzdolabı"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/refrigerator-us.mp3",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "lastSeen": null,
+    "ipa": "/ɹɪˈfɹɪd͡ʒəˌɹeɪtə/",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "A household appliance used for keeping food fresh by refrigeration (short form fridge).",
+        "example": null
+      }
+    ],
+    "synonyms": [
+      "chiller",
+      "coolchest",
+      "fridge",
+      "frigerator",
+      "icebox"
+    ]
+  },
+  {
+    "text": "refuse1",
+    "translations": [
+      "reddetmek"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "lastSeen": null,
+    "ipa": ""
+  },
+  {
+    "text": "researcher",
+    "translations": [
+      "araştırmacı"
+    ],
+    "audioURL": "",
+    "isNew": false,
+    "correct": 1,
+    "wrong": 0,
+    "lastSeen": "2026-03-18T14:38:12.703Z",
+    "ipa": "/ɹɪˈsɜː.t͡ʃə/",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "One who researches.",
+        "example": null
+      }
+    ],
+    "streak": 1
+  },
+  {
+    "text": "ring1",
+    "translations": [
+      "yüzük"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "lastSeen": null,
+    "ipa": ""
+  },
+  {
+    "text": "ring2",
+    "translations": [
+      "çalmak",
+      "halka"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "lastSeen": null,
+    "ipa": ""
+  },
+  {
+    "text": "sailing",
+    "translations": [
+      "yelkencilik"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/sailing-us.mp3",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "lastSeen": null,
+    "ipa": "/ˈseɪ.lɪŋ/",
+    "definitions": [
+      {
+        "pos": "verb",
+        "def": "To be impelled or driven forward by the action of wind upon sails, as a ship on water; to be impelled on a body of water by steam or other power.",
+        "example": "We sail for Australia tomorrow."
+      },
+      {
+        "pos": "adjective",
+        "def": "Travelling by ship.",
+        "example": null
+      },
+      {
+        "pos": "noun",
+        "def": "Motion across a body of water in a craft powered by the wind, as a sport or otherwise",
+        "example": null
+      }
+    ]
+  },
+  {
+    "text": "second1 (unit of time)",
+    "translations": [
+      "saniye"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "lastSeen": null,
+    "ipa": ""
+  },
+  {
+    "text": "seventeen",
+    "translations": [
+      "on yedi"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/seventeen-us.mp3",
+    "isNew": false,
+    "correct": 1,
+    "wrong": 0,
+    "lastSeen": "2026-03-18T14:36:31.835Z",
+    "ipa": "/ˈsɛv.ən.tiːn/",
+    "definitions": [
+      {
+        "pos": "numeral",
+        "def": "The cardinal number occurring after sixteen and before eighteen, represented in Roman numerals as XVII and in Arabic numerals as 17.",
+        "example": null
+      }
+    ],
+    "streak": 1
+  },
+  {
+    "text": "seventy",
+    "translations": [
+      "yetmiş"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/seventy-us.mp3",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "lastSeen": null,
+    "ipa": "/ˈsɛv.ən.di/",
+    "definitions": [
+      {
+        "pos": "numeral",
+        "def": "The cardinal number occurring after sixty-nine and before seventy-one, represented in Roman numerals as LXX and in Arabic numerals as 70.",
+        "example": null
+      }
+    ],
+    "synonyms": [
+      "70",
+      "Arabic numerals",
+      "LXX",
+      "Roman numerals"
+    ]
+  },
+  {
+    "text": "sixteen",
+    "translations": [
+      "on altı"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/sixteen-us.mp3",
+    "isNew": false,
+    "correct": 1,
+    "wrong": 0,
+    "lastSeen": "2026-03-18T11:27:35.440Z",
+    "ipa": "/ˈsɪks.tiːn/",
+    "streak": 1,
+    "definitions": [
+      {
+        "pos": "numeral",
+        "def": "The cardinal number occurring after fifteen and before seventeen, represented in Arabic numerals as 16 and in Roman numerals as XVI.",
+        "example": null
+      }
+    ]
+  },
+  {
+    "text": "sixty",
+    "translations": [
+      "altmış"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/sixty-us.mp3",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "lastSeen": null,
+    "ipa": "/ˈsɪkstɪ/",
+    "definitions": [
+      {
+        "pos": "numeral",
+        "def": "The cardinal number occurring after fifty-nine and before sixty-one, represented in Roman numerals as LX and in Arabic numerals as 60.",
+        "example": null
+      }
+    ],
+    "synonyms": [
+      "60",
+      "LX"
+    ]
+  },
+  {
+    "text": "skiing",
+    "translations": [
+      "kayak"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "lastSeen": null,
+    "ipa": "/ˈskiɪŋ/",
+    "definitions": [
+      {
+        "pos": "verb",
+        "def": "To move on skis",
+        "example": null
+      },
+      {
+        "pos": "noun",
+        "def": "A group of sports utilizing skis as primary equipment.",
+        "example": null
+      }
+    ]
+  },
+  {
+    "text": "sneaker",
+    "translations": [
+      "spor ayakkabı"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/sneaker-us.mp3",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "lastSeen": null,
+    "ipa": "/ˈsnikɚ/",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "One who sneaks.",
+        "example": null
+      }
+    ],
+    "synonyms": [
+      "kicks",
+      "runner",
+      "running shoe",
+      "tennis shoe",
+      "trainer"
+    ]
+  },
+  {
+    "text": "spoon",
+    "translations": [
+      "kaşık"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/spoon-us.mp3",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "lastSeen": null,
+    "ipa": "/spuːn/",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "An implement for eating or serving; a scooped utensil whose long handle is straight, in contrast to a ladle.",
+        "example": null
+      },
+      {
+        "pos": "verb",
+        "def": "To serve using a spoon; to transfer (something) with a spoon.",
+        "example": "Sarah spooned some apple sauce onto her plate."
+      }
+    ]
+  },
+  {
+    "text": "stair",
+    "translations": [
+      "merdiven basamağı"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/stair-us.mp3",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "lastSeen": null,
+    "ipa": "/stɛə/",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "A single step in a staircase.",
+        "example": null
+      }
+    ],
+    "synonyms": [
+      "apples and pears"
+    ]
+  },
+  {
+    "text": "stove",
+    "translations": [
+      "ocak",
+      "soba"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/stove-us.mp3",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "lastSeen": null,
+    "ipa": "/stəʊv/",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "A heater, a closed apparatus to burn fuel for the warming of a room.",
+        "example": null
+      },
+      {
+        "pos": "verb",
+        "def": "To heat or dry, as in a stove.",
+        "example": "to stove feathers"
+      }
+    ]
+  },
+  {
+    "text": "thief",
+    "translations": [
+      "hırsız"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/thief-us.mp3",
+    "isNew": false,
+    "correct": 1,
+    "wrong": 0,
+    "lastSeen": "2026-03-18T14:15:50.727Z",
+    "ipa": "/θiːf/",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "One who carries out a theft.",
+        "example": null
+      }
+    ],
+    "streak": 1
+  },
+  {
+    "text": "thirteen",
+    "translations": [
+      "on üç"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/thirteen-us-stressed.mp3",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "lastSeen": null,
+    "ipa": "/ˌθɜːˈtiːn/",
+    "definitions": [
+      {
+        "pos": "numeral",
+        "def": "The cardinal number occurring after twelve and before fourteen, represented in Roman numerals as XIII and in Arabic numerals as 13.",
+        "example": "There are thirteen cards of each of the four suits in a deck of playing cards."
+      }
+    ],
+    "synonyms": [
+      "baker’s dozen",
+      "long dozen",
+      "throtteen"
+    ]
+  },
+  {
+    "text": "traveler",
+    "translations": [
+      "gezgin",
+      "yolcu"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/traveler-us.mp3",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "lastSeen": null,
+    "ipa": "/ˈtɹæv.l̩.ɚ/",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "A member of a particular nomadic ethnic minority in Ireland, the Pavee.",
+        "example": null
+      }
+    ],
+    "synonyms": [
+      "Gypsy",
+      "Minkier",
+      "Pavee",
+      "Pikey",
+      "pikey",
+      "Pikie",
+      "pikie",
+      "Traveler"
+    ]
+  },
+  {
+    "text": "umbrella",
+    "translations": [
+      "şemsiye"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/umbrella-us.mp3",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "lastSeen": null,
+    "ipa": "/ʌmˈbɹɛlə/",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "Cloth-covered frame used for protection against rain or sun.",
+        "example": "Quick, grab that umbrella before you get rained on!"
+      },
+      {
+        "pos": "verb",
+        "def": "To cover or protect, as if by an umbrella.",
+        "example": null
+      }
+    ],
+    "synonyms": [
+      "brolly",
+      "gamp",
+      "parasol",
+      "rainshade"
+    ]
+  },
+  {
+    "text": "waiter",
+    "translations": [
+      "garson"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/waiter-us.mp3",
+    "isNew": false,
+    "correct": 0,
+    "wrong": 1,
+    "lastSeen": "2026-03-18T14:20:27.596Z",
+    "ipa": "/ˈweɪtə/",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "A male or female attendant who serves customers at their tables in a restaurant, café or similar.",
+        "example": "Waiter! There's a fly in my soup."
+      }
+    ],
+    "streak": 0
+  },
+  {
+    "text": "wind1",
+    "translations": [
+      "rüzgar"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "lastSeen": null,
+    "ipa": ""
+  },
+  {
+    "text": "demonstrative",
+    "translations": [
+      "gösterici",
+      "açıkça belli eden"
+    ],
+    "audioURL": null,
+    "ipa": "/dɪˈmɒnstɹətɪv/",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "lastSeen": null,
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "(grammar) A demonstrative word",
+        "example": null
+      },
+      {
+        "pos": "adjective",
+        "def": "That serves to demonstrate, show or prove",
+        "example": null
+      }
+    ]
+  },
+  {
+    "text": "pronoun",
+    "translations": [
+      "zamir"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/pronoun-us.mp3",
+    "ipa": "/ˈpɹəʊnaʊn/",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "lastSeen": null,
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "(grammar) A type of noun that refers anaphorically to another noun or noun phrase, but which cannot ordinarily be preceded by a determiner and rarely takes an attributive adjective. English examples include I, you, him, who, me, my, each other.",
+        "example": null
+      }
+    ]
+  },
+  {
+    "text": "Demonstrative pronouns",
+    "translations": [
+      "işaret zamirleri"
+    ],
+    "audioURL": null,
+    "ipa": null,
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "lastSeen": null
+  },
+  {
+    "text": "distinguishing",
+    "translations": [
+      "ayırt edici"
+    ],
+    "audioURL": null,
+    "ipa": null,
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "lastSeen": null,
+    "definitions": [
+      {
+        "pos": "verb",
+        "def": "To recognize someone or something as different from others based on its characteristics.",
+        "example": "The soldier distinguished himself in combat and received a medal."
+      },
+      {
+        "pos": "noun",
+        "def": "The act by which something is distinguished or told apart.",
+        "example": null
+      },
+      {
+        "pos": "adjective",
+        "def": "That serves to distinguish.",
+        "example": null
+      }
+    ],
+    "synonyms": [
+      "differentiate",
+      "discriminate"
+    ]
+  },
+  {
+    "text": "plural",
+    "translations": [
+      "çoğul"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/plural-us.mp3",
+    "ipa": "/ˈplɔː.ɹəl/",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "lastSeen": null,
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "(grammar) The plural number.",
+        "example": null
+      },
+      {
+        "pos": "adjective",
+        "def": "Consisting of or containing more than one of something.",
+        "example": null
+      }
+    ],
+    "synonyms": [
+      "manifold",
+      "morefold",
+      "multiple",
+      "several"
+    ]
+  },
+  {
+    "text": "different contexts",
+    "translations": [
+      "farklı bağlamlar"
+    ],
+    "audioURL": null,
+    "ipa": null,
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "lastSeen": null
+  },
+  {
+    "text": "mug",
+    "translations": [
+      "kulplu bardak",
+      "kupa"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/mug-us.mp3",
+    "ipa": "/mʌɡ/",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "lastSeen": null,
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "A large cup for hot liquids, usually having a handle and used without a saucer.",
+        "example": "What an ugly mug."
+      },
+      {
+        "pos": "verb",
+        "def": "To strike in the face.",
+        "example": "The children weren't interested in sitting still for a serious photo; they mugged for the camera."
+      },
+      {
+        "pos": "adjective",
+        "def": "Easily fooled, gullible.",
+        "example": null
+      }
+    ],
+    "synonyms": [
+      "dial",
+      "mush",
+      "phiz"
+    ]
+  },
+  {
+    "text": "ergonomics",
+    "translations": [
+      "ergonomi"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/ergonomics-au.mp3",
+    "ipa": "/əːɡəˈnɒmɪks/",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "lastSeen": null,
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "The science of the design of equipment, especially so as to reduce operator fatigue, discomfort and injury.",
+        "example": "Ergonomics is increasingly important in office-product design."
+      }
+    ],
+    "synonyms": [
+      "human factors"
+    ]
+  }
+]
