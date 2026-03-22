@@ -134,6 +134,9 @@
       <button class="tab" onclick="switchTab('review')">yanlışlar</button>
       <button class="tab" onclick="switchTab('list')">kelimeler</button>
       <button class="tab" onclick="switchTab('add')">ekle</button>
+      <div style="margin-left:auto;display:flex;align-items:center;padding:0 4px;">
+        <span id="session-timer" style="font-size:13px;font-weight:500;color:var(--text3);letter-spacing:0.05em;font-variant-numeric:tabular-nums;">00:00</span>
+      </div>
     </div>
 
     <div id="tab-study">
@@ -237,6 +240,7 @@ async function loadWords() {
     buildQueue();
     updateStats();
     showCard();
+    startTimer();
   } catch(e) {
     document.getElementById('loading').innerHTML =
       `<div class="conn-error">
@@ -248,10 +252,10 @@ async function loadWords() {
   }
 }
 
-function saveWords() {
+function saveWords(silent = false) {
   if (saveTimer) clearTimeout(saveTimer);
   saveTimer = setTimeout(async () => {
-    setIndicator('saving', 'kaydediliyor...');
+    if (!silent) setIndicator('saving', 'kaydediliyor...');
     try {
       const res = await fetch('/words', {
         method: 'POST',
@@ -259,8 +263,10 @@ function saveWords() {
         body: JSON.stringify(words)
       });
       if (!res.ok) throw new Error();
-      setIndicator('saved', 'kaydedildi ✓');
-      setTimeout(() => setIndicator('', ''), 2000);
+      if (!silent) {
+        setIndicator('saved', 'kaydedildi ✓');
+        setTimeout(() => setIndicator('', ''), 2000);
+      }
     } catch(e) {
       setIndicator('error', 'kaydetme hatası!');
     }
@@ -387,7 +393,7 @@ function flipCard() {
     document.getElementById('actions').style.display = 'block';
     w.isNew = false;
     w.lastSeen = new Date().toISOString();
-    saveWords();
+    saveWords(true);
   } else {
     face.style.opacity = '0';
     setTimeout(() => {
@@ -459,6 +465,18 @@ function answer(type) {
   else if (type === 'hard') { sessionHard++; document.getElementById('s-hard').textContent = sessionHard; }
   else if (type === 'easy') { sessionEasy++; document.getElementById('s-easy').textContent = sessionEasy; }
   else { sessionWrong++; document.getElementById('s-wrong').textContent = sessionWrong; }
+
+  // Yanlış veya zor → aynı oturumda 2 kez daha göster (araya 4 kelime girerek)
+  if (type === 'wrong' || type === 'hard') {
+    const currentPos = queueIdx % queue.length;
+    const gap = Math.min(4, queue.length - 1);
+    // İki kopya ekle — biri 4 sonra, biri 8 sonra
+    const insert1 = currentPos + gap + 1;
+    const insert2 = currentPos + gap * 2 + 2;
+    queue.splice(Math.min(insert1, queue.length), 0, w);
+    queue.splice(Math.min(insert2, queue.length), 0, w);
+  }
+
   saveWords();
   updateStats();
   nextCard();
@@ -471,11 +489,13 @@ function nextCard() {
 }
 
 function switchTab(tab) {
+  currentTab = tab;
   ['study','review','list','add'].forEach(t => document.getElementById('tab-'+t).style.display = t===tab?'block':'none');
   document.querySelectorAll('.tab').forEach((el,i) => el.classList.toggle('active', ['study','review','list','add'][i]===tab));
-  if (tab==='list')   renderList();
-  if (tab==='study')  showCard();
-  if (tab==='review') initReview();
+  if (tab==='list')   { stopTimer(); renderList(); }
+  else if (tab==='add')    { stopTimer(); }
+  else if (tab==='study')  { startTimer(); showCard(); }
+  else if (tab==='review') { startTimer(); initReview(); }
 }
 
 function goToWord(text) {
@@ -708,7 +728,7 @@ function flipReviewCard() {
     }, 150);
     document.getElementById('review-actions').style.display = 'block';
     w.lastSeen = new Date().toISOString();
-    saveWords();
+    saveWords(true);
   } else {
     face.style.opacity = '0';
     setTimeout(() => {
@@ -761,6 +781,12 @@ function reviewAnswer(type) {
     if (revQueue.length === 0) { saveWords(); updateStats(); showReviewCard(); return; }
     revIdx = revIdx % revQueue.length;
   } else {
+    // Yanlış veya zor → 4 kelime sonra tekrar göster
+    if (type === 'wrong' || type === 'hard') {
+      const gap = Math.min(4, revQueue.length - 1);
+      const insertAt = (revIdx % revQueue.length) + gap + 1;
+      revQueue.splice(Math.min(insertAt, revQueue.length), 0, w);
+    }
     revIdx++;
     if (revIdx >= revQueue.length) revIdx = 0;
   }
@@ -768,6 +794,41 @@ function reviewAnswer(type) {
   updateStats();
   showReviewCard();
 }
+// ─────────────────────────────────────────────────────────────
+
+// ── TIMER ────────────────────────────────────────────────────
+let timerSeconds = 0;
+let timerInterval = null;
+let timerActive = false;
+
+function formatTime(s) {
+  const m = Math.floor(s / 60);
+  const sec = s % 60;
+  return String(m).padStart(2, '0') + ':' + String(sec).padStart(2, '0');
+}
+
+function startTimer() {
+  if (timerInterval) return;
+  timerActive = true;
+  timerInterval = setInterval(() => {
+    timerSeconds++;
+    document.getElementById('session-timer').textContent = formatTime(timerSeconds);
+  }, 1000);
+}
+
+function stopTimer() {
+  timerActive = false;
+  clearInterval(timerInterval);
+  timerInterval = null;
+}
+
+// Sekme görünürlüğüne göre dur/devam et
+document.addEventListener('visibilitychange', () => {
+  if (document.hidden) { stopTimer(); }
+  else if (['study','review'].includes(currentTab)) { startTimer(); }
+});
+
+let currentTab = 'study';
 // ─────────────────────────────────────────────────────────────
 
 loadWords();
