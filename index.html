@@ -103,6 +103,8 @@
 
   .empty { text-align: center; padding: 3rem 1rem; color: var(--text3); font-size: 14px; }
   .ipa { font-size: 17px; color: var(--text3); margin-top: 6px; letter-spacing: 0.02em; font-style: italic; }
+  .past-form { font-size: 12px; color: var(--text3); margin-top: 5px; }
+  .past-form span { color: var(--text2); font-weight: 500; }
   .pos-tags { display: flex; gap: 5px; flex-wrap: wrap; justify-content: center; margin-top: 7px; }
   .pos-tag { font-size: 10px; font-weight: 600; padding: 2px 8px; border-radius: 99px; border: 1px solid var(--border2); color: var(--text3); background: var(--bg2); letter-spacing: 0.03em; }
   .ipa-preview { font-size: 13px; color: var(--blue); margin-top: 5px; min-height: 18px; font-style: italic; letter-spacing: 0.02em; }
@@ -204,6 +206,11 @@
         <div class="ipa-preview" id="synonyms-preview" style="color:var(--text3)"></div>
         <label>Ses URL (opsiyonel)</label>
         <input type="text" id="new-audio" placeholder="https://...">
+        <label>Past form (opsiyonel)</label>
+        <input type="text" id="new-past" placeholder="örn. went, was/were">
+        <div class="ipa-preview" id="past-preview" style="color:var(--text3)"></div>
+        <label>Örnek cümle (opsiyonel)</label>
+        <input type="text" id="new-example" placeholder="örn. He made a good choice.">
         <div class="tip">
           Ses kaynakları:<br>
           • <strong>Forvo.com</strong> → kelimeyi ara → ses linkini kopyala<br>
@@ -288,6 +295,23 @@ function shuffle(arr) {
   return a;
 }
 
+const IRREGULAR_VERBS = {"arise":"arose","awake":"awoke","be":"was/were","bear":"bore","beat":"beat","become":"became","begin":"began","bend":"bent","bet":"bet","bind":"bound","bite":"bit","bleed":"bled","blow":"blew","break":"broke","breed":"bred","bring":"brought","broadcast":"broadcast","build":"built","burn":"burned/burnt","buy":"bought","catch":"caught","choose":"chose","come":"came","cost":"cost","cut":"cut","deal":"dealt","dig":"dug","do":"did","draw":"drew","dream":"dreamed/dreamt","drink":"drank","drive":"drove","eat":"ate","fall":"fell","feed":"fed","feel":"felt","fight":"fought","find":"found","flee":"fled","fly":"flew","forget":"forgot","forgive":"forgave","freeze":"froze","get":"got","give":"gave","go":"went","grow":"grew","hang":"hung","have":"had","hear":"heard","hide":"hid","hit":"hit","hold":"held","hurt":"hurt","keep":"kept","know":"knew","lay":"laid","lead":"led","leave":"left","lend":"lent","let":"let","lie":"lay","lose":"lost","make":"made","mean":"meant","meet":"met","pay":"paid","put":"put","read":"read","ride":"rode","ring":"rang","rise":"rose","run":"ran","say":"said","see":"saw","seek":"sought","sell":"sold","send":"sent","set":"set","shake":"shook","shine":"shone","shoot":"shot","show":"showed","shut":"shut","sing":"sang","sink":"sank","sit":"sat","sleep":"slept","slide":"slid","speak":"spoke","spend":"spent","spread":"spread","stand":"stood","steal":"stole","stick":"stuck","strike":"struck","swear":"swore","swim":"swam","take":"took","teach":"taught","tear":"tore","tell":"told","think":"thought","throw":"threw","understand":"understood","wake":"woke","wear":"wore","win":"won","write":"wrote","learn":"learned/learnt","smell":"smelled/smelt","spell":"spelled/spelt"};
+
+function getPastForm(word) {
+  const w = word.toLowerCase().trim();
+  if (IRREGULAR_VERBS[w]) return IRREGULAR_VERBS[w];
+  // Düzenli kural
+  if (w.endsWith('e')) return w + 'd';
+  if (w.match(/[^aeiou]y$/)) return w.slice(0,-1) + 'ied';
+  if (w.match(/[^aeiou][aeiou][^aeioulwxy]$/) && w.length <= 8) return w + w.slice(-1) + 'ed';
+  return w + 'ed';
+}
+
+function pastFormHTML(w) {
+  if (!w.pastForm) return '';
+  return `<div class="past-form">geçmiş: <span>${w.pastForm}</span></div>`;
+}
+
 const POS_TR = {
   noun: 'isim', verb: 'fiil', adjective: 'sıfat', adverb: 'zarf',
   pronoun: 'zamir', preposition: 'edat', conjunction: 'bağlaç',
@@ -359,6 +383,7 @@ function showCard() {
         <div class="word">${w.text}</div>
         ${w.ipa ? `<div class="ipa">${w.ipa}</div>` : ''}
         ${posTagsHTML(w)}
+        ${pastFormHTML(w)}
         ${w.synonyms && w.synonyms.length ? `<div style="font-size:12px;color:var(--text3);margin-top:8px;text-align:center;">≈ ${w.synonyms.slice(0,4).join(', ')}</div>` : ''}
         <div class="flip-hint">çeviriyi görmek için tıkla</div>
       </div>
@@ -377,8 +402,8 @@ function flipCard() {
         <div style="width:100%;border-top:1px solid var(--border);margin-top:1rem;padding-top:0.75rem;text-align:left;">
           ${w.definitions.slice(0,3).map(d => `
             <div style="margin-bottom:0.75rem;">
-              <span style="font-size:10px;font-weight:600;color:var(--text3);text-transform:uppercase;letter-spacing:0.05em;">${d.pos}</span>
-              <div style="font-size:12px;color:var(--text2);line-height:1.5;margin-top:2px;">${d.def}</div>
+              ${d.pos ? `<span style="font-size:10px;font-weight:600;color:var(--text3);text-transform:uppercase;letter-spacing:0.05em;">${d.pos}</span>` : '<span style="font-size:10px;font-weight:600;color:var(--blue);text-transform:uppercase;letter-spacing:0.05em;">örnek</span>'}
+              ${d.def ? `<div style="font-size:12px;color:var(--text2);line-height:1.5;margin-top:2px;">${d.def}</div>` : ''}
               ${d.example ? `<div style="font-size:11px;color:var(--text3);font-style:italic;margin-top:3px;">"${d.example}"</div>` : ''}
             </div>`).join('')}
         </div>` : '';
@@ -406,6 +431,7 @@ function flipCard() {
         <div class="word">${w.text}</div>
         ${w.ipa ? `<div class="ipa">${w.ipa}</div>` : ''}
         ${posTagsHTML(w)}
+        ${pastFormHTML(w)}
         ${w.synonyms && w.synonyms.length ? `<div style="font-size:12px;color:var(--text3);margin-top:8px;text-align:center;">≈ ${w.synonyms.slice(0,4).join(', ')}</div>` : ''}
         <div class="flip-hint">çeviriyi görmek için tıkla</div>`;
       face.style.justifyContent = 'center';
@@ -544,6 +570,7 @@ let ipaTimer = null;
 let pendingIPA = null;
 let pendingAudio = null;
 let pendingSynonyms = [];
+let pendingPast = null;
 
 function onWordInput(val) {
   const preview = document.getElementById('ipa-preview');
@@ -576,6 +603,20 @@ function onWordInput(val) {
         if (!synField.value.trim()) synField.value = data.synonyms.join(', ');
         synPreview.textContent = "API'den " + data.synonyms.length + " eş anlamlı bulundu";
       }
+      // Past form tahmini — sadece fiil ise öner
+      const pastField = document.getElementById('new-past');
+      const pastPreview = document.getElementById('past-preview');
+      if (!pastField.value.trim()) {
+        const isVerb = data.definitions && data.definitions.some(d => d.pos === 'verb');
+        if (isVerb) {
+          const suggested = getPastForm(word);
+          pastPreview.textContent = "tahmini: " + suggested;
+          pendingPast = suggested;
+        } else {
+          pastPreview.textContent = '';
+          pendingPast = null;
+        }
+      }
     } catch(e) {
       preview.textContent = '';
     }
@@ -588,10 +629,15 @@ function addWord() {
   const audio    = document.getElementById('new-audio').value.trim() || pendingAudio || null;
   const synRaw   = document.getElementById('new-synonyms').value.trim();
   const synonyms = synRaw ? synRaw.split(',').map(s => s.trim()).filter(Boolean) : [];
-  if (!word || !trans) { alert('Kelime ve çeviri zorunlu!'); return; }
+  const example   = document.getElementById('new-example').value.trim() || null;
+  const pastRaw   = document.getElementById('new-past').value.trim();
+  // Sadece manuel giriş veya IPA araması sırasında tespit edildiyse kullan
+  const pastForm  = pastRaw || pendingPast || null;
+  const existing = words.find(w => w.text.toLowerCase() === word.toLowerCase());
+  if (!word) { alert('Kelime zorunlu!'); return; }
+  if (!trans && !existing) { alert('Yeni kelime için çeviri zorunlu!'); return; }
 
   const newTrans = trans.split(',').map(t => t.trim()).filter(Boolean);
-  const existing = words.find(w => w.text.toLowerCase() === word.toLowerCase());
 
   const s = document.getElementById('add-status');
 
@@ -617,13 +663,20 @@ function addWord() {
       const existingSyns = (existing.synonyms || []).map(s => s.toLowerCase());
       synonyms.forEach(s => { if (!existingSyns.includes(s.toLowerCase())) existing.synonyms.push(s); });
     }
+    if (example) {
+      if (!existing.definitions) existing.definitions = [];
+      const manualIdx = existing.definitions.findIndex(d => !d.pos && !d.def);
+      if (manualIdx >= 0) existing.definitions[manualIdx].example = example;
+      else existing.definitions.push({ pos: null, def: null, example });
+    }
+    if (pastForm) existing.pastForm = pastForm;
 
     saveWords(); updateStats(); buildQueue();
     s.textContent = added.length
       ? `"${word}" güncellendi, eklenen: ${added.join(', ')}`
       : `"${word}" zaten vardı, sayaçlar sıfırlandı ve new yapıldı`;
   } else {
-    words.push({ text: word, translations: newTrans, audioURL: audio||null, ipa: pendingIPA||null, synonyms: synonyms, isNew: true, correct: 0, wrong: 0, hard: 0, streak: 0, easy: false, easyDate: null, lastSeen: null });
+    words.push({ text: word, translations: newTrans, audioURL: audio||null, ipa: pendingIPA||null, synonyms: synonyms, definitions: example ? [{ pos: null, def: null, example }] : [], pastForm: pastForm||null, isNew: true, correct: 0, wrong: 0, hard: 0, streak: 0, easy: false, easyDate: null, lastSeen: null });
     saveWords(); updateStats(); buildQueue();
     s.textContent = '"' + word + '" eklendi!';
   }
@@ -637,6 +690,10 @@ function addWord() {
   document.getElementById('synonyms-preview').textContent = '';
   document.getElementById('new-trans').value = '';
   document.getElementById('new-audio').value = '';
+  document.getElementById('new-example').value = '';
+  document.getElementById('new-past').value = '';
+  document.getElementById('past-preview').textContent = '';
+  pendingPast = null;
   setTimeout(() => s.textContent = '', 3000);
 }
 
@@ -713,8 +770,8 @@ function flipReviewCard() {
         <div style="width:100%;border-top:1px solid var(--border);margin-top:1rem;padding-top:0.75rem;text-align:left;">
           ${w.definitions.slice(0,3).map(d => `
             <div style="margin-bottom:0.75rem;">
-              <span style="font-size:10px;font-weight:600;color:var(--text3);text-transform:uppercase;letter-spacing:0.05em;">${d.pos}</span>
-              <div style="font-size:12px;color:var(--text2);line-height:1.5;margin-top:2px;">${d.def}</div>
+              ${d.pos ? `<span style="font-size:10px;font-weight:600;color:var(--text3);text-transform:uppercase;letter-spacing:0.05em;">${d.pos}</span>` : '<span style="font-size:10px;font-weight:600;color:var(--blue);text-transform:uppercase;letter-spacing:0.05em;">örnek</span>'}
+              ${d.def ? `<div style="font-size:12px;color:var(--text2);line-height:1.5;margin-top:2px;">${d.def}</div>` : ''}
               ${d.example ? `<div style="font-size:11px;color:var(--text3);font-style:italic;margin-top:3px;">"${d.example}"</div>` : ''}
             </div>`).join('')}
         </div>` : '';
