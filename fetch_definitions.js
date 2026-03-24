@@ -1,11 +1,11 @@
-// node fetch_definitions.js words.json
+// node fetch_definitions.js tech_words.json
 // Sadece definitions ve synonyms eksik olan kelimeleri çeker
 
 const fs    = require('fs');
 const https = require('https');
 const path  = require('path');
 
-const DATA_FILE = path.resolve(process.argv[2] || 'words.json');
+const DATA_FILE = path.resolve(process.argv[2] || 'tech_words.json');
 const DELAY_MS  = 600;
 
 function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }

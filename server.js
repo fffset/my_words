@@ -4,7 +4,7 @@ const fs = require('fs');
 const path = require('path');
 
 const PORT = 3000;
-const DATA_FILE = path.join(__dirname, 'words.json');
+const DATA_FILE = path.join(__dirname, 'tech_words.json');
 const HTML_FILE = path.join(__dirname, 'index.html');
 
 const server = http.createServer((req, res) => {

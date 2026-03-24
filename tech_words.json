@@ -1,0 +1,2859 @@
+[
+  {
+    "text": "Welcome aboard",
+    "translations": [
+      "Hoş geldin",
+      "Aramıza hoş geldin"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "",
+    "synonyms": [],
+    "definitions": [
+      {
+        "pos": null,
+        "def": null,
+        "example": "Welcome aboard, Tom. How do you like California so far?"
+      }
+    ],
+    "pastForm": null
+  },
+  {
+    "text": "It's a pleasure to meet you",
+    "translations": [
+      "Tanıştığımıza memnun oldum"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "",
+    "synonyms": [
+      "Nice to meet you",
+      "Great to meet you"
+    ],
+    "definitions": [
+      {
+        "pos": null,
+        "def": null,
+        "example": "It's a pleasure to meet you, Tom."
+      }
+    ],
+    "pastForm": null
+  },
+  {
+    "text": "Let me show you to your desk",
+    "translations": [
+      "Seni masana götüreyim"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "",
+    "synonyms": [],
+    "definitions": [
+      {
+        "pos": null,
+        "def": null,
+        "example": "Let me show you to your desk."
+      }
+    ],
+    "pastForm": null
+  },
+  {
+    "text": "Thanks for showing me around",
+    "translations": [
+      "Bana etrafı gezdirdiğin için teşekkürler"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "",
+    "synonyms": [],
+    "definitions": [
+      {
+        "pos": null,
+        "def": null,
+        "example": "Thanks for showing me around the place, Maria."
+      }
+    ],
+    "pastForm": null
+  },
+  {
+    "text": "standing desk",
+    "translations": [
+      "ayaklı çalışma masası",
+      "yüksekliği ayarlanabilir masa"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "",
+    "synonyms": [],
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "A desk designed to be used while standing up.",
+        "example": "Is this one of those standing desks?"
+      }
+    ],
+    "pastForm": null
+  },
+  {
+    "text": "ergonomic",
+    "translations": [
+      "ergonomik",
+      "kullanıcı dostu"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "/ˌɜːrɡəˈnɒmɪk/",
+    "synonyms": [
+      "user-friendly"
+    ],
+    "definitions": [
+      {
+        "pos": "adjective",
+        "def": "Designed for efficiency and comfort in the working environment.",
+        "example": "A standing desk, an ergonomic chair, and an ergonomic mouse."
+      }
+    ],
+    "pastForm": null
+  },
+  {
+    "text": "cutting-edge",
+    "translations": [
+      "son teknoloji",
+      "en yeni",
+      "öncü"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "",
+    "synonyms": [
+      "state-of-the-art",
+      "latest"
+    ],
+    "definitions": [
+      {
+        "pos": "adjective",
+        "def": "The most advanced; innovative.",
+        "example": "You're going to like it here if you're into cutting-edge gadgets."
+      }
+    ],
+    "pastForm": null
+  },
+  {
+    "text": "attentive to",
+    "translations": [
+      "dikkat eden",
+      "özen gösteren"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "",
+    "synonyms": [],
+    "definitions": [
+      {
+        "pos": null,
+        "def": null,
+        "example": "At this company they're very attentive to these details."
+      }
+    ],
+    "pastForm": null
+  },
+  {
+    "text": "within walking distance",
+    "translations": [
+      "yürüme mesafesinde"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "",
+    "synonyms": [],
+    "definitions": [
+      {
+        "pos": null,
+        "def": null,
+        "example": "Is the café within walking distance?"
+      }
+    ],
+    "pastForm": null
+  },
+  {
+    "text": "access card",
+    "translations": [
+      "giriş kartı",
+      "erişim kartı"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "",
+    "synonyms": [
+      "key card",
+      "badge"
+    ],
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "A card used to gain entry to a building or area.",
+        "example": "I'm here to give you your access card."
+      }
+    ],
+    "pastForm": null
+  },
+  {
+    "text": "contactless",
+    "translations": [
+      "temassız"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "/ˈkɒntæktləs/",
+    "synonyms": [],
+    "definitions": [
+      {
+        "pos": "adjective",
+        "def": "Relating to technology that does not require physical contact.",
+        "example": "Is it contactless?"
+      }
+    ],
+    "pastForm": null
+  },
+  {
+    "text": "swipe",
+    "translations": [
+      "kartı geçirmek",
+      "kaydırmak"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/swipe-us.mp3",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "/swaɪp/",
+    "synonyms": [
+      "swipes"
+    ],
+    "definitions": [
+      {
+        "pos": "verb",
+        "def": "To pass a card through an electronic reader.",
+        "example": "It's the good-old swipe at the door."
+      }
+    ],
+    "pastForm": "swiped"
+  },
+  {
+    "text": "project manager",
+    "translations": [
+      "proje müdürü",
+      "proje yöneticisi"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "",
+    "synonyms": [
+      "PM"
+    ],
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "A person responsible for planning and overseeing a project.",
+        "example": "I'm Bob, the project manager."
+      }
+    ],
+    "pastForm": null
+  },
+  {
+    "text": "senior developer",
+    "translations": [
+      "kıdemli geliştirici",
+      "kıdemli yazılımcı"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "",
+    "synonyms": [],
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "An experienced software developer with advanced skills.",
+        "example": "This is Sarah, the senior software developer."
+      }
+    ],
+    "pastForm": null
+  },
+  {
+    "text": "junior developer",
+    "translations": [
+      "junior geliştirici",
+      "yeni yazılımcı"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "",
+    "synonyms": [],
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "An entry-level software developer.",
+        "example": "I'm starting as a junior developer today."
+      }
+    ],
+    "pastForm": null
+  },
+  {
+    "text": "database administrator",
+    "translations": [
+      "veritabanı yöneticisi"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "",
+    "synonyms": [
+      "DBA"
+    ],
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "A person who manages and maintains a database system.",
+        "example": "This is John, the database administrator."
+      }
+    ],
+    "pastForm": null
+  },
+  {
+    "text": "UX/UI designer",
+    "translations": [
+      "UX/UI tasarımcısı",
+      "kullanıcı deneyimi tasarımcısı"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "",
+    "synonyms": [],
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "A designer focused on user experience and interface design.",
+        "example": "This is Linda, our UX/UI designer."
+      }
+    ],
+    "pastForm": null
+  },
+  {
+    "text": "front-end developer",
+    "translations": [
+      "front-end geliştirici",
+      "arayüz geliştiricisi"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "",
+    "synonyms": [],
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "A developer who builds the visual part of websites and apps.",
+        "example": "She's our new front-end developer."
+      }
+    ],
+    "pastForm": null
+  },
+  {
+    "text": "user-friendly",
+    "translations": [
+      "kullanıcı dostu"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "",
+    "synonyms": [
+      "intuitive",
+      "easy to use"
+    ],
+    "definitions": [
+      {
+        "pos": "adjective",
+        "def": "Easy to use or understand.",
+        "example": "She loves creating user-friendly interfaces."
+      }
+    ],
+    "pastForm": null
+  },
+  {
+    "text": "virtual setting",
+    "translations": [
+      "sanal ortam",
+      "çevrimiçi ortam"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "",
+    "synonyms": [
+      "online environment"
+    ],
+    "definitions": [
+      {
+        "pos": null,
+        "def": null,
+        "example": "You can talk to her any time, even in this virtual setting."
+      }
+    ],
+    "pastForm": null
+  },
+  {
+    "text": "go-to guy",
+    "translations": [
+      "başvurulacak kişi",
+      "uzmanı"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "",
+    "synonyms": [
+      "point of contact"
+    ],
+    "definitions": [
+      {
+        "pos": null,
+        "def": null,
+        "example": "He's your go-to guy for that."
+      }
+    ],
+    "pastForm": null
+  },
+  {
+    "text": "agenda",
+    "translations": [
+      "gündem"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/agenda-us.mp3",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "/əˈdʒɛndə/",
+    "synonyms": [
+      "schedule",
+      "plan"
+    ],
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "A list of items to be discussed at a meeting.",
+        "example": "Here are the topics on today's agenda."
+      }
+    ],
+    "pastForm": null
+  },
+  {
+    "text": "contribute to",
+    "translations": [
+      "katkıda bulunmak",
+      "destek olmak"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "",
+    "synonyms": [
+      "add to",
+      "participate in"
+    ],
+    "definitions": [
+      {
+        "pos": "verb",
+        "def": "To give help or support to.",
+        "example": "I can't wait to start contributing to our projects."
+      }
+    ],
+    "pastForm": "contributed to"
+  },
+  {
+    "text": "collaborate",
+    "translations": [
+      "iş birliği yapmak",
+      "birlikte çalışmak"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/collaborate-us.mp3",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "/kəˈlæbəreɪt/",
+    "synonyms": [
+      "work together",
+      "cooperate"
+    ],
+    "definitions": [
+      {
+        "pos": "verb",
+        "def": "To work jointly with others.",
+        "example": "I really want to collaborate with you."
+      }
+    ],
+    "pastForm": "collaborated"
+  },
+  {
+    "text": "point of contact",
+    "translations": [
+      "iletişim noktası",
+      "muhatap kişi"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "",
+    "synonyms": [
+      "go-to person"
+    ],
+    "definitions": [
+      {
+        "pos": null,
+        "def": null,
+        "example": "I'll be your point of contact."
+      }
+    ],
+    "pastForm": null
+  },
+  {
+    "text": "team-building activities",
+    "translations": [
+      "ekip oluşturma etkinlikleri",
+      "takım aktiviteleri"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "",
+    "synonyms": [],
+    "definitions": [
+      {
+        "pos": null,
+        "def": null,
+        "example": "How about the team-building activities here?"
+      }
+    ],
+    "pastForm": null
+  },
+  {
+    "text": "Are you into",
+    "translations": [
+      "Sever misin?",
+      "İlgin var mı?",
+      "Merak eder misin?"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "",
+    "synonyms": [
+      "Do you like",
+      "Are you interested in"
+    ],
+    "definitions": [
+      {
+        "pos": null,
+        "def": null,
+        "example": "Are you into board games?"
+      }
+    ],
+    "pastForm": null
+  },
+  {
+    "text": "proactive",
+    "translations": [
+      "proaktif",
+      "önlem alan",
+      "inisiyatif alan"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/proactive-us.mp3",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "/ˌproʊˈæktɪv/",
+    "synonyms": [
+      "initiative-taking",
+      "forward-thinking"
+    ],
+    "definitions": [
+      {
+        "pos": "adjective",
+        "def": "Taking action before problems arise rather than reacting to them.",
+        "example": "She's very proactive and she likes everything in order."
+      }
+    ],
+    "pastForm": null
+  },
+  {
+    "text": "assign tasks",
+    "translations": [
+      "görev atamak",
+      "iş dağıtmak"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "",
+    "synonyms": [
+      "delegate"
+    ],
+    "definitions": [
+      {
+        "pos": null,
+        "def": null,
+        "example": "She assigns tasks and makes sure everything runs well."
+      }
+    ],
+    "pastForm": "assigned tasks"
+  },
+  {
+    "text": "on track",
+    "translations": [
+      "doğru yolda",
+      "planlandığı gibi gitmek"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "",
+    "synonyms": [
+      "on schedule"
+    ],
+    "definitions": [
+      {
+        "pos": null,
+        "def": null,
+        "example": "It helps me stay on track."
+      }
+    ],
+    "pastForm": null
+  },
+  {
+    "text": "project updates",
+    "translations": [
+      "proje güncellemeleri",
+      "proje gelişmeleri"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "",
+    "synonyms": [],
+    "definitions": [
+      {
+        "pos": null,
+        "def": null,
+        "example": "The team discusses project updates."
+      }
+    ],
+    "pastForm": null
+  },
+  {
+    "text": "prioritize",
+    "translations": [
+      "önceliklendirmek",
+      "öncelik vermek"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "/praɪˈɒrɪtaɪz/",
+    "synonyms": [
+      "rank",
+      "order by importance"
+    ],
+    "definitions": [
+      {
+        "pos": "verb",
+        "def": "To determine the order for dealing with tasks.",
+        "example": "I review my to-do list for the day and prioritize my tasks."
+      }
+    ],
+    "pastForm": "prioritized"
+  },
+  {
+    "text": "debug",
+    "translations": [
+      "hata ayıklamak",
+      "hata gidermek"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "/diːˈbʌɡ/",
+    "synonyms": [
+      "troubleshoot",
+      "fix errors"
+    ],
+    "definitions": [
+      {
+        "pos": "verb",
+        "def": "To identify and remove errors from software.",
+        "example": "I work on coding, test the websites, and debug issues."
+      }
+    ],
+    "pastForm": "debugged"
+  },
+  {
+    "text": "to-do list",
+    "translations": [
+      "yapılacaklar listesi"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "",
+    "synonyms": [
+      "task list",
+      "checklist"
+    ],
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "A list of tasks to be completed.",
+        "example": "I review my to-do list for the day."
+      }
+    ],
+    "pastForm": null
+  },
+  {
+    "text": "set deadlines",
+    "translations": [
+      "son tarih belirlemek",
+      "deadline koymak"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "",
+    "synonyms": [],
+    "definitions": [
+      {
+        "pos": null,
+        "def": null,
+        "example": "I break down my projects into small tasks and set deadlines for them."
+      }
+    ],
+    "pastForm": "set deadlines"
+  },
+  {
+    "text": "log in",
+    "translations": [
+      "giriş yapmak",
+      "oturum açmak"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "",
+    "synonyms": [
+      "sign in"
+    ],
+    "definitions": [
+      {
+        "pos": "verb",
+        "def": "To access a computer system by entering credentials.",
+        "example": "The first thing to do is log in to your computer."
+      }
+    ],
+    "pastForm": "logged in"
+  },
+  {
+    "text": "brainstorming session",
+    "translations": [
+      "beyin fırtınası oturumu"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "",
+    "synonyms": [],
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "A meeting where team members share ideas freely.",
+        "example": "Does this include brainstorming sessions?"
+      }
+    ],
+    "pastForm": null
+  },
+  {
+    "text": "ongoing projects",
+    "translations": [
+      "devam eden projeler",
+      "süregelen projeler"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "",
+    "synonyms": [
+      "active projects",
+      "current projects"
+    ],
+    "definitions": [
+      {
+        "pos": null,
+        "def": null,
+        "example": "Do we discuss all our ongoing projects in these meetings?"
+      }
+    ],
+    "pastForm": null
+  },
+  {
+    "text": "security badge",
+    "translations": [
+      "güvenlik rozeti",
+      "kimlik kartı"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "",
+    "synonyms": [
+      "ID badge",
+      "access badge"
+    ],
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "An identification card granting access to a secure area.",
+        "example": "I have to issue security badges to new employees."
+      }
+    ],
+    "pastForm": null
+  },
+  {
+    "text": "access control",
+    "translations": [
+      "erişim kontrolü"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "",
+    "synonyms": [],
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "The selective restriction of access to a place or resource.",
+        "example": "Access control is crucial."
+      }
+    ],
+    "pastForm": null
+  },
+  {
+    "text": "revoke access",
+    "translations": [
+      "erişimi iptal etmek",
+      "yetkiyi geri almak"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "",
+    "synonyms": [
+      "remove access",
+      "deactivate"
+    ],
+    "definitions": [
+      {
+        "pos": null,
+        "def": null,
+        "example": "I can't forget to revoke access for the people who leave the company."
+      }
+    ],
+    "pastForm": "revoked access"
+  },
+  {
+    "text": "security sweep",
+    "translations": [
+      "güvenlik kontrolü",
+      "güvenlik denetimi"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "",
+    "synonyms": [],
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "A routine check of a facility for security purposes.",
+        "example": "I conduct regular security sweeps."
+      }
+    ],
+    "pastForm": null
+  },
+  {
+    "text": "project management skills",
+    "translations": [
+      "proje yönetim becerileri"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "",
+    "synonyms": [],
+    "definitions": [
+      {
+        "pos": null,
+        "def": null,
+        "example": "I'm here to improve my project management skills."
+      }
+    ],
+    "pastForm": null
+  },
+  {
+    "text": "workmate",
+    "translations": [
+      "iş arkadaşı"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/workmate-us.mp3",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "/ˈwɜːrkmeɪt/",
+    "synonyms": [
+      "colleague",
+      "coworker"
+    ],
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "A person you work alongside.",
+        "example": "Sophie is a great workmate. She's very kind and helpful."
+      }
+    ],
+    "pastForm": null
+  },
+  {
+    "text": "team lead",
+    "translations": [
+      "ekip lideri",
+      "takım lideri"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "",
+    "synonyms": [
+      "team leader"
+    ],
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "The person responsible for guiding a team.",
+        "example": "I'm Maria, the team lead."
+      }
+    ],
+    "pastForm": null
+  },
+  {
+    "text": "workspace",
+    "translations": [
+      "çalışma alanı"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/workspace-us.mp3",
+    "isNew": false,
+    "correct": 1,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 1,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": "2026-03-24T16:37:46.406Z",
+    "ipa": "/ˈwɜːrkˌspeɪs/",
+    "synonyms": [
+      "workstation",
+      "desk area"
+    ],
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "The area or environment where one works.",
+        "example": "That's your workspace."
+      }
+    ],
+    "pastForm": null
+  },
+  {
+    "text": "mobile app",
+    "translations": [
+      "mobil uygulama"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "",
+    "synonyms": [
+      "application",
+      "app"
+    ],
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "A software application designed for mobile devices.",
+        "example": "I developed mobile apps for small businesses."
+      }
+    ],
+    "pastForm": null
+  },
+  {
+    "text": "in good hands",
+    "translations": [
+      "iyi ellerde",
+      "güvende"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "",
+    "synonyms": [],
+    "definitions": [
+      {
+        "pos": null,
+        "def": null,
+        "example": "I think you're in good hands."
+      }
+    ],
+    "pastForm": null
+  },
+  {
+    "text": "It depends on",
+    "translations": [
+      "bağlıdır",
+      "-e bağlı"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "",
+    "synonyms": [],
+    "definitions": [
+      {
+        "pos": null,
+        "def": null,
+        "example": "It depends on the project's needs."
+      }
+    ],
+    "pastForm": null
+  },
+  {
+    "text": "I'd like to introduce",
+    "translations": [
+      "Tanıştırmak istiyorum",
+      "Sizinle tanıştırmak isterim"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "",
+    "synonyms": [
+      "Let me introduce",
+      "Allow me to introduce"
+    ],
+    "definitions": [
+      {
+        "pos": null,
+        "def": null,
+        "example": "I'd like to introduce you to Lisa."
+      }
+    ],
+    "pastForm": null
+  },
+  {
+    "text": "I'm open to exploring",
+    "translations": [
+      "Keşfetmeye açığım",
+      "Araştırmaya hazırım"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "",
+    "synonyms": [],
+    "definitions": [
+      {
+        "pos": null,
+        "def": null,
+        "example": "I'm open to exploring more."
+      }
+    ],
+    "pastForm": null
+  },
+  {
+    "text": "I'm responsible for",
+    "translations": [
+      "Sorumlusuyum",
+      "-den sorumluyum"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "",
+    "synonyms": [
+      "I'm in charge of",
+      "I handle"
+    ],
+    "definitions": [
+      {
+        "pos": null,
+        "def": null,
+        "example": "I'm responsible for the technical aspects of the project."
+      }
+    ],
+    "pastForm": null
+  },
+  {
+    "text": "I'm in charge of",
+    "translations": [
+      "Sorumlusuyum",
+      "-den sorumluyum",
+      "Yöneticisiyim"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "",
+    "synonyms": [
+      "I'm responsible for",
+      "I oversee"
+    ],
+    "definitions": [
+      {
+        "pos": null,
+        "def": null,
+        "example": "He's responsible for coordinating our efforts."
+      }
+    ],
+    "pastForm": null
+  },
+  {
+    "text": "How's it going",
+    "translations": [
+      "Nasıl gidiyor?",
+      "Ne haber?"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "",
+    "synonyms": [
+      "How are you doing",
+      "How are things"
+    ],
+    "definitions": [
+      {
+        "pos": null,
+        "def": null,
+        "example": "Hey, Bob. How's it going?"
+      }
+    ],
+    "pastForm": null
+  },
+  {
+    "text": "manage your time",
+    "translations": [
+      "zamanını yönetmek"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "",
+    "synonyms": [],
+    "definitions": [
+      {
+        "pos": null,
+        "def": null,
+        "example": "How do you manage your time?"
+      }
+    ],
+    "pastForm": "managed time"
+  },
+  {
+    "text": "break down into",
+    "translations": [
+      "parçalara ayırmak",
+      "bölmek"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "",
+    "synonyms": [
+      "divide into",
+      "split into"
+    ],
+    "definitions": [
+      {
+        "pos": "verb",
+        "def": "To separate into smaller parts.",
+        "example": "I break down my projects into small tasks."
+      }
+    ],
+    "pastForm": "broke down into"
+  },
+  {
+    "text": "introduce",
+    "translations": [
+      "tanıştırmak"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/introduce-us.mp3",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "/ˌɪntɹəˈdjuːs/",
+    "synonyms": [
+      "announce"
+    ],
+    "definitions": [
+      {
+        "pos": "verb",
+        "def": null,
+        "example": "Let me introduce you to Tom."
+      }
+    ],
+    "pastForm": "introduced"
+  },
+  {
+    "text": "coordinate",
+    "translations": [
+      "koordine etmek",
+      "organize etmek"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "/kəʊˈɔː.dɪ.nɪt/",
+    "synonyms": [],
+    "definitions": [
+      {
+        "pos": "verb",
+        "def": null,
+        "example": "Maria coordinates our projects."
+      }
+    ],
+    "pastForm": "coordinated"
+  },
+  {
+    "text": "encourage",
+    "translations": [
+      "teşvik etmek",
+      "cesaretlendirmek"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/encourage-us.mp3",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "/ɪnˈkʌɹɪdʒ/",
+    "synonyms": [
+      "bield",
+      "embolden"
+    ],
+    "definitions": [
+      {
+        "pos": "verb",
+        "def": null,
+        "example": "She encourages us to find solutions together."
+      }
+    ],
+    "pastForm": "encouraged"
+  },
+  {
+    "text": "handle",
+    "translations": [
+      "üstesinden gelmek",
+      "halletmek"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/handle-us.mp3",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "/ˈhæn.dl/",
+    "synonyms": [
+      "deal",
+      "feel",
+      "finger",
+      "manage",
+      "touch",
+      "treat"
+    ],
+    "definitions": [
+      {
+        "pos": "verb",
+        "def": null,
+        "example": "How does she handle challenges?"
+      }
+    ],
+    "pastForm": "handled"
+  },
+  {
+    "text": "schedule",
+    "translations": [
+      "planlamak",
+      "programlamak"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/schedule-us.mp3",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "/ˈskɛ.dʒu.əl/",
+    "synonyms": [
+      "catalog",
+      "list",
+      "listing",
+      "register",
+      "registry",
+      "table",
+      "timeline",
+      "timetable"
+    ],
+    "definitions": [
+      {
+        "pos": "verb",
+        "def": null,
+        "example": "She schedules team meetings every Monday morning."
+      }
+    ],
+    "pastForm": "scheduled"
+  },
+  {
+    "text": "tackle",
+    "translations": [
+      "üstlenmek",
+      "ele almak"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/tackle-us.mp3",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "/ˈtækəl/",
+    "synonyms": [],
+    "definitions": [
+      {
+        "pos": "verb",
+        "def": null,
+        "example": "Tasks we plan on tackling for the week."
+      }
+    ],
+    "pastForm": "tackled"
+  },
+  {
+    "text": "ensure",
+    "translations": [
+      "sağlamak",
+      "garantilemek"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "/ɪnˈʃɔː/",
+    "synonyms": [],
+    "definitions": [
+      {
+        "pos": "verb",
+        "def": null,
+        "example": "She and I work together to ensure the project's success."
+      }
+    ],
+    "pastForm": "ensured"
+  },
+  {
+    "text": "inspect",
+    "translations": [
+      "denetlemek",
+      "kontrol etmek"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/inspect-us.mp3",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "/ɪnˈspɛkt/",
+    "synonyms": [],
+    "definitions": [
+      {
+        "pos": "verb",
+        "def": null,
+        "example": "I can't forget to inspect the alarm systems."
+      }
+    ],
+    "pastForm": "inspected"
+  },
+  {
+    "text": "monitor",
+    "translations": [
+      "izlemek",
+      "takip etmek"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/monitor-uk.mp3",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "/ˈmɒnɨtə/",
+    "synonyms": [
+      "oversee",
+      "supervise",
+      "track"
+    ],
+    "definitions": [
+      {
+        "pos": "verb",
+        "def": null,
+        "example": "I have to monitor the entrances and exits at all times."
+      }
+    ],
+    "pastForm": "monitored"
+  },
+  {
+    "text": "conduct",
+    "translations": [
+      "yürütmek",
+      "gerçekleştirmek"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/conduct-ca-noun.mp3",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "/ˈkɒndʌkt/",
+    "synonyms": [
+      "control",
+      "guidance",
+      "management",
+      "bearing",
+      "behavior",
+      "behaviour",
+      "demeanor",
+      "demeanour"
+    ],
+    "definitions": [
+      {
+        "pos": "verb",
+        "def": null,
+        "example": "I conduct regular security sweeps."
+      }
+    ],
+    "pastForm": "conducted"
+  },
+  {
+    "text": "issue",
+    "translations": [
+      "vermek",
+      "düzenlemek"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/issue-us.mp3",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "/ˈɪsjuː/",
+    "synonyms": [
+      "charge",
+      "sally",
+      "sortie",
+      "descendant",
+      "fruit of one's loins",
+      "offspring",
+      "begive"
+    ],
+    "definitions": [
+      {
+        "pos": "verb",
+        "def": null,
+        "example": "I have to issue security badges to new employees."
+      }
+    ],
+    "pastForm": "issued"
+  },
+  {
+    "text": "stretch",
+    "translations": [
+      "esnemek",
+      "gerinmek"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/stretch-us.mp3",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "/stɹɛtʃ/",
+    "synonyms": [],
+    "definitions": [
+      {
+        "pos": "verb",
+        "def": null,
+        "example": "I take short breaks to stretch."
+      }
+    ],
+    "pastForm": "stretched"
+  },
+  {
+    "text": "review",
+    "translations": [
+      "gözden geçirmek",
+      "incelemek"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/review-us.mp3",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "/ɹɪˈvjuː/",
+    "synonyms": [
+      "revue"
+    ],
+    "definitions": [
+      {
+        "pos": "verb",
+        "def": null,
+        "example": "I review my to-do list for the day."
+      }
+    ],
+    "pastForm": "reviewed"
+  },
+  {
+    "text": "attend",
+    "translations": [
+      "katılmak"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/attend-us.mp3",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "/əˈtɛnd/",
+    "synonyms": [
+      "notice",
+      "pay attention",
+      "take heed",
+      "behear",
+      "heed",
+      "mark",
+      "bestand",
+      "serve"
+    ],
+    "definitions": [
+      {
+        "pos": "verb",
+        "def": null,
+        "example": "You'll probably attend the daily team meeting."
+      }
+    ],
+    "pastForm": "attended"
+  },
+  {
+    "text": "improve",
+    "translations": [
+      "geliştirmek",
+      "iyileştirmek"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/improve-us.mp3",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "/ɪmˈpɹuːv/",
+    "synonyms": [
+      "ameliorate",
+      "batten",
+      "better",
+      "enhance"
+    ],
+    "definitions": [
+      {
+        "pos": "verb",
+        "def": null,
+        "example": "I'm here to improve my project management skills."
+      }
+    ],
+    "pastForm": "improved"
+  },
+  {
+    "text": "achieve",
+    "translations": [
+      "başarmak",
+      "elde etmek"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/achieve-us.mp3",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "/əˈtʃiːv/",
+    "synonyms": [
+      "accomplish",
+      "complete",
+      "effect",
+      "execute",
+      "fulfil",
+      "fulfill",
+      "obtain",
+      "perform"
+    ],
+    "definitions": [
+      {
+        "pos": "verb",
+        "def": null,
+        "example": "I'm confident that we can achieve great results."
+      }
+    ],
+    "pastForm": "achieved"
+  },
+  {
+    "text": "inactive",
+    "translations": [
+      "hareketsiz",
+      "pasif"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/inactive-uk.mp3",
+    "isNew": false,
+    "correct": 1,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 1,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": "2026-03-24T16:38:11.819Z",
+    "ipa": "/ɪnˈæktɪv/",
+    "synonyms": [
+      "dormant",
+      "dull",
+      "idle"
+    ],
+    "definitions": [
+      {
+        "pos": "adjective",
+        "def": null,
+        "example": "I'm a bit inactive sitting all the time."
+      }
+    ],
+    "pastForm": null
+  },
+  {
+    "text": "energetic",
+    "translations": [
+      "enerjik"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/energetic-us.mp3",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "/ˌɛnəˈdʒɛtɪk/",
+    "synonyms": [],
+    "definitions": [
+      {
+        "pos": "adjective",
+        "def": null,
+        "example": "So nice to have someone so energetic like you."
+      }
+    ],
+    "pastForm": null
+  },
+  {
+    "text": "efficient",
+    "translations": [
+      "verimli",
+      "etkin"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/efficient-us.mp3",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "/əˈfɪʃənt/",
+    "synonyms": [],
+    "definitions": [
+      {
+        "pos": "adjective",
+        "def": null,
+        "example": "He makes sure our data is secure and efficient."
+      }
+    ],
+    "pastForm": null
+  },
+  {
+    "text": "secure",
+    "translations": [
+      "güvenli"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/secure-us.mp3",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "/səˈkjɔː(ɹ)/",
+    "synonyms": [],
+    "definitions": [
+      {
+        "pos": "adjective",
+        "def": null,
+        "example": "It's essential to ensure everything is secure."
+      }
+    ],
+    "pastForm": null
+  },
+  {
+    "text": "urgent",
+    "translations": [
+      "acil"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/urgent-us.mp3",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "/ˈɜːdʒənt/",
+    "synonyms": [
+      "needly",
+      "pressing"
+    ],
+    "definitions": [
+      {
+        "pos": "adjective",
+        "def": null,
+        "example": "I check my emails and reply to any urgent messages."
+      }
+    ],
+    "pastForm": null
+  },
+  {
+    "text": "supportive",
+    "translations": [
+      "destekleyici"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "/səˈpɔːtɪv/",
+    "synonyms": [
+      "supportful"
+    ],
+    "definitions": [
+      {
+        "pos": "adjective",
+        "def": null,
+        "example": "She's supportive and she helps us a lot."
+      }
+    ],
+    "pastForm": null
+  },
+  {
+    "text": "reasonable",
+    "translations": [
+      "makul",
+      "mantıklı"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/reasonable-us.mp3",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "/ˈɹiː.zən.ə.bəl/",
+    "synonyms": [
+      "reasonous"
+    ],
+    "definitions": [
+      {
+        "pos": "adjective",
+        "def": null,
+        "example": "That's reasonable."
+      }
+    ],
+    "pastForm": null
+  },
+  {
+    "text": "typical",
+    "translations": [
+      "tipik",
+      "olağan"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/typical-us.mp3",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "/ˈtɪpɪkl̩/",
+    "synonyms": [],
+    "definitions": [
+      {
+        "pos": "adjective",
+        "def": null,
+        "example": "What's your typical workday like?"
+      }
+    ],
+    "pastForm": null
+  },
+  {
+    "text": "specific",
+    "translations": [
+      "özel",
+      "belirli"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/specific-us.mp3",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "/spəˈsɪf.ɪk/",
+    "synonyms": [
+      "express",
+      "monosemous",
+      "unambiguous",
+      "peculiar",
+      "singular"
+    ],
+    "definitions": [
+      {
+        "pos": "adjective",
+        "def": null,
+        "example": "Is there any specific area of design you're interested in?"
+      }
+    ],
+    "pastForm": null
+  },
+  {
+    "text": "familiar with",
+    "translations": [
+      "aşina olmak",
+      "bilmek"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "",
+    "synonyms": [],
+    "definitions": [
+      {
+        "pos": "adjective",
+        "def": null,
+        "example": "Are you familiar with them?"
+      }
+    ],
+    "pastForm": null
+  },
+  {
+    "text": "confident",
+    "translations": [
+      "emin",
+      "kendinden emin"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/confident-us.mp3",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "/ˈkɒn.fɪ.dənt/",
+    "synonyms": [
+      "self-assured"
+    ],
+    "definitions": [
+      {
+        "pos": "adjective",
+        "def": null,
+        "example": "I'm confident that we can achieve great results."
+      }
+    ],
+    "pastForm": null
+  },
+  {
+    "text": "crucial",
+    "translations": [
+      "kritik",
+      "çok önemli"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/crucial-au.mp3",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "/ˈkɹuː.ʃəl/",
+    "synonyms": [],
+    "definitions": [
+      {
+        "pos": "adjective",
+        "def": null,
+        "example": "Access control is crucial."
+      }
+    ],
+    "pastForm": null
+  },
+  {
+    "text": "essential",
+    "translations": [
+      "gerekli",
+      "zorunlu"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/essential-us.mp3",
+    "isNew": false,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": "2026-03-24T16:42:15.833Z",
+    "ipa": "/ɪˈsɛn.ʃəl/",
+    "synonyms": [
+      "indispensable",
+      "crucial"
+    ],
+    "definitions": [
+      {
+        "pos": "adjective",
+        "def": null,
+        "example": "It's essential to ensure everything is secure."
+      }
+    ],
+    "pastForm": null
+  },
+  {
+    "text": "occasionally",
+    "translations": [
+      "ara sıra",
+      "zaman zaman"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/occasionally-us.mp3",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "/əˈkeɪʒnəli/",
+    "synonyms": [
+      "now and then",
+      "once in a while",
+      "at times",
+      "on occasion",
+      "sometimes"
+    ],
+    "definitions": [
+      {
+        "pos": "adverb",
+        "def": null,
+        "example": "Occasionally, yeah. It depends on the project's needs."
+      }
+    ],
+    "pastForm": null
+  },
+  {
+    "text": "briefly",
+    "translations": [
+      "kısaca"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/briefly-us.mp3",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "/ˈbɹiːfli/",
+    "synonyms": [
+      "fleetingly",
+      "temporarily",
+      "transiently"
+    ],
+    "definitions": [
+      {
+        "pos": "adverb",
+        "def": null,
+        "example": "Let me introduce you all briefly."
+      }
+    ],
+    "pastForm": null
+  },
+  {
+    "text": "typically",
+    "translations": [
+      "genellikle",
+      "tipik olarak"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/typically-us.mp3",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "/ˈtɪp.ɪ.kl.i/",
+    "synonyms": [
+      "ordinarily",
+      "routinely",
+      "commonly",
+      "most of the time"
+    ],
+    "definitions": [
+      {
+        "pos": "adverb",
+        "def": null,
+        "example": "We typically finish at about 5."
+      }
+    ],
+    "pastForm": null
+  },
+  {
+    "text": "properly",
+    "translations": [
+      "düzgünce",
+      "doğru şekilde"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/properly-us.mp3",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "/ˈpɹɒ.pə.li/",
+    "synonyms": [],
+    "definitions": [
+      {
+        "pos": "adverb",
+        "def": null,
+        "example": "I have to check the security cameras to make sure they are working properly."
+      }
+    ],
+    "pastForm": null
+  },
+  {
+    "text": "mostly",
+    "translations": [
+      "çoğunlukla",
+      "genellikle"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/mostly-us.mp3",
+    "isNew": false,
+    "correct": 0,
+    "wrong": 1,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": "2026-03-24T16:38:05.602Z",
+    "ipa": "/ˈməʊstli/",
+    "synonyms": [
+      "by and large",
+      "in the main",
+      "largely",
+      "more often than not",
+      "predominantly",
+      "principally"
+    ],
+    "definitions": [
+      {
+        "pos": "adverb",
+        "def": null,
+        "example": "I like landscapes and street photography, mostly."
+      }
+    ],
+    "pastForm": null
+  },
+  {
+    "text": "in advance",
+    "translations": [
+      "önceden",
+      "peşinen"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "",
+    "synonyms": [],
+    "definitions": [
+      {
+        "pos": "adverb",
+        "def": null,
+        "example": "Maria prepares the agenda in advance."
+      }
+    ],
+    "pastForm": null
+  },
+  {
+    "text": "drawing tablet",
+    "translations": [
+      "grafik tablet",
+      "çizim tableti"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "",
+    "synonyms": [],
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": null,
+        "example": "My computer and drawing tablet are great."
+      }
+    ],
+    "pastForm": null
+  },
+  {
+    "text": "gadget",
+    "translations": [
+      "alet",
+      "cihaz",
+      "aksesuar"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/gadget-us.mp3",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "/ɡædʒɪt/",
+    "synonyms": [
+      "contraption",
+      "contrivance",
+      "doohickey",
+      "gizmo",
+      "widget"
+    ],
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": null,
+        "example": "You're going to like it here if you're into cutting-edge gadgets."
+      }
+    ],
+    "pastForm": null
+  },
+  {
+    "text": "expertise",
+    "translations": [
+      "uzmanlık",
+      "deneyim"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/expertise-us.mp3",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "/ˌɛkspɚˈtiːs/",
+    "synonyms": [],
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": null,
+        "example": "I'm excited to work with all of you and learn from your expertise."
+      }
+    ],
+    "pastForm": null
+  },
+  {
+    "text": "insight",
+    "translations": [
+      "içgörü",
+      "fikir",
+      "anlayış"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/insight-us.mp3",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "/ˈɪnsaɪt/",
+    "synonyms": [
+      "discernment",
+      "penetration",
+      "perception"
+    ],
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": null,
+        "example": "I'm sure we'll have great insights to share."
+      }
+    ],
+    "pastForm": null
+  },
+  {
+    "text": "requirement",
+    "translations": [
+      "gereksinim",
+      "şart"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "/ɹɪˈkwʌɪəm(ə)nt/",
+    "synonyms": [
+      "condition",
+      "necessity",
+      "prerequisite"
+    ],
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": null,
+        "example": "Let's get started with your specific requirements."
+      }
+    ],
+    "pastForm": null
+  },
+  {
+    "text": "responsibility",
+    "translations": [
+      "sorumluluk"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/responsibility-us.mp3",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "/ɹɪˌspɑnsəˈbɪlɪɾi/",
+    "synonyms": [
+      "responsibleness"
+    ],
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": null,
+        "example": "What a responsibility."
+      }
+    ],
+    "pastForm": null
+  },
+  {
+    "text": "alternative",
+    "translations": [
+      "alternatif",
+      "seçenek"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/alternative-us.mp3",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "/ɒl.ˈtɜː(ɹ).nə.tɪv/",
+    "synonyms": [],
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": null,
+        "example": "This is a good alternative for me."
+      }
+    ],
+    "pastForm": null
+  },
+  {
+    "text": "checklist",
+    "translations": [
+      "kontrol listesi"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "/ˈtʃɛklɪst/",
+    "synonyms": [],
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": null,
+        "example": "Anything else on your checklist?"
+      }
+    ],
+    "pastForm": null
+  },
+  {
+    "text": "trait",
+    "translations": [
+      "özellik",
+      "nitelik"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/trait-uk.mp3",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "/tɹeɪ/",
+    "synonyms": [
+      "characteristic"
+    ],
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": null,
+        "example": "Those are great traits for someone in her position."
+      }
+    ],
+    "pastForm": null
+  },
+  {
+    "text": "collaboration",
+    "translations": [
+      "iş birliği",
+      "ortak çalışma"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "/kəˌlæbəˈɹeɪʃən/",
+    "synonyms": [],
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": null,
+        "example": "I'll make sure our collaboration is great."
+      }
+    ],
+    "pastForm": null
+  },
+  {
+    "text": "passion",
+    "translations": [
+      "tutku",
+      "heves"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/passion-us.mp3",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "[ˈpʰæʃən]",
+    "synonyms": [
+      "ardor",
+      "fire in the belly",
+      "zeal"
+    ],
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": null,
+        "example": "She has a passion for technology."
+      }
+    ],
+    "pastForm": null
+  }
+]

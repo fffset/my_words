@@ -8874,7 +8874,9 @@
   {
     "text": "discuss",
     "translations": [
-      "tartışmak"
+      "tartışmak",
+      "görüşmek",
+      "ele almak"
     ],
     "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/discuss-us.mp3",
     "isNew": true,
@@ -8897,7 +8899,7 @@
       {
         "pos": null,
         "def": null,
-        "example": "We discuss English with Claude every day."
+        "example": "During the meeting, the team discusses project updates."
       }
     ],
     "pastForm": "discussed",
@@ -46747,7 +46749,8 @@
   {
     "text": "probably",
     "translations": [
-      "muhtemelen"
+      "muhtemelen",
+      "galiba"
     ],
     "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/probably-us.mp3",
     "isNew": true,
@@ -55412,7 +55415,10 @@
     "text": "while",
     "translations": [
       "sırasında",
-      "oysa"
+      "oysa",
+      "iken",
+      "olduğu halde",
+      "müddet"
     ],
     "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/while-us.mp3",
     "isNew": true,
@@ -55435,6 +55441,11 @@
         "pos": "preposition",
         "def": "Until.",
         "example": null
+      },
+      {
+        "pos": null,
+        "def": null,
+        "example": "I usually bring my lunch and eat at my desk while I check my progress."
       }
     ],
     "synonyms": [
@@ -55447,7 +55458,9 @@
       "as much as",
       "provided that"
     ],
-    "pastForm": "whiled"
+    "pastForm": "whiled",
+    "hard": 0,
+    "streak": 0
   },
   {
     "text": "whole",
@@ -59216,14 +59229,21 @@
     "text": "make sure",
     "translations": [
       "emin olmak",
-      "sağlamak"
+      "sağlamak",
+      "unutmamak"
     ],
     "audioURL": null,
     "ipa": null,
     "synonyms": [
       "see to it"
     ],
-    "definitions": [],
+    "definitions": [
+      {
+        "pos": null,
+        "def": null,
+        "example": "In the morning, I have to check the security cameras to make sure they are working properly."
+      }
+    ],
     "pastForm": "make sured",
     "isNew": true,
     "correct": 0,
@@ -60553,6 +60573,172 @@
         "example": "there are a couple of parks near here."
       }
     ],
+    "pastForm": null,
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null
+  },
+  {
+    "text": "prioritize",
+    "translations": [
+      "önceliklendirmek",
+      "öncelik sırasına koymak"
+    ],
+    "audioURL": null,
+    "ipa": "/pɹaɪˈɒɹətaɪz/",
+    "synonyms": [],
+    "definitions": [
+      {
+        "pos": null,
+        "def": null,
+        "example": "I review my to-do list for the day and prioritize my tasks."
+      }
+    ],
+    "pastForm": "prioritized",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null
+  },
+  {
+    "text": "stay on track",
+    "translations": [
+      "tıkırında gitmek"
+    ],
+    "audioURL": null,
+    "ipa": null,
+    "synonyms": [],
+    "definitions": [
+      {
+        "pos": null,
+        "def": null,
+        "example": "I break down my projects into small tasks and set deadlines for them. It helps me  stay on track ."
+      }
+    ],
+    "pastForm": null,
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null
+  },
+  {
+    "text": "stretch",
+    "translations": [
+      "uzatmak",
+      "gerinmek",
+      "germek"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/stretch-us.mp3",
+    "ipa": "/stɹɛtʃ/",
+    "synonyms": [],
+    "definitions": [
+      {
+        "pos": null,
+        "def": null,
+        "example": "I take short breaks to stretch"
+      }
+    ],
+    "pastForm": "stretched",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null
+  },
+  {
+    "text": "take a short break",
+    "translations": [
+      "nefes almak",
+      "ara vermek"
+    ],
+    "audioURL": null,
+    "ipa": null,
+    "synonyms": [],
+    "definitions": [],
+    "pastForm": null,
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null
+  },
+  {
+    "text": "what about ...?",
+    "translations": [
+      "ne dersin?",
+      "... ne alemde?"
+    ],
+    "audioURL": null,
+    "ipa": null,
+    "synonyms": [],
+    "definitions": [],
+    "pastForm": null,
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null
+  },
+  {
+    "text": "depends",
+    "translations": [
+      "bağlı olmak",
+      "dayanmak",
+      "bağımlı olmak",
+      "güvenmek"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/depends-us.mp3",
+    "ipa": "/dɪˈpɛndz/",
+    "synonyms": [],
+    "definitions": [
+      {
+        "pos": null,
+        "def": null,
+        "example": "We typically finish at about  5  but that  depends  on project deadlines."
+      }
+    ],
+    "pastForm": "dependsed",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null
+  },
+  {
+    "text": "properly",
+    "translations": [
+      "uygun bir şekilde",
+      "doğru dürüst"
+    ],
+    "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/properly-us.mp3",
+    "ipa": "/ˈpɹɒ.pə.li/",
+    "synonyms": [],
+    "definitions": [],
     "pastForm": null,
     "isNew": true,
     "correct": 0,

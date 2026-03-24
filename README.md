@@ -40,7 +40,7 @@ Her kelime için IPA, ses URL'si ve eş anlamlıları çeker. IPA yoksa Wiktiona
 ### Sözlük Tanımı + Örnek Cümle + Eş Anlamlılar
 
 ```bash
-node fetch_definitions.js words.json
+node fetch_definitions.js tech_words.json
 ```
 
 `definitions` veya `synonyms` eksik olan kelimeleri tamamlar. Her kelime türü (noun, verb...) için ilk tanım ve varsa örnek cümleyi çeker. Her kelimede 500ms bekler, her 100 kelimede ara kayıt yapar.
@@ -52,14 +52,14 @@ Her iki araç da yarıda kalsa kaldığı yerden devam eder.
 PDF'den parse edilen 2336 kelimeyi Türkçe çevirisiyle `oxford_3000_new.json` olarak eklemek için:
 
 ```bash
-# Mevcut words.json ile birleştir (duplicate olmaz)
+# Mevcut tech_words.json ile birleştir (duplicate olmaz)
 node -e "
 const fs = require('fs');
-const a = JSON.parse(fs.readFileSync('words.json'));
+const a = JSON.parse(fs.readFileSync('tech_words.json'));
 const b = JSON.parse(fs.readFileSync('oxford_3000_new.json'));
 const existing = new Set(a.map(w => w.text.toLowerCase()));
 const newOnly = b.filter(w => !existing.has(w.text.toLowerCase()));
-fs.writeFileSync('words.json', JSON.stringify([...a, ...newOnly], null, 2));
+fs.writeFileSync('tech_words.json', JSON.stringify([...a, ...newOnly], null, 2));
 console.log('Eklenen:', newOnly.length, '| Toplam:', a.length + newOnly.length);
 "
 ```
@@ -97,7 +97,7 @@ console.log('Eklenen:', newOnly.length, '| Toplam:', a.length + newOnly.length);
 | `server.js` | Yerel HTTP sunucusu (port 3000) |
 | `fetch_ipa.js` | IPA, ses ve eş anlamlı çekme aracı |
 | `fetch_definitions.js` | Sözlük tanımı ve örnek cümle çekme aracı |
-| `words.json` | Kelime listesi ve ilerleme verisi |
+| `tech_words.json` | Kelime listesi ve ilerleme verisi |
 | `oxford_3000_new.json` | Oxford 3000 listesi (Türkçe çevirili, IPA/ses eksik) |
 
 ## Ses Kaynakları
