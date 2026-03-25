@@ -2855,5 +2855,650 @@
       }
     ],
     "pastForm": null
+  },
+  {
+    "text": "compliance",
+    "translations": [
+      "uyumluluk",
+      "mevzuata uygunluk"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "",
+    "synonyms": [],
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": null,
+        "example": "Compliance is when we put specific rules and regulations into practice."
+      }
+    ],
+    "pastForm": null
+  },
+  {
+    "text": "obligation",
+    "translations": [
+      "yükümlülük",
+      "zorunluluk"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "",
+    "synonyms": [],
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": null,
+        "example": "The obligations we have in our daily tasks."
+      }
+    ],
+    "pastForm": null
+  },
+  {
+    "text": "regulation",
+    "translations": [
+      "yönetmelik",
+      "düzenleme",
+      "kural"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "",
+    "synonyms": [],
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": null,
+        "example": "We have to comply with data protection regulations."
+      }
+    ],
+    "pastForm": null
+  },
+  {
+    "text": "policy",
+    "translations": [
+      "politika",
+      "kural",
+      "yönetmelik"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "",
+    "synonyms": [],
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": null,
+        "example": "Specific rules, policies, and regulations that are important to our industry."
+      }
+    ],
+    "pastForm": null
+  },
+  {
+    "text": "code of conduct",
+    "translations": [
+      "davranış kuralları",
+      "etik kodu"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "",
+    "synonyms": [],
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": null,
+        "example": "We have to comply with our company's code of conduct."
+      }
+    ],
+    "pastForm": null
+  },
+  {
+    "text": "data protection",
+    "translations": [
+      "veri koruma"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "",
+    "synonyms": [],
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": null,
+        "example": "We have to comply with data protection regulations."
+      }
+    ],
+    "pastForm": null
+  },
+  {
+    "text": "security standards",
+    "translations": [
+      "güvenlik standartları"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "",
+    "synonyms": [],
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": null,
+        "example": "We have to comply with security standards."
+      }
+    ],
+    "pastForm": null
+  },
+  {
+    "text": "security breach",
+    "translations": [
+      "güvenlik ihlali"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "",
+    "synonyms": [],
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": null,
+        "example": "If you see any security breaches or incidents, you have to report them immediately."
+      }
+    ],
+    "pastForm": null
+  },
+  {
+    "text": "security incident",
+    "translations": [
+      "güvenlik olayı"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "",
+    "synonyms": [],
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": null,
+        "example": "Do we have to report every security incident?"
+      }
+    ],
+    "pastForm": null
+  },
+  {
+    "text": "sensitive information",
+    "translations": [
+      "hassas bilgi",
+      "gizli bilgi"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "",
+    "synonyms": [],
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": null,
+        "example": "It's essential to protect sensitive information."
+      }
+    ],
+    "pastForm": null
+  },
+  {
+    "text": "reputation",
+    "translations": [
+      "itibar",
+      "şöhret"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "",
+    "synonyms": [],
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": null,
+        "example": "It's essential to maintain our reputation."
+      }
+    ],
+    "pastForm": null
+  },
+  {
+    "text": "best practices",
+    "translations": [
+      "en iyi uygulamalar",
+      "doğru yöntemler"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "",
+    "synonyms": [],
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": null,
+        "example": "It helps you stay updated on the latest regulations and best practices."
+      }
+    ],
+    "pastForm": null
+  },
+  {
+    "text": "training session",
+    "translations": [
+      "eğitim oturumu",
+      "eğitim"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "",
+    "synonyms": [],
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": null,
+        "example": "Do we have to attend training sessions regularly?"
+      }
+    ],
+    "pastForm": null
+  },
+  {
+    "text": "ethics",
+    "translations": [
+      "etik",
+      "ahlak kuralları"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "",
+    "synonyms": [],
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": null,
+        "example": "It helps promote ethics at the workplace."
+      }
+    ],
+    "pastForm": null
+  },
+  {
+    "text": "comply with",
+    "translations": [
+      "uymak",
+      "riayet etmek"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "",
+    "synonyms": [],
+    "definitions": [
+      {
+        "pos": "verb",
+        "def": null,
+        "example": "We have to comply with data protection regulations."
+      }
+    ],
+    "pastForm": "complied with"
+  },
+  {
+    "text": "put into practice",
+    "translations": [
+      "uygulamaya koymak",
+      "hayata geçirmek"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "",
+    "synonyms": [],
+    "definitions": [
+      {
+        "pos": "verb",
+        "def": null,
+        "example": "We put specific rules and regulations into practice."
+      }
+    ],
+    "pastForm": "put into practice"
+  },
+  {
+    "text": "promote",
+    "translations": [
+      "teşvik etmek",
+      "desteklemek"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "",
+    "synonyms": [],
+    "definitions": [
+      {
+        "pos": "verb",
+        "def": null,
+        "example": "It helps promote ethics at the workplace."
+      }
+    ],
+    "pastForm": "promoted"
+  },
+  {
+    "text": "maintain",
+    "translations": [
+      "korumak",
+      "sürdürmek"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "",
+    "synonyms": [],
+    "definitions": [
+      {
+        "pos": "verb",
+        "def": null,
+        "example": "It's essential to maintain our reputation."
+      }
+    ],
+    "pastForm": "maintained"
+  },
+  {
+    "text": "address",
+    "translations": [
+      "ele almak",
+      "üstesinden gelmek"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "",
+    "synonyms": [],
+    "definitions": [
+      {
+        "pos": "verb",
+        "def": null,
+        "example": "Reporting helps us address issues effectively."
+      }
+    ],
+    "pastForm": "addressed"
+  },
+  {
+    "text": "stay updated",
+    "translations": [
+      "güncel kalmak",
+      "güncelliğini korumak"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "",
+    "synonyms": [],
+    "definitions": [
+      {
+        "pos": "verb",
+        "def": null,
+        "example": "It helps you stay updated on the latest regulations."
+      }
+    ],
+    "pastForm": "stayed updated"
+  },
+  {
+    "text": "protect",
+    "translations": [
+      "korumak"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "",
+    "synonyms": [],
+    "definitions": [
+      {
+        "pos": "verb",
+        "def": null,
+        "example": "It's essential to protect sensitive information."
+      }
+    ],
+    "pastForm": "protected"
+  },
+  {
+    "text": "report",
+    "translations": [
+      "bildirmek",
+      "rapor etmek"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "",
+    "synonyms": [],
+    "definitions": [
+      {
+        "pos": "verb",
+        "def": null,
+        "example": "You have to report them immediately."
+      }
+    ],
+    "pastForm": "reported"
+  },
+  {
+    "text": "immediately",
+    "translations": [
+      "hemen",
+      "derhal"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "",
+    "synonyms": [],
+    "definitions": [
+      {
+        "pos": "adverb",
+        "def": null,
+        "example": "You have to report them immediately."
+      }
+    ],
+    "pastForm": null
+  },
+  {
+    "text": "regularly",
+    "translations": [
+      "düzenli olarak"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "",
+    "synonyms": [],
+    "definitions": [
+      {
+        "pos": "adverb",
+        "def": null,
+        "example": "Do we have to attend training sessions regularly?"
+      }
+    ],
+    "pastForm": null
+  },
+  {
+    "text": "effectively",
+    "translations": [
+      "etkili bir şekilde"
+    ],
+    "audioURL": "",
+    "isNew": true,
+    "correct": 0,
+    "wrong": 0,
+    "hard": 0,
+    "streak": 0,
+    "easy": false,
+    "easyDate": null,
+    "lastSeen": null,
+    "ipa": "",
+    "synonyms": [],
+    "definitions": [
+      {
+        "pos": "adverb",
+        "def": null,
+        "example": "Reporting helps us address issues effectively."
+      }
+    ],
+    "pastForm": null
   }
 ]
