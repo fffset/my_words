@@ -3422,10 +3422,10 @@
       "çirkin"
     ],
     "audioURL": "https://d1vq87e9lcf771.cloudfront.net/beaen/3f40fa3afc8b1d5d5301d0e3f38846f6",
-    "isNew": true,
+    "isNew": false,
     "correct": 0,
     "wrong": 0,
-    "lastSeen": null,
+    "lastSeen": "2026-04-01T19:10:41.033Z",
     "ipa": "/ˈʌɡli/",
     "synonyms": [
       "displeasing",
@@ -3452,7 +3452,10 @@
         "example": "He played an ugly trick on us."
       }
     ],
-    "pastForm": "uglied"
+    "pastForm": "uglied",
+    "easy": true,
+    "easyDate": "2026-04-01T19:10:42.199Z",
+    "streak": 1
   },
   {
     "text": "restroom",
@@ -4976,10 +4979,11 @@
       "televizyonda"
     ],
     "audioURL": "https://d1vq87e9lcf771.cloudfront.net/beaen/fcdb9045f142b2c8ce6a49c98663f938",
-    "isNew": true,
-    "correct": 0,
+    "isNew": false,
+    "correct": 1,
     "wrong": 0,
-    "lastSeen": null
+    "lastSeen": "2026-04-01T19:13:57.765Z",
+    "streak": 1
   },
   {
     "text": "event",
@@ -5291,10 +5295,10 @@
       "boğaz"
     ],
     "audioURL": "https://d1vq87e9lcf771.cloudfront.net/beaen/3aef0db39e8fef154c45479a605aed04",
-    "isNew": true,
-    "correct": 0,
+    "isNew": false,
+    "correct": 1,
     "wrong": 0,
-    "lastSeen": null,
+    "lastSeen": "2026-04-01T19:11:19.282Z",
     "ipa": "/ˈθɹəʊt/",
     "synonyms": [
       "esophagus",
@@ -5317,7 +5321,8 @@
         "example": "to throat threats"
       }
     ],
-    "pastForm": "throated"
+    "pastForm": "throated",
+    "streak": 1
   },
   {
     "text": "pill",
@@ -6042,17 +6047,18 @@
       "lunapark"
     ],
     "audioURL": "https://d1vq87e9lcf771.cloudfront.net/beaen/a19d2663d0bb4042a32758ac927bf6f9",
-    "isNew": true,
-    "correct": 0,
+    "isNew": false,
+    "correct": 1,
     "wrong": 0,
-    "lastSeen": null,
+    "lastSeen": "2026-04-01T19:13:26.099Z",
     "ipa": "/ˈθiːm pɑːk/",
     "definitions": [
       {
         "pos": "noun",
         "def": "An amusement park that has one or more specific central themes, often as part of its name"
       }
-    ]
+    ],
+    "streak": 1
   },
   {
     "text": "Australia",
@@ -6631,10 +6637,10 @@
       "paket"
     ],
     "audioURL": "https://d1vq87e9lcf771.cloudfront.net/beaen/445ee5dc6ca48d685559c6711be4b177",
-    "isNew": true,
-    "correct": 0,
+    "isNew": false,
+    "correct": 1,
     "wrong": 0,
-    "lastSeen": null,
+    "lastSeen": "2026-04-01T19:10:50.114Z",
     "ipa": "/ˈpækɪdʒ/",
     "definitions": [
       {
@@ -6647,7 +6653,8 @@
         "def": "To pack or bundle something."
       }
     ],
-    "pastForm": "packaged"
+    "pastForm": "packaged",
+    "streak": 1
   },
   {
     "text": "porch",
@@ -8810,10 +8817,13 @@
       "internet"
     ],
     "audioURL": "https://d1vq87e9lcf771.cloudfront.net/beaen/21f984ae705cef7ed855d8071bc65b01",
-    "isNew": true,
+    "isNew": false,
     "correct": 0,
     "wrong": 0,
-    "lastSeen": null
+    "lastSeen": "2026-04-01T19:11:56.266Z",
+    "easy": true,
+    "easyDate": "2026-04-01T19:11:57.701Z",
+    "streak": 1
   },
   {
     "text": "use",
@@ -10599,10 +10609,10 @@
       "satmak"
     ],
     "audioURL": "https://d1vq87e9lcf771.cloudfront.net/beaen/427351b7fe7a5c68f95000eaae5caec6",
-    "isNew": true,
-    "correct": 0,
+    "isNew": false,
+    "correct": 1,
     "wrong": 0,
-    "lastSeen": null,
+    "lastSeen": "2026-04-01T19:11:33.465Z",
     "ipa": "/sɛl/",
     "definitions": [
       {
@@ -10616,7 +10626,8 @@
         "example": "I'll sell you all three for a hundred dollars."
       }
     ],
-    "pastForm": "sold"
+    "pastForm": "sold",
+    "streak": 1
   },
   {
     "text": "fine",
@@ -11300,10 +11311,11 @@
       "iyi"
     ],
     "audioURL": "https://d1vq87e9lcf771.cloudfront.net/beaen/4bdc525a35aee390c828f14978c8bf06",
-    "isNew": true,
-    "correct": 0,
+    "isNew": false,
+    "correct": 1,
     "wrong": 0,
-    "lastSeen": null
+    "lastSeen": "2026-04-01T19:11:44.416Z",
+    "streak": 1
   },
   {
     "text": "volleyball",
@@ -11702,10 +11714,10 @@
       "soyad"
     ],
     "audioURL": "https://d1vq87e9lcf771.cloudfront.net/beaen/e71ba9d45c1f7675cec9eb394bf471ae",
-    "isNew": true,
+    "isNew": false,
     "correct": 0,
     "wrong": 0,
-    "lastSeen": null,
+    "lastSeen": "2026-04-01T19:14:00.149Z",
     "synonyms": [
       "family name",
       "surname"
@@ -11715,7 +11727,10 @@
         "pos": "noun",
         "def": "One's family name; surname."
       }
-    ]
+    ],
+    "easy": true,
+    "easyDate": "2026-04-01T19:14:01.015Z",
+    "streak": 1
   },
   {
     "text": "far away",
@@ -11723,10 +11738,11 @@
       "uzakta"
     ],
     "audioURL": "https://d1vq87e9lcf771.cloudfront.net/beaen/dd6063bd0e19d29169beca2e2f5371f8",
-    "isNew": true,
-    "correct": 0,
+    "isNew": false,
+    "correct": 1,
     "wrong": 0,
-    "lastSeen": null
+    "lastSeen": "2026-04-01T19:13:35.815Z",
+    "streak": 1
   },
   {
     "text": "next to",
@@ -11816,10 +11832,10 @@
       "market"
     ],
     "audioURL": "https://d1vq87e9lcf771.cloudfront.net/beaen/a6cb651cd2d1f2ea021bc9266b35211d",
-    "isNew": true,
-    "correct": 0,
+    "isNew": false,
+    "correct": 1,
     "wrong": 0,
-    "lastSeen": null,
+    "lastSeen": "2026-04-01T19:14:07.065Z",
     "synonyms": [
       "greengrocer"
     ],
@@ -11828,7 +11844,8 @@
         "pos": "noun",
         "def": "A store where groceries can be purchased; supermarket."
       }
-    ]
+    ],
+    "streak": 1
   },
   {
     "text": "post office",
@@ -12368,10 +12385,10 @@
       "sarı"
     ],
     "audioURL": "https://d1vq87e9lcf771.cloudfront.net/beaen/e767747a2274cd271478e6b891d4d8c0",
-    "isNew": true,
-    "correct": 0,
+    "isNew": false,
+    "correct": 1,
     "wrong": 0,
-    "lastSeen": null,
+    "lastSeen": "2026-04-01T19:08:46.550Z",
     "ipa": "/ˈjɛl.əʊ/",
     "synonyms": [
       "amber",
@@ -12394,7 +12411,8 @@
         "example": "2012 March 2, Andrew Grice, \"Yellow rebels take on Clegg over NHS 'betrayal'\", The Independent"
       }
     ],
-    "pastForm": "yellowed"
+    "pastForm": "yellowed",
+    "streak": 1
   },
   {
     "text": "more",
@@ -14345,10 +14363,10 @@
       "evli"
     ],
     "audioURL": "https://d1vq87e9lcf771.cloudfront.net/beaen/b04ab4646be7531df88e544c4e263086",
-    "isNew": true,
+    "isNew": false,
     "correct": 0,
     "wrong": 0,
-    "lastSeen": null,
+    "lastSeen": "2026-04-01T19:09:27.880Z",
     "ipa": "/ˈmæɹ.ɪd/",
     "synonyms": [
       "autem",
@@ -14372,7 +14390,10 @@
         "example": "Neither of her daughters showed any desire to marry."
       }
     ],
-    "pastForm": "marrieded"
+    "pastForm": "marrieded",
+    "easy": true,
+    "easyDate": "2026-04-01T19:09:28.948Z",
+    "streak": 1
   },
   {
     "text": "beard",
@@ -15850,10 +15871,10 @@
       "öğleden sonra"
     ],
     "audioURL": "https://d1vq87e9lcf771.cloudfront.net/beaen/091a1a63933fcad01f647bbb15386ec9",
-    "isNew": true,
+    "isNew": false,
     "correct": 0,
     "wrong": 0,
-    "lastSeen": null,
+    "lastSeen": "2026-04-01T19:11:15.267Z",
     "ipa": "/piːˈɛm/",
     "synonyms": [
       "afternoon"
@@ -15863,7 +15884,10 @@
         "pos": "adverb",
         "def": "After noon (used after a time to indicate it is between noon and midnight, i.e., in the afternoon, evening or night as opposed to the morning)"
       }
-    ]
+    ],
+    "easy": true,
+    "easyDate": "2026-04-01T19:11:16.214Z",
+    "streak": 1
   },
   {
     "text": "eat",
@@ -16117,10 +16141,10 @@
       "kevin'le"
     ],
     "audioURL": "https://d1vq87e9lcf771.cloudfront.net/beaen/24ecf5ae7dd7e657862348545b70b139",
-    "isNew": true,
-    "correct": 0,
+    "isNew": false,
+    "correct": 1,
     "wrong": 0,
-    "lastSeen": null,
+    "lastSeen": "2026-04-01T19:11:36.632Z",
     "ipa": "/tʉː/",
     "synonyms": [
       "closed",
@@ -16137,7 +16161,8 @@
         "def": "Indicating destination: In the direction of, and arriving at.",
         "example": "We are walking to the shop."
       }
-    ]
+    ],
+    "streak": 1
   },
   {
     "text": "Tuesday",
@@ -17587,10 +17612,10 @@
       "dört"
     ],
     "audioURL": "https://d1vq87e9lcf771.cloudfront.net/beaen/f69e8ca3eb7c75f4b791af9e300f6349",
-    "isNew": true,
-    "correct": 0,
+    "isNew": false,
+    "correct": 1,
     "wrong": 0,
-    "lastSeen": null,
+    "lastSeen": "2026-04-01T19:11:59.331Z",
     "ipa": "/foɹ/",
     "definitions": [
       {
@@ -17603,7 +17628,8 @@
         "def": "A numerical value equal to 4; the number after three and before five; two plus two. This many dots (••••)",
         "example": "There are four seasons: winter, spring, summer and autumn."
       }
-    ]
+    ],
+    "streak": 1
   },
   {
     "text": "thirty",
@@ -18097,10 +18123,13 @@
       "mağazasının"
     ],
     "audioURL": "https://d1vq87e9lcf771.cloudfront.net/beaen/34da3a65eef6a1baae1063eb7cfb12e7",
-    "isNew": true,
+    "isNew": false,
     "correct": 0,
     "wrong": 0,
-    "lastSeen": null
+    "lastSeen": "2026-04-01T19:11:07.665Z",
+    "easy": true,
+    "easyDate": "2026-04-01T19:11:08.783Z",
+    "streak": 1
   },
   {
     "text": "over there",
@@ -19535,10 +19564,10 @@
       "çalışma masası"
     ],
     "audioURL": "https://d1vq87e9lcf771.cloudfront.net/beaen/726e53c6787d7aed182ba05189c2a1b8",
-    "isNew": true,
-    "correct": 0,
+    "isNew": false,
+    "correct": 1,
     "wrong": 0,
-    "lastSeen": null,
+    "lastSeen": "2026-04-01T19:10:37.982Z",
     "ipa": "/dɛsk/",
     "definitions": [
       {
@@ -19552,7 +19581,8 @@
         "example": null
       }
     ],
-    "pastForm": "desked"
+    "pastForm": "desked",
+    "streak": 1
   },
   {
     "text": "book",
@@ -20095,10 +20125,10 @@
       "acılı"
     ],
     "audioURL": "https://d1vq87e9lcf771.cloudfront.net/beaen/793f6b64d77f76264246dbff920e119a",
-    "isNew": true,
-    "correct": 0,
+    "isNew": false,
+    "correct": 1,
     "wrong": 0,
-    "lastSeen": null,
+    "lastSeen": "2026-04-01T19:10:44.215Z",
     "ipa": "/ˈspaɪsi/",
     "synonyms": [
       "hot",
@@ -20111,7 +20141,8 @@
         "def": "Of, pertaining to, or containing spice.",
         "example": "He prepared a spicy casserole."
       }
-    ]
+    ],
+    "streak": 1
   },
   {
     "text": "cold",
@@ -20449,10 +20480,10 @@
       "kahvaltı"
     ],
     "audioURL": "https://d1vq87e9lcf771.cloudfront.net/beaen/da95fc8849c9417f4312776514c345d8",
-    "isNew": true,
-    "correct": 0,
+    "isNew": false,
+    "correct": 1,
     "wrong": 0,
-    "lastSeen": null,
+    "lastSeen": "2026-04-01T19:10:05.532Z",
     "ipa": "/ˈbɹɛkfəst/",
     "synonyms": [
       "break one's fast"
@@ -20469,7 +20500,8 @@
         "example": null
       }
     ],
-    "pastForm": "breakfasted"
+    "pastForm": "breakfasted",
+    "streak": 1
   },
   {
     "text": "café",
@@ -21262,10 +21294,13 @@
       "kim"
     ],
     "audioURL": "https://d1vq87e9lcf771.cloudfront.net/beaen/72272212bf87fafd759c4911d6165e36",
-    "isNew": true,
+    "isNew": false,
     "correct": 0,
     "wrong": 0,
-    "lastSeen": null
+    "lastSeen": "2026-04-01T19:11:17.316Z",
+    "easy": true,
+    "easyDate": "2026-04-01T19:11:18.248Z",
+    "streak": 1
   },
   {
     "text": "cake",
@@ -21492,10 +21527,10 @@
       "araba"
     ],
     "audioURL": "https://d1vq87e9lcf771.cloudfront.net/beaen/32dcbe68bef379f9860cd7c5a29700da",
-    "isNew": true,
+    "isNew": false,
     "correct": 0,
     "wrong": 0,
-    "lastSeen": null,
+    "lastSeen": "2026-04-01T19:14:02.532Z",
     "ipa": "/kɑː/",
     "synonyms": [
       "auto",
@@ -21513,7 +21548,10 @@
         "def": "A wheeled vehicle that moves independently, with at least three wheels, powered mechanically, steered by a driver and mostly for personal transportation.",
         "example": "She drove her car to the mall."
       }
-    ]
+    ],
+    "easy": true,
+    "easyDate": "2026-04-01T19:14:03.882Z",
+    "streak": 1
   },
   {
     "text": "have a seat",
@@ -23166,17 +23204,18 @@
       "evde"
     ],
     "audioURL": "https://d1vq87e9lcf771.cloudfront.net/beaen/b32e0a8787d361ea62c683c26978ede5",
-    "isNew": true,
-    "correct": 0,
+    "isNew": false,
+    "correct": 1,
     "wrong": 0,
-    "lastSeen": null,
+    "lastSeen": "2026-04-01T19:11:41.031Z",
     "definitions": [
       {
         "pos": "noun",
         "def": "A type of reception or party whereby the host says they will be ‘at home’ during specific hours, when guests can come and go as they like.",
         "example": null
       }
-    ]
+    ],
+    "streak": 1
   },
   {
     "text": "well",
@@ -23946,10 +23985,11 @@
       "kâse çorba"
     ],
     "audioURL": "https://d1vq87e9lcf771.cloudfront.net/beaen/306ee9120cd1c87406a91628f1a96346",
-    "isNew": true,
-    "correct": 0,
+    "isNew": false,
+    "correct": 1,
     "wrong": 0,
-    "lastSeen": null
+    "lastSeen": "2026-04-01T19:10:02.249Z",
+    "streak": 1
   },
   {
     "text": "salad",
@@ -24103,10 +24143,10 @@
       "küçük"
     ],
     "audioURL": "https://d1vq87e9lcf771.cloudfront.net/beaen/5469b36a9f4c398d5fd07c589696832f",
-    "isNew": true,
+    "isNew": false,
     "correct": 0,
     "wrong": 0,
-    "lastSeen": null,
+    "lastSeen": "2026-04-01T19:13:48.299Z",
     "ipa": "/smoːl/",
     "synonyms": [
       "little",
@@ -24135,7 +24175,10 @@
         "example": "A small group."
       }
     ],
-    "pastForm": "smalled"
+    "pastForm": "smalled",
+    "easy": true,
+    "easyDate": "2026-04-01T19:13:49.481Z",
+    "streak": 1
   },
   {
     "text": "expensive",
@@ -24533,10 +24576,10 @@
       "şundan"
     ],
     "audioURL": "https://d1vq87e9lcf771.cloudfront.net/beaen/7a6e8771c0e146b497f86356cb8c7377",
-    "isNew": true,
-    "correct": 0,
+    "isNew": false,
+    "correct": 1,
     "wrong": 0,
-    "lastSeen": null,
+    "lastSeen": "2026-04-01T19:09:01.914Z",
     "ipa": "/ðəs/",
     "synonyms": [
       "+1",
@@ -24559,7 +24602,8 @@
         "def": "The thing, item, etc. being indicated.",
         "example": "This isn't the item that I ordered."
       }
-    ]
+    ],
+    "streak": 1
   },
   {
     "text": "street",
@@ -25064,10 +25108,10 @@
       "erkek kardeş"
     ],
     "audioURL": "https://d1vq87e9lcf771.cloudfront.net/beaen/897062104a5701329587ce3e2d88fca9",
-    "isNew": true,
-    "correct": 0,
+    "isNew": false,
+    "correct": 1,
     "wrong": 0,
-    "lastSeen": null,
+    "lastSeen": "2026-04-01T19:08:40.685Z",
     "ipa": "/ˈbɹʌðə/",
     "definitions": [
       {
@@ -25086,7 +25130,8 @@
         "example": "We're being forced to work overtime? Oh, brother!"
       }
     ],
-    "pastForm": "brotherred"
+    "pastForm": "brotherred",
+    "streak": 1
   },
   {
     "text": "sister",
@@ -25294,10 +25339,10 @@
       "de"
     ],
     "audioURL": "https://d1vq87e9lcf771.cloudfront.net/beaen/4f7ce1e6b486995522207165914cd5fe",
-    "isNew": true,
-    "correct": 0,
+    "isNew": false,
+    "correct": 1,
     "wrong": 0,
-    "lastSeen": null,
+    "lastSeen": "2026-04-01T19:10:56.981Z",
     "ipa": "/tuː/",
     "synonyms": [
       "along with",
@@ -25314,7 +25359,8 @@
         "def": "(focus) Likewise.",
         "example": "There has been a cutback in federal subsidies. Too, rates have been increasing."
       }
-    ]
+    ],
+    "streak": 1
   },
   {
     "text": "and you",
@@ -26308,10 +26354,10 @@
       "üstünlük"
     ],
     "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/advantage-us.mp3",
-    "isNew": true,
-    "correct": 0,
+    "isNew": false,
+    "correct": 1,
     "wrong": 0,
-    "lastSeen": null,
+    "lastSeen": "2026-04-01T19:11:00.516Z",
     "ipa": "/ədˈvɑːn.tɪdʒ/",
     "synonyms": [
       "benefit",
@@ -26334,7 +26380,8 @@
         "example": null
       }
     ],
-    "pastForm": "advantaged"
+    "pastForm": "advantaged",
+    "streak": 1
   },
   {
     "text": "adventure",
@@ -26901,10 +26948,10 @@
       "izin vermek"
     ],
     "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/allow-us.mp3",
-    "isNew": true,
-    "correct": 0,
+    "isNew": false,
+    "correct": 1,
     "wrong": 0,
-    "lastSeen": null,
+    "lastSeen": "2026-04-01T19:12:39.884Z",
     "ipa": "/əˈlaʊ/",
     "synonyms": [
       "admit",
@@ -26923,7 +26970,8 @@
         "example": "to allow a servant his liberty;  to allow a free passage;  to allow one day for rest"
       }
     ],
-    "pastForm": "allowed"
+    "pastForm": "allowed",
+    "streak": 1
   },
   {
     "text": "along",
@@ -27235,10 +27283,10 @@
       "herhangi bir şey"
     ],
     "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/anything-us.mp3",
-    "isNew": true,
-    "correct": 0,
+    "isNew": false,
+    "correct": 1,
     "wrong": 0,
-    "lastSeen": null,
+    "lastSeen": "2026-04-01T19:13:44.982Z",
     "ipa": "/ˈɛ.nə.θɪŋ/",
     "definitions": [
       {
@@ -27259,7 +27307,8 @@
     ],
     "synonyms": [
       "aught"
-    ]
+    ],
+    "streak": 1
   },
   {
     "text": "anyway",
@@ -28255,10 +28304,10 @@
       "arka plan"
     ],
     "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/background-us.mp3",
-    "isNew": true,
+    "isNew": false,
     "correct": 0,
     "wrong": 0,
-    "lastSeen": null,
+    "lastSeen": "2026-04-01T19:11:10.384Z",
     "ipa": "/ˈbæk.ɡɹaʊnd/",
     "definitions": [
       {
@@ -28277,7 +28326,10 @@
         "example": "The antivirus program runs on a background thread."
       }
     ],
-    "pastForm": "backgrounded"
+    "pastForm": "backgrounded",
+    "easy": true,
+    "easyDate": "2026-04-01T19:11:11.531Z",
+    "streak": 1
   },
   {
     "text": "badly",
@@ -30013,10 +30065,10 @@
       "karikatür"
     ],
     "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/cartoon-us.mp3",
-    "isNew": true,
+    "isNew": false,
     "correct": 0,
     "wrong": 0,
-    "lastSeen": null,
+    "lastSeen": "2026-04-01T19:09:31.932Z",
     "ipa": "/kɑːˈtuːn/",
     "definitions": [
       {
@@ -30038,7 +30090,10 @@
       "caricature",
       "political cartoon"
     ],
-    "pastForm": "cartooned"
+    "pastForm": "cartooned",
+    "easy": true,
+    "easyDate": "2026-04-01T19:09:33.215Z",
+    "streak": 1
   },
   {
     "text": "case",
@@ -30082,10 +30137,10 @@
       "yol açmak"
     ],
     "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/cause-us.mp3",
-    "isNew": true,
-    "correct": 0,
+    "isNew": false,
+    "correct": 1,
     "wrong": 0,
-    "lastSeen": null,
+    "lastSeen": "2026-04-01T19:12:43.049Z",
     "ipa": "/kɔːz/",
     "definitions": [
       {
@@ -30103,7 +30158,8 @@
       "grounds",
       "justification"
     ],
-    "pastForm": "caused"
+    "pastForm": "caused",
+    "streak": 1
   },
   {
     "text": "CD",
@@ -30865,10 +30921,10 @@
       "bulut"
     ],
     "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/cloud-us.mp3",
-    "isNew": true,
-    "correct": 0,
+    "isNew": false,
+    "correct": 1,
     "wrong": 0,
-    "lastSeen": null,
+    "lastSeen": "2026-04-01T19:12:22.667Z",
     "ipa": "/ˈklaʊ̯d/",
     "definitions": [
       {
@@ -30882,7 +30938,8 @@
         "example": "The glass clouds when you breathe on it."
       }
     ],
-    "pastForm": "clouded"
+    "pastForm": "clouded",
+    "streak": 1
   },
   {
     "text": "coast",
@@ -31146,13 +31203,13 @@
       "sıradan"
     ],
     "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/common-us.mp3",
-    "isNew": true,
-    "correct": 0,
-    "wrong": 0,
-    "lastSeen": null,
+    "isNew": false,
+    "correct": 2,
+    "wrong": 1,
+    "lastSeen": "2026-04-01T19:10:27.298Z",
     "ipa": "/ˈkɒmən/",
     "hard": 0,
-    "streak": 0,
+    "streak": 2,
     "definitions": [
       {
         "pos": "noun",
@@ -31180,7 +31237,8 @@
       "everyday",
       "normal"
     ],
-    "pastForm": "commonned"
+    "pastForm": "commonned",
+    "easy": false
   },
   {
     "text": "communicate",
@@ -31188,10 +31246,10 @@
       "iletişim kurmak"
     ],
     "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/communicate-us.mp3",
-    "isNew": true,
-    "correct": 0,
-    "wrong": 0,
-    "lastSeen": null,
+    "isNew": false,
+    "correct": 2,
+    "wrong": 1,
+    "lastSeen": "2026-04-01T19:09:43.117Z",
     "ipa": "/kəˈmjuːnɪkeɪt/",
     "definitions": [
       {
@@ -31200,7 +31258,9 @@
         "example": null
       }
     ],
-    "pastForm": "communicated"
+    "pastForm": "communicated",
+    "streak": 2,
+    "easy": false
   },
   {
     "text": "community",
@@ -32000,10 +32060,10 @@
       "ders"
     ],
     "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/course-us.mp3",
-    "isNew": true,
-    "correct": 0,
+    "isNew": false,
+    "correct": 1,
     "wrong": 0,
-    "lastSeen": null,
+    "lastSeen": "2026-04-01T19:11:03.965Z",
     "ipa": "/kɔːs/",
     "definitions": [
       {
@@ -32026,7 +32086,8 @@
       "indisputably",
       "naturally"
     ],
-    "pastForm": "coursed"
+    "pastForm": "coursed",
+    "streak": 1
   },
   {
     "text": "cover",
@@ -32174,10 +32235,10 @@
       "yaratmak"
     ],
     "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/create-us.mp3",
-    "isNew": true,
-    "correct": 0,
+    "isNew": false,
+    "correct": 1,
     "wrong": 0,
-    "lastSeen": null,
+    "lastSeen": "2026-04-01T19:11:53.299Z",
     "ipa": "/kɹiːˈeɪt/",
     "definitions": [
       {
@@ -32194,7 +32255,8 @@
     "synonyms": [
       "generate"
     ],
-    "pastForm": "created"
+    "pastForm": "created",
+    "streak": 1
   },
   {
     "text": "creative",
@@ -32543,10 +32605,10 @@
       "her gün"
     ],
     "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/daily-us.mp3",
-    "isNew": true,
+    "isNew": false,
     "correct": 0,
     "wrong": 0,
-    "lastSeen": null,
+    "lastSeen": "2026-04-01T19:09:49.115Z",
     "ipa": "/ˈdeɪli/",
     "definitions": [
       {
@@ -32571,7 +32633,10 @@
       "daily paper",
       "quotidian"
     ],
-    "pastForm": "dailied"
+    "pastForm": "dailied",
+    "easy": true,
+    "easyDate": "2026-04-01T19:09:50.198Z",
+    "streak": 1
   },
   {
     "text": "dancer",
@@ -33092,10 +33157,10 @@
       "tanım"
     ],
     "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/description-us.mp3",
-    "isNew": true,
-    "correct": 0,
+    "isNew": false,
+    "correct": 1,
     "wrong": 0,
-    "lastSeen": null,
+    "lastSeen": "2026-04-01T19:11:30.416Z",
     "ipa": "/dɪˈskɹɪpʃən/",
     "definitions": [
       {
@@ -33109,7 +33174,8 @@
       "sort",
       "type",
       "variety"
-    ]
+    ],
+    "streak": 1
   },
   {
     "text": "desert",
@@ -34960,10 +35026,10 @@
       "hata"
     ],
     "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/error-us.mp3",
-    "isNew": true,
-    "correct": 0,
+    "isNew": false,
+    "correct": 1,
     "wrong": 0,
-    "lastSeen": null,
+    "lastSeen": "2026-04-01T19:12:46.433Z",
     "ipa": "/ˈɛɹə(ɹ)/",
     "definitions": [
       {
@@ -34987,7 +35053,8 @@
       "flub",
       "fluff"
     ],
-    "pastForm": "errorred"
+    "pastForm": "errorred",
+    "streak": 1
   },
   {
     "text": "especially",
@@ -36151,10 +36218,10 @@
       "moda"
     ],
     "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/fashion-us.mp3",
-    "isNew": true,
-    "correct": 0,
+    "isNew": false,
+    "correct": 1,
     "wrong": 0,
-    "lastSeen": null,
+    "lastSeen": "2026-04-01T19:13:42.084Z",
     "ipa": "/ˈfæʃən/",
     "definitions": [
       {
@@ -36168,7 +36235,8 @@
         "example": null
       }
     ],
-    "pastForm": "fashioned"
+    "pastForm": "fashioned",
+    "streak": 1
   },
   {
     "text": "fat",
@@ -39317,10 +39385,10 @@
       "eğer"
     ],
     "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/if-us.mp3",
-    "isNew": true,
-    "correct": 0,
+    "isNew": false,
+    "correct": 1,
     "wrong": 0,
-    "lastSeen": null,
+    "lastSeen": "2026-04-01T19:12:17.981Z",
     "ipa": "/ɪf/",
     "definitions": [
       {
@@ -39335,7 +39403,7 @@
       }
     ],
     "hard": 0,
-    "streak": 0
+    "streak": 1
   },
   {
     "text": "ill",
@@ -41027,10 +41095,10 @@
       "tembel"
     ],
     "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/lazy-us.mp3",
-    "isNew": true,
+    "isNew": false,
     "correct": 0,
     "wrong": 0,
-    "lastSeen": null,
+    "lastSeen": "2026-04-01T19:09:35.864Z",
     "ipa": "/ˈleɪzi/",
     "definitions": [
       {
@@ -41056,7 +41124,10 @@
       "slothful",
       "work-shy"
     ],
-    "pastForm": "lazied"
+    "pastForm": "lazied",
+    "easy": true,
+    "easyDate": "2026-04-01T19:09:36.966Z",
+    "streak": 1
   },
   {
     "text": "lead1",
@@ -41885,10 +41956,10 @@
       "şanslı"
     ],
     "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/lucky-us.mp3",
-    "isNew": true,
+    "isNew": false,
     "correct": 0,
     "wrong": 0,
-    "lastSeen": null,
+    "lastSeen": "2026-04-01T19:09:20.065Z",
     "ipa": "/ˈlʌki/",
     "definitions": [
       {
@@ -41904,7 +41975,10 @@
       "successful",
       "favourable",
       "fortuitous"
-    ]
+    ],
+    "easy": true,
+    "easyDate": "2026-04-01T19:09:21.666Z",
+    "streak": 1
   },
   {
     "text": "machine",
@@ -42393,10 +42467,10 @@
       "mana"
     ],
     "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/meaning-us.mp3",
-    "isNew": true,
-    "correct": 0,
+    "isNew": false,
+    "correct": 1,
     "wrong": 0,
-    "lastSeen": null,
+    "lastSeen": "2026-04-01T19:09:07.082Z",
     "ipa": "/ˈmiːnɪŋ/",
     "definitions": [
       {
@@ -42425,7 +42499,8 @@
       "convey",
       "indicate"
     ],
-    "pastForm": "meaninged"
+    "pastForm": "meaninged",
+    "streak": 1
   },
   {
     "text": "media",
@@ -42601,10 +42676,10 @@
       "ölçer"
     ],
     "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/meter-us.mp3",
-    "isNew": true,
-    "correct": 0,
+    "isNew": false,
+    "correct": 1,
     "wrong": 0,
-    "lastSeen": null,
+    "lastSeen": "2026-04-01T19:13:07.066Z",
     "ipa": "/ˈmiːtə/",
     "definitions": [
       {
@@ -42618,7 +42693,8 @@
         "example": null
       }
     ],
-    "pastForm": "meterred"
+    "pastForm": "meterred",
+    "streak": 1
   },
   {
     "text": "method",
@@ -42751,10 +42827,10 @@
       "mil"
     ],
     "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/mile-us.mp3",
-    "isNew": true,
-    "correct": 0,
+    "isNew": false,
+    "correct": 1,
     "wrong": 0,
-    "lastSeen": null,
+    "lastSeen": "2026-04-01T19:11:25.132Z",
     "ipa": "/maɪ̯l/",
     "definitions": [
       {
@@ -42762,7 +42838,8 @@
         "def": "The international mile: a unit of length precisely equal to 1.609344 kilometers established by treaty among Anglophone nations in 1959, divided into 5,280 feet or 1,760 yards.",
         "example": "The shot missed by a mile."
       }
-    ]
+    ],
+    "streak": 1
   },
   {
     "text": "million",
@@ -43796,10 +43873,10 @@
       "haber"
     ],
     "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/news.mp3",
-    "isNew": true,
-    "correct": 0,
+    "isNew": false,
+    "correct": 1,
     "wrong": 0,
-    "lastSeen": null,
+    "lastSeen": "2026-04-01T19:11:22.732Z",
     "ipa": "/njuːz/",
     "definitions": [
       {
@@ -43813,7 +43890,8 @@
         "example": null
       }
     ],
-    "pastForm": "newsed"
+    "pastForm": "newsed",
+    "streak": 1
   },
   {
     "text": "newspaper",
@@ -44082,10 +44160,10 @@
       "kuzey"
     ],
     "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/north-us.mp3",
-    "isNew": true,
-    "correct": 0,
+    "isNew": false,
+    "correct": 1,
     "wrong": 0,
-    "lastSeen": null,
+    "lastSeen": "2026-04-01T19:13:02.315Z",
     "ipa": "/noːθ/",
     "definitions": [
       {
@@ -44107,7 +44185,8 @@
     "synonyms": [
       "boreal"
     ],
-    "pastForm": "northed"
+    "pastForm": "northed",
+    "streak": 1
   },
   {
     "text": "nose",
@@ -44184,10 +44263,10 @@
       "hiçbir şey"
     ],
     "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/nothing-us.mp3",
-    "isNew": true,
-    "correct": 0,
+    "isNew": false,
+    "correct": 1,
     "wrong": 0,
-    "lastSeen": null,
+    "lastSeen": "2026-04-01T19:08:50.350Z",
     "ipa": "/ˈnʌθɪŋ/",
     "definitions": [
       {
@@ -44213,7 +44292,8 @@
       "insignificant",
       "trifling",
       "unimportant"
-    ]
+    ],
+    "streak": 1
   },
   {
     "text": "notice",
@@ -45124,10 +45204,10 @@
       "park"
     ],
     "audioURL": "",
-    "isNew": true,
-    "correct": 0,
+    "isNew": false,
+    "correct": 1,
     "wrong": 0,
-    "lastSeen": null,
+    "lastSeen": "2026-04-01T19:13:50.599Z",
     "ipa": "/ˈpɑːkɪŋ/",
     "definitions": [
       {
@@ -45141,7 +45221,8 @@
         "example": "Parking in central London can be very difficult."
       }
     ],
-    "pastForm": "parkinged"
+    "pastForm": "parkinged",
+    "streak": 1
   },
   {
     "text": "part",
@@ -45658,10 +45739,10 @@
       "kişilik"
     ],
     "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/personality-uk.mp3",
-    "isNew": true,
-    "correct": 0,
+    "isNew": false,
+    "correct": 1,
     "wrong": 0,
-    "lastSeen": null,
+    "lastSeen": "2026-04-01T19:08:36.604Z",
     "ipa": "/-i/",
     "definitions": [
       {
@@ -45672,7 +45753,8 @@
     ],
     "synonyms": [
       "selfness"
-    ]
+    ],
+    "streak": 1
   },
   {
     "text": "photograph",
@@ -46237,10 +46319,10 @@
       "nüfus"
     ],
     "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/population-us.mp3",
-    "isNew": true,
-    "correct": 0,
+    "isNew": false,
+    "correct": 1,
     "wrong": 0,
-    "lastSeen": null,
+    "lastSeen": "2026-04-01T19:09:53.832Z",
     "ipa": "/ˌpɒpjʊˈleɪʃən/",
     "definitions": [
       {
@@ -46248,7 +46330,8 @@
         "def": "The people living within a political or geographical boundary.",
         "example": "The population of New Jersey will not stand for this!"
       }
-    ]
+    ],
+    "streak": 1
   },
   {
     "text": "positive",
@@ -47412,10 +47495,10 @@
       "çabucak"
     ],
     "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/quickly-us.mp3",
-    "isNew": true,
-    "correct": 0,
+    "isNew": false,
+    "correct": 1,
     "wrong": 0,
-    "lastSeen": null,
+    "lastSeen": "2026-04-01T19:12:58.515Z",
     "ipa": "/ˈkwɪkli/",
     "definitions": [
       {
@@ -47423,7 +47506,8 @@
         "def": "Rapidly; with speed; fast.",
         "example": "If we go this way, we'll get there quickly."
       }
-    ]
+    ],
+    "streak": 1
   },
   {
     "text": "quietly",
@@ -48794,10 +48878,10 @@
       "çatı"
     ],
     "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/roof-us.mp3",
-    "isNew": true,
-    "correct": 0,
+    "isNew": false,
+    "correct": 1,
     "wrong": 0,
-    "lastSeen": null,
+    "lastSeen": "2026-04-01T19:13:18.165Z",
     "ipa": "/ɹuːf/",
     "definitions": [
       {
@@ -48817,7 +48901,8 @@
       "thatch",
       "ceiling"
     ],
-    "pastForm": "roofed"
+    "pastForm": "roofed",
+    "streak": 1
   },
   {
     "text": "round",
@@ -49243,10 +49328,10 @@
       "bilim insanı"
     ],
     "audioURL": "",
-    "isNew": true,
-    "correct": 0,
+    "isNew": false,
+    "correct": 1,
     "wrong": 0,
-    "lastSeen": null,
+    "lastSeen": "2026-04-01T19:13:38.082Z",
     "ipa": "/ˈsaɪ.ən.tɪst/",
     "definitions": [
       {
@@ -49254,7 +49339,8 @@
         "def": "One whose activities make use of the scientific method to answer questions regarding the measurable universe. A scientist may be involved in original research, or make use of the results of the research of others.",
         "example": null
       }
-    ]
+    ],
+    "streak": 1
   },
   {
     "text": "sea",
@@ -49792,10 +49878,10 @@
       "biçim"
     ],
     "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/shape-us.mp3",
-    "isNew": true,
+    "isNew": false,
     "correct": 0,
-    "wrong": 0,
-    "lastSeen": null,
+    "wrong": 1,
+    "lastSeen": "2026-04-01T19:14:10.684Z",
     "ipa": "/ʃeɪp/",
     "definitions": [
       {
@@ -49813,7 +49899,9 @@
       "form",
       "mold"
     ],
-    "pastForm": "shaped"
+    "pastForm": "shaped",
+    "streak": 0,
+    "easy": false
   },
   {
     "text": "sheep",
@@ -50164,10 +50252,10 @@
       "gümüş"
     ],
     "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/silver-us.mp3",
-    "isNew": true,
+    "isNew": false,
     "correct": 0,
     "wrong": 0,
-    "lastSeen": null,
+    "lastSeen": "2026-04-01T19:09:46.198Z",
     "ipa": "/ˈsɪl.və/",
     "definitions": [
       {
@@ -50194,7 +50282,10 @@
       "silvery",
       "silvern"
     ],
-    "pastForm": "silverred"
+    "pastForm": "silverred",
+    "easy": true,
+    "easyDate": "2026-04-01T19:09:47.232Z",
+    "streak": 1
   },
   {
     "text": "similar",
@@ -50202,10 +50293,10 @@
       "benzer"
     ],
     "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/similar-us.mp3",
-    "isNew": true,
-    "correct": 0,
+    "isNew": false,
+    "correct": 1,
     "wrong": 0,
-    "lastSeen": null,
+    "lastSeen": "2026-04-01T19:10:14.551Z",
     "ipa": "/ˈsɪmələ/",
     "definitions": [
       {
@@ -50226,7 +50317,8 @@
       "identical",
       "same",
       "twin"
-    ]
+    ],
+    "streak": 1
   },
   {
     "text": "simple",
@@ -50569,10 +50661,10 @@
       "deri"
     ],
     "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/skin-us.mp3",
-    "isNew": true,
-    "correct": 0,
+    "isNew": false,
+    "correct": 1,
     "wrong": 0,
-    "lastSeen": null,
+    "lastSeen": "2026-04-01T19:10:47.116Z",
     "ipa": "/skɪn/",
     "definitions": [
       {
@@ -50596,7 +50688,8 @@
       "hide",
       "pelt"
     ],
-    "pastForm": "skinned"
+    "pastForm": "skinned",
+    "streak": 1
   },
   {
     "text": "sky",
@@ -53004,10 +53097,10 @@
       "genç"
     ],
     "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/teenager-us.mp3",
-    "isNew": true,
-    "correct": 0,
+    "isNew": false,
+    "correct": 1,
     "wrong": 0,
-    "lastSeen": null,
+    "lastSeen": "2026-04-01T19:11:27.947Z",
     "ipa": "/ˈtiːnˌeɪ.dʒə(ɹ)/",
     "definitions": [
       {
@@ -53015,7 +53108,8 @@
         "def": "A person between 13 and 19 years of age; an adolescent.",
         "example": null
       }
-    ]
+    ],
+    "streak": 1
   },
   {
     "text": "telephone",
@@ -53144,10 +53238,10 @@
       "mesaj"
     ],
     "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/text-us.mp3",
-    "isNew": true,
+    "isNew": false,
     "correct": 0,
     "wrong": 0,
-    "lastSeen": null,
+    "lastSeen": "2026-04-01T19:12:02.499Z",
     "ipa": "/tɛkst/",
     "definitions": [
       {
@@ -53169,7 +53263,10 @@
       "SMS",
       "message"
     ],
-    "pastForm": "texted"
+    "pastForm": "texted",
+    "easy": true,
+    "easyDate": "2026-04-01T19:12:03.615Z",
+    "streak": 1
   },
   {
     "text": "than",
@@ -55807,10 +55904,10 @@
       "ahşap"
     ],
     "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/wooden-us.mp3",
-    "isNew": true,
-    "correct": 0,
+    "isNew": false,
+    "correct": 1,
     "wrong": 0,
-    "lastSeen": null,
+    "lastSeen": "2026-04-01T19:10:35.217Z",
     "ipa": "/ˈwʊdən/",
     "definitions": [
       {
@@ -55818,7 +55915,8 @@
         "def": "Made of wood.",
         "example": "On a recent windy day, hundreds of visitors climbed wooden stairs to take pictures in front of the glacier."
       }
-    ]
+    ],
+    "streak": 1
   },
   {
     "text": "working",
@@ -56091,10 +56189,10 @@
       "avlu"
     ],
     "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/yard-us.mp3",
-    "isNew": true,
-    "correct": 0,
+    "isNew": false,
+    "correct": 1,
     "wrong": 0,
-    "lastSeen": null,
+    "lastSeen": "2026-04-01T19:13:28.648Z",
     "ipa": "/jɑːd/",
     "definitions": [
       {
@@ -56116,7 +56214,8 @@
       "rood",
       "rod"
     ],
-    "pastForm": "yarded"
+    "pastForm": "yarded",
+    "streak": 1
   },
   {
     "text": "yeah",
@@ -56729,14 +56828,14 @@
       "sarılmak"
     ],
     "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/hug-us.mp3",
-    "isNew": true,
+    "isNew": false,
     "correct": 0,
     "wrong": 0,
     "hard": 0,
-    "streak": 0,
-    "easy": false,
-    "easyDate": null,
-    "lastSeen": null,
+    "streak": 1,
+    "easy": true,
+    "easyDate": "2026-04-01T19:12:16.415Z",
+    "lastSeen": "2026-04-01T19:12:15.032Z",
     "ipa": "",
     "synonyms": [],
     "definitions": []
@@ -57174,14 +57273,14 @@
       "giyinmek"
     ],
     "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/clothe-us.mp3",
-    "isNew": true,
-    "correct": 0,
+    "isNew": false,
+    "correct": 1,
     "wrong": 0,
     "hard": 0,
-    "streak": 0,
+    "streak": 1,
     "easy": false,
     "easyDate": null,
-    "lastSeen": null,
+    "lastSeen": "2026-04-01T19:09:12.785Z",
     "ipa": "",
     "synonyms": [],
     "definitions": []
@@ -57640,14 +57739,14 @@
       "göstermene yardımcı olur"
     ],
     "audioURL": null,
-    "isNew": true,
-    "correct": 0,
+    "isNew": false,
+    "correct": 1,
     "wrong": 0,
     "hard": 0,
-    "streak": 0,
+    "streak": 1,
     "easy": false,
     "easyDate": null,
-    "lastSeen": null,
+    "lastSeen": "2026-04-01T19:12:11.150Z",
     "ipa": "",
     "synonyms": [],
     "definitions": []
@@ -58209,14 +58308,14 @@
       "vücuda uygun"
     ],
     "audioURL": null,
-    "isNew": true,
-    "correct": 0,
+    "isNew": false,
+    "correct": 1,
     "wrong": 0,
     "hard": 0,
-    "streak": 0,
+    "streak": 1,
     "easy": false,
     "easyDate": null,
-    "lastSeen": null,
+    "lastSeen": "2026-04-01T19:08:44.035Z",
     "ipa": "",
     "synonyms": [
       "user-friendly"
@@ -58364,14 +58463,14 @@
       "abartmak"
     ],
     "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/exaggerate-us.mp3",
-    "isNew": true,
-    "correct": 0,
-    "wrong": 0,
-    "hard": 0,
-    "streak": 0,
+    "isNew": false,
+    "correct": 5,
+    "wrong": 2,
+    "hard": 2,
+    "streak": 4,
     "easy": false,
     "easyDate": null,
-    "lastSeen": null,
+    "lastSeen": "2026-04-01T19:13:32.482Z",
     "ipa": "",
     "synonyms": [],
     "definitions": []
@@ -58425,14 +58524,14 @@
       "göstermek"
     ],
     "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/indicate-us.mp3",
-    "isNew": true,
-    "correct": 0,
+    "isNew": false,
+    "correct": 1,
     "wrong": 0,
     "hard": 0,
-    "streak": 0,
+    "streak": 1,
     "easy": false,
     "easyDate": null,
-    "lastSeen": null,
+    "lastSeen": "2026-04-01T19:10:53.334Z",
     "ipa": "",
     "synonyms": [],
     "definitions": []
@@ -58522,14 +58621,14 @@
       "değer katmak"
     ],
     "audioURL": "https://api.dictionaryapi.dev/media/pronunciations/en/contribute-us.mp3",
-    "isNew": true,
-    "correct": 0,
+    "isNew": false,
+    "correct": 1,
     "wrong": 0,
     "hard": 0,
-    "streak": 0,
+    "streak": 1,
     "easy": false,
     "easyDate": null,
-    "lastSeen": null,
+    "lastSeen": "2026-04-01T19:10:10.566Z",
     "ipa": "/kənˈt(ʃ)ɹɪb.juːt/",
     "synonyms": [],
     "definitions": [],
@@ -60237,14 +60336,14 @@
     "synonyms": [],
     "definitions": [],
     "pastForm": null,
-    "isNew": true,
+    "isNew": false,
     "correct": 0,
     "wrong": 0,
     "hard": 0,
-    "streak": 0,
-    "easy": false,
-    "easyDate": null,
-    "lastSeen": null
+    "streak": 1,
+    "easy": true,
+    "easyDate": "2026-04-01T19:11:13.982Z",
+    "lastSeen": "2026-04-01T19:11:12.832Z"
   },
   {
     "text": "junior developer",
